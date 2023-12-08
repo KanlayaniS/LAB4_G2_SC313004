@@ -11,7 +11,7 @@
    - รหัสนศ : 633020384-3
    - Section : 1
    - username ของ Github : Newbiervd
-   - ![Dog image](/media/Taka_Shiba.jpg)
+   - ![Dog image](/media/Kittipot.jpg)
 2. สมาชิกคนที่ 2
    - ชื่อ - นามสกุล : นายเมธัส พลศิริ
    - รหัสนศ : 643020052-9
