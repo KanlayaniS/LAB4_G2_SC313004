@@ -16,8 +16,8 @@
    - ชื่อ - นามสกุล : นายเมธัส พลศิริ
    - รหัสนศ : 643020052-9
    - Section : 1
-   - username ของ Github :
-   - ![media](work1/0.png)
+   - username ของ Github : methatfifa
+   - ![media](/media/methatfifa.jpg)
 3. สมาชิกคนที่ 3
    - ชื่อ - นามสกุล : นางสาวธิดาพัฒน์ นิเวชรัมย์
    - รหัสนศ : 643020478-5
