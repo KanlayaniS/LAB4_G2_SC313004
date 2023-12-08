@@ -41,4 +41,4 @@
    - รหัสนศ : 643021257-6
    - Section : 1
    - username ของ Github : Aphisit101
-   - ![media](media/)
+   - ![media](media/Aphisit.jpg)
