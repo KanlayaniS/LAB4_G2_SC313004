@@ -28,8 +28,8 @@
    - ชื่อ - นามสกุล : นายศุภโชค คำตะลา
    - รหัสนศ : 643020492-1
    - Section : 1
-   - username ของ Github :
-   - ![media](work1/0.png)
+   - username ของ Github : SuphachokK
+   - ![media](/media/suphachok.jpg)
 5. สมาชิกคนที่ 5
    - ชื่อ - นามสกุล : นางสาวกัลยาณี สอนสิงห์ 
    - รหัสนศ : 643021216-0
