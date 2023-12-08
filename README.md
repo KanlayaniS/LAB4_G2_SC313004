@@ -23,7 +23,7 @@
    - รหัสนศ : 643020478-5
    - Section : 1
    - username ของ Github : Thidapat-Niwathram
-   - ![media](work1/0.png)
+   - ![media](/media/thidapat_pic.jpg)
 4. สมาชิกคนที่ 4
    - ชื่อ - นามสกุล : นายศุภโชค คำตะลา
    - รหัสนศ : 643020492-1
