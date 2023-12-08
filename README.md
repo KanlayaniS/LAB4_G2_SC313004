@@ -40,5 +40,5 @@
    - ชื่อ - นามสกุล : นายอภิสิทธิ์ น้อยหว้า
    - รหัสนศ : 643021257-6
    - Section : 1
-   - username ของ Github :
+   - username ของ Github : Aphisit101
    - ![media](media/)
