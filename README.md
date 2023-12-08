@@ -35,7 +35,7 @@
    - รหัสนศ : 643021216-0
    - Section : 1
    - username ของ Github : KanlayaniS
-   - ![media]([work1/kanlayani.jpg])
+   - ![kanlayani]([media/kanlayani.jpg])
 6. สมาชิกคนที่ 6
    - ชื่อ - นามสกุล : นายอภิสิทธิ์ น้อยหว้า
    - รหัสนศ : 643021257-6
