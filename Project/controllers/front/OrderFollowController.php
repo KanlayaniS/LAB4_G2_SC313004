@@ -63,7 +63,7 @@ class OrderFollowControllerCore extends FrontController
                 Tools::redirect('index.php?controller=order-detail&id_order=' . $id_order . '&errorNotReturnable');
             }
             if ($order->id_customer != $this->context->customer->id) {
-                Tools::redirect('index.php?controller=order-detail&id_order=' . $id_order . '&errorNotReturnable');
+                die(Tools::displayError());
             }
             $orderReturn = new OrderReturn();
             $orderReturn->id_customer = (int) $this->context->customer->id;

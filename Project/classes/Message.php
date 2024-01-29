@@ -114,7 +114,7 @@ class MessageCore extends ObjectModel
     public static function getMessagesByOrderId($idOrder, $private = false, Context $context = null)
     {
         if (!Validate::isBool($private)) {
-            die(Tools::displayError('Parameter "private" is invalid.'));
+            die(Tools::displayError());
         }
 
         if (!$context) {
@@ -149,7 +149,7 @@ class MessageCore extends ObjectModel
     public static function getMessagesByCartId($idCart, $private = false, Context $context = null)
     {
         if (!Validate::isBool($private)) {
-            die(Tools::displayError('Parameter "private" is invalid.'));
+            die(Tools::displayError());
         }
 
         if (!$context) {
@@ -180,11 +180,8 @@ class MessageCore extends ObjectModel
      */
     public static function markAsReaded($idMessage, $idEmployee)
     {
-        if (!Validate::isUnsignedId($idMessage)) {
-            die(Tools::displayError('Message ID is invalid.'));
-        }
-        if (!Validate::isUnsignedId($idEmployee)) {
-            die(Tools::displayError('Employee ID is invalid.'));
+        if (!Validate::isUnsignedId($idMessage) || !Validate::isUnsignedId($idEmployee)) {
+            die(Tools::displayError());
         }
 
         $result = Db::getInstance()->execute('

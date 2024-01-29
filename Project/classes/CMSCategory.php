@@ -241,11 +241,8 @@ class CMSCategoryCore extends ObjectModel
      */
     protected function recursiveDelete(&$to_delete, $id_cms_category)
     {
-        if (!is_array($to_delete)) {
-            die(Tools::displayError('Parameter "to_delete" is invalid.'));
-        }
-        if (!$id_cms_category) {
-            die(Tools::displayError('Parameter "id_cms_category" is invalid.'));
+        if (!is_array($to_delete) || !$id_cms_category) {
+            die(Tools::displayError());
         }
 
         $result = Db::getInstance()->executeS('
@@ -344,7 +341,7 @@ class CMSCategoryCore extends ObjectModel
     public static function getCategories($id_lang, $active = true, $order = true)
     {
         if (!Validate::isBool($active)) {
-            die(Tools::displayError('Parameter "active" is invalid.'));
+            die(Tools::displayError());
         }
 
         $result = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS('
@@ -388,7 +385,7 @@ class CMSCategoryCore extends ObjectModel
     public function getSubCategories($id_lang, $active = true)
     {
         if (!Validate::isBool($active)) {
-            die(Tools::displayError('Parameter "active" is invalid.'));
+            die(Tools::displayError());
         }
 
         $result = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS('
@@ -436,7 +433,7 @@ class CMSCategoryCore extends ObjectModel
     public static function getChildren($id_parent, $id_lang, $active = true)
     {
         if (!Validate::isBool($active)) {
-            die(Tools::displayError('Parameter "active" is invalid.'));
+            die(Tools::displayError());
         }
 
         $result = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS('

@@ -43,7 +43,6 @@ use Product;
 use Symfony\Component\Translation\Exception\InvalidArgumentException;
 use Symfony\Contracts\Translation\TranslatorInterface;
 use Tools;
-use Validate;
 
 /**
  * @property string $availability_message
@@ -919,8 +918,13 @@ class ProductLazyArray extends AbstractLazyArray
             $product['quantity_wanted'] = $this->getQuantityWanted();
         }
 
-        // Validate and format availability date
-        $product['available_date'] = $this->prepareAvailabilityDate($product);
+        // If availability date already passed, we don't want to show it
+        if (isset($product['available_date'])) {
+            $date = new DateTime($product['available_date']);
+            if ($date < new DateTime()) {
+                $product['available_date'] = null;
+            }
+        }
 
         // Default data
         $this->product['availability_message'] = null;
@@ -1023,31 +1027,6 @@ class ProductLazyArray extends AbstractLazyArray
                 $this->product['availability_message'] = $config[$language->id] ?? null;
             }
         }
-    }
-
-    /**
-     * Validates and formats available_date property passed into the lazy array.
-     * It will return the date back only if it's a valid date in the future.
-     * Also handles the case when the date was not passed at all.
-     *
-     * @param array $product
-     *
-     * @return string|null
-     */
-    private function prepareAvailabilityDate($product)
-    {
-        // Check if the date is valid
-        if (empty($product['available_date']) || $product['available_date'] == '0000-00-00' || !Validate::isDate($product['available_date'])) {
-            return null;
-        }
-
-        // Check if it didn't already pass
-        $date = new DateTime($product['available_date']);
-        if ($date < new DateTime()) {
-            return null;
-        }
-
-        return $product['available_date'];
     }
 
     /**

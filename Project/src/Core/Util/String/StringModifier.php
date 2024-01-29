@@ -73,14 +73,12 @@ final class StringModifier implements StringModifierInterface
      *
      * @return string
      */
-    public function str2url(string $string, bool $allow_accented_chars): string
+    public function str2url(string $string): string
     {
         $return_str = trim($string);
         $return_str = mb_strtolower($return_str, 'UTF-8');
 
-        if (!$allow_accented_chars) {
-            $return_str = $this->replaceAccentedChars($return_str);
-        }
+        $return_str = $this->replaceAccentedChars($return_str);
         $return_str = preg_replace('/[^a-zA-Z0-9\s\'\:\/\[\]\-\p{L}]/u', '', $return_str);
         $return_str = preg_replace('/[\s\'\:\/\[\]\-]+/', ' ', $return_str);
 

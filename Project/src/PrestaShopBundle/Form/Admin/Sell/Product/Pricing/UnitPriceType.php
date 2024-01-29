@@ -36,6 +36,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Validator\Constraints\NotBlank;
+use Symfony\Component\Validator\Constraints\Positive;
 use Symfony\Component\Validator\Constraints\PositiveOrZero;
 use Symfony\Component\Validator\Constraints\Type;
 use Symfony\Contracts\Translation\TranslatorInterface;
@@ -78,6 +79,9 @@ class UnitPriceType extends TranslatorAwareType
                     new NotBlank(),
                     new Type(['type' => 'float']),
                     new PositiveOrZero(),
+                    new Positive([
+                        'groups' => [self::ENABLED_GROUP],
+                    ]),
                 ],
                 'default_empty_data' => 0.0,
                 'modify_all_shops' => true,
@@ -91,6 +95,9 @@ class UnitPriceType extends TranslatorAwareType
                     new NotBlank(),
                     new Type(['type' => 'float']),
                     new PositiveOrZero(),
+                    new Positive([
+                        'groups' => [self::ENABLED_GROUP],
+                    ]),
                 ],
                 'default_empty_data' => 0.0,
                 'modify_all_shops' => true,

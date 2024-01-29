@@ -96,7 +96,7 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
     {
         $this->name = 'ps_facetedsearch';
         $this->tab = 'front_office_features';
-        $this->version = '3.14.1';
+        $this->version = '3.13.2';
         $this->author = 'PrestaShop';
         $this->need_instance = 0;
         $this->bootstrap = true;
@@ -172,9 +172,6 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
                 'label' => 'Product price filter (slider)',
                 'slider' => true,
             ],
-            'layered_selection_extras' => [
-                'label' => 'Product extras filter',
-            ],
         ];
     }
 
@@ -219,7 +216,7 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
             $productsCount = $this->getDatabase()->getValue('SELECT COUNT(*) FROM `' . _DB_PREFIX_ . 'product`');
 
             if ($productsCount < static::LOCK_TEMPLATE_CREATION) {
-                $this->createDefaultTemplate();
+                $this->rebuildLayeredCache();
             }
 
             $this->rebuildPriceIndexTable();
@@ -594,6 +591,7 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
      */
     public function getContent()
     {
+        global $cookie;
         $message = '';
 
         if (Tools::isSubmit('SubmitFilter')) {
@@ -964,13 +962,6 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
                 $tmp[] = (isset($supportedControllers[$c]) ? $supportedControllers[$c]['name'] : $c);
             }
             $filters_templates[$k]['controllers'] = implode(', ', $tmp);
-
-            // Format date for different core versions. Since 8.0, it has only two arguments.
-            if (version_compare(_PS_VERSION_, '8.0.0', '>=')) {
-                $filters_templates[$k]['date_add'] = Tools::displayDate($v['date_add'], true);
-            } else {
-                $filters_templates[$k]['date_add'] = Tools::displayDate($v['date_add'], null, true);
-            }
         }
 
         return $filters_templates;
@@ -999,7 +990,7 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
             `controller` VARCHAR(64) NOT NULL,
             `id_category` INT(10) UNSIGNED NOT NULL,
             `id_value` INT(10) UNSIGNED NULL DEFAULT \'0\',
-            `type` ENUM(\'category\',\'id_feature\',\'id_attribute_group\',\'availability\',\'condition\',\'manufacturer\',\'weight\',\'price\',\'extras\') NOT NULL,
+            `type` ENUM(\'category\',\'id_feature\',\'id_attribute_group\',\'availability\',\'condition\',\'manufacturer\',\'weight\',\'price\') NOT NULL,
             `position` INT(10) UNSIGNED NOT NULL,
             `filter_type` int(10) UNSIGNED NOT NULL DEFAULT 0,
             `filter_show_limit` int(10) UNSIGNED NOT NULL DEFAULT 0,
@@ -1036,25 +1027,17 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
     }
 
     /**
-     * This method creates the first initial filter after installing the module,
-     * from all available features and attributes.
+     * Build layered cache
+     *
+     * @param array $productsIds
+     * @param array $categoriesIds
+     * @param bool $rebuildLayeredCategories
      */
-    public function createDefaultTemplate()
+    public function rebuildLayeredCache($productsIds = [], $categoriesIds = [], $rebuildLayeredCategories = true)
     {
         @set_time_limit(0);
 
-        // Default filter data
-        $filterData = [
-            'categories' => [],
-            'controllers' => [],
-        ];
-
-        // Add all stable controllers (except search)
-        foreach ($this->getSupportedControllers() as $controller_name => $data) {
-            if ($controller_name != 'search') {
-                $filterData['controllers'][] = $controller_name;
-            }
-        }
+        $filterData = ['categories' => [], 'controllers' => ['category']];
 
         /* Set memory limit to 128M only if current is lower */
         $memoryLimit = Tools::getMemoryLimit();
@@ -1070,7 +1053,6 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
         $joinProduct = Shop::addSqlAssociation('product', 'p');
         $joinProductAttribute = Shop::addSqlAssociation('product_attribute', 'pa');
 
-        // Fetch all available attributes and their values
         $attributeGroups = $this->query(
             'SELECT a.id_attribute, a.id_attribute_group
             FROM ' . _DB_PREFIX_ . 'attribute a
@@ -1080,8 +1062,10 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
             ' . $joinProduct . $joinProductAttribute . '
             LEFT JOIN ' . _DB_PREFIX_ . 'category_product cp ON (cp.id_product = p.id_product)
             LEFT JOIN ' . _DB_PREFIX_ . 'category c ON (c.id_category = cp.id_category)
-            WHERE c.active = 1
-            AND ' . $alias . '.active = 1 AND ' . $alias . '.`visibility` IN ("both", "catalog")'
+            WHERE c.active = 1' .
+            (count($categoriesIds) ? ' AND cp.id_category IN (' . implode(',', array_map('intval', $categoriesIds)) . ')' : '') . '
+            AND ' . $alias . '.active = 1 AND ' . $alias . '.`visibility` IN ("both", "catalog")
+            ' . (count($productsIds) ? 'AND p.id_product IN (' . implode(',', array_map('intval', $productsIds)) . ')' : '')
         );
 
         $attributeGroupsById = [];
@@ -1089,7 +1073,6 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
             $attributeGroupsById[(int) $row['id_attribute']] = (int) $row['id_attribute_group'];
         }
 
-        // Fetch all available features and their values
         $features = $this->query(
             'SELECT fv.id_feature_value, fv.id_feature
             FROM ' . _DB_PREFIX_ . 'feature_value fv
@@ -1098,8 +1081,9 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
             ' . $joinProduct . '
             LEFT JOIN ' . _DB_PREFIX_ . 'category_product cp ON (cp.id_product = p.id_product)
             LEFT JOIN ' . _DB_PREFIX_ . 'category c ON (c.id_category = cp.id_category)
-            WHERE (fv.custom IS NULL OR fv.custom = 0) AND c.active = 1
-            AND ' . $alias . '.active = 1 AND ' . $alias . '.`visibility` IN ("both", "catalog") '
+            WHERE (fv.custom IS NULL OR fv.custom = 0) AND c.active = 1' . (count($categoriesIds) ? ' AND cp.id_category IN (' . implode(',', array_map('intval', $categoriesIds)) . ')' : '') . '
+            AND ' . $alias . '.active = 1 AND ' . $alias . '.`visibility` IN ("both", "catalog") ' .
+            (count($productsIds) ? 'AND p.id_product IN (' . implode(',', array_map('intval', $productsIds)) . ')' : '')
         );
 
         $featuresById = [];
@@ -1120,9 +1104,10 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
             LEFT JOIN ' . _DB_PREFIX_ . 'product_attribute pa ON (pa.id_product = p.id_product)
             ' . $joinProduct . $joinProductAttribute . '
             LEFT JOIN ' . _DB_PREFIX_ . 'product_attribute_combination pac ON (pac.id_product_attribute = pa.id_product_attribute)
-            WHERE c.active = 1
+            WHERE c.active = 1' . (count($categoriesIds) ? ' AND cp.id_category IN (' . implode(',', array_map('intval', $categoriesIds)) . ')' : '') . '
             AND ' . $alias . '.active = 1 AND ' . $alias . '.`visibility` IN ("both", "catalog")
-            AND (fv.custom IS NULL OR fv.custom = 0)
+            ' . (count($productsIds) ? 'AND p.id_product IN (' . implode(',', array_map('intval', $productsIds)) . ')' : '') .
+            ' AND (fv.custom IS NULL OR fv.custom = 0)
             GROUP BY p.id_product'
         );
 
@@ -1153,36 +1138,11 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
                 if (!isset($nCategories[(int) $idCategory])) {
                     $nCategories[(int) $idCategory] = 1;
                 }
-
-                // Stock filter
-                if (!isset($doneCategories[(int) $idCategory]['q'])) {
-                    $filterData['layered_selection_stock'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
-                    $doneCategories[(int) $idCategory]['q'] = true;
-                    $toInsert = true;
-                }
-
-                // Add extras filter
-                if (!isset($doneCategories[(int) $idCategory]['e'])) {
-                    $filterData['layered_selection_extras'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
-                    $doneCategories[(int) $idCategory]['e'] = true;
-                    $toInsert = true;
-                }
-
-                // Price filter
-                if (!isset($doneCategories[(int) $idCategory]['p'])) {
-                    $filterData['layered_selection_price_slider'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
-                    $doneCategories[(int) $idCategory]['p'] = true;
-                    $toInsert = true;
-                }
-
-                // Category filter
                 if (!isset($doneCategories[(int) $idCategory]['cat'])) {
                     $filterData['layered_selection_subcategories'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
                     $doneCategories[(int) $idCategory]['cat'] = true;
                     $toInsert = true;
                 }
-
-                // Attribute filter
                 if (is_array($attributeGroupsById) && count($attributeGroupsById) > 0) {
                     foreach ($a as $kAttribute => $attribute) {
                         if (!isset($doneCategories[(int) $idCategory]['a' . (int) $attributeGroupsById[(int) $kAttribute]])) {
@@ -1192,9 +1152,7 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
                         }
                     }
                 }
-
-                // Features filter
-                if (is_array($featuresById) && count($featuresById) > 0) {
+                if (is_array($attributeGroupsById) && count($attributeGroupsById) > 0) {
                     foreach ($f as $kFeature => $feature) {
                         if (!isset($doneCategories[(int) $idCategory]['f' . (int) $featuresById[(int) $kFeature]])) {
                             $filterData['layered_selection_feat_' . (int) $featuresById[(int) $kFeature]] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
@@ -1204,30 +1162,38 @@ class Ps_Facetedsearch extends Module implements WidgetInterface
                     }
                 }
 
-                // Manufacturer filter
+                if (!isset($doneCategories[(int) $idCategory]['q'])) {
+                    $filterData['layered_selection_stock'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
+                    $doneCategories[(int) $idCategory]['q'] = true;
+                    $toInsert = true;
+                }
+
                 if (!isset($doneCategories[(int) $idCategory]['m'])) {
                     $filterData['layered_selection_manufacturer'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
                     $doneCategories[(int) $idCategory]['m'] = true;
                     $toInsert = true;
                 }
 
-                // Condition filter
                 if (!isset($doneCategories[(int) $idCategory]['c'])) {
                     $filterData['layered_selection_condition'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
                     $doneCategories[(int) $idCategory]['c'] = true;
                     $toInsert = true;
                 }
 
-                // Weight filter
                 if (!isset($doneCategories[(int) $idCategory]['w'])) {
                     $filterData['layered_selection_weight_slider'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
                     $doneCategories[(int) $idCategory]['w'] = true;
                     $toInsert = true;
                 }
+
+                if (!isset($doneCategories[(int) $idCategory]['p'])) {
+                    $filterData['layered_selection_price_slider'] = ['filter_type' => Converter::WIDGET_TYPE_CHECKBOX, 'filter_show_limit' => 0];
+                    $doneCategories[(int) $idCategory]['p'] = true;
+                    $toInsert = true;
+                }
             }
         }
 
-        // If there are any filters available to setup, we will create the filter template
         if ($toInsert) {
             $this->getDatabase()->execute('INSERT INTO ' . _DB_PREFIX_ . 'layered_filter(name, filters, n_categories, date_add)
 VALUES (\'' . sprintf($this->trans('My template %s', [], 'Modules.Facetedsearch.Admin'), date('Y-m-d')) . '\', \'' . pSQL(serialize($filterData)) . '\', ' . count($filterData['categories']) . ', NOW())');
@@ -1238,10 +1204,11 @@ VALUES (\'' . sprintf($this->trans('My template %s', [], 'Modules.Facetedsearch.
                 $this->getDatabase()->execute('INSERT INTO ' . _DB_PREFIX_ . 'layered_filter_shop (`id_layered_filter`, `id_shop`)
 VALUES(' . $last_id . ', ' . (int) $idShop . ')');
             }
-        }
 
-        // Now we need to build layered_category table from this template
-        $this->buildLayeredCategories();
+            if ($rebuildLayeredCategories) {
+                $this->buildLayeredCategories();
+            }
+        }
     }
 
     /**
@@ -1328,8 +1295,6 @@ VALUES(' . $last_id . ', ' . (int) $idShop . ')');
                             } elseif (substr($key, 0, 23) == 'layered_selection_feat_') {
                                 $sqlInsert .= '(' . (int) $idCategory . ', \'' . $controller . '\', ' . (int) $idShop . ', ' . (int) str_replace('layered_selection_feat_', '', $key) . ',
     \'id_feature\',' . (int) $n . ', ' . (int) $limit . ', ' . (int) $type . '),';
-                            } elseif ($key == 'layered_selection_extras') {
-                                $sqlInsert .= '(' . (int) $idCategory . ', \'' . $controller . '\', ' . (int) $idShop . ', NULL,\'extras\',' . (int) $n . ', ' . (int) $limit . ', ' . (int) $type . '),';
                             }
 
                             ++$nbSqlValuesToInsert;

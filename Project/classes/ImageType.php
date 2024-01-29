@@ -136,7 +136,7 @@ class ImageTypeCore extends ObjectModel
     public static function typeAlreadyExists($typeName)
     {
         if (!Validate::isImageTypeName($typeName)) {
-            die(Tools::displayError(sprintf('"%s" is not valid image type name.', $typeName)));
+            die(Tools::displayError());
         }
 
         Db::getInstance()->executeS('
