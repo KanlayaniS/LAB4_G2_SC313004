@@ -110,7 +110,6 @@ class ReferencesType extends TranslatorAwareType
             'label' => $this->trans('References', 'Admin.Catalog.Feature'),
             'label_tag_name' => 'h3',
             'required' => false,
-            'columns_number' => 3,
         ]);
     }
 }

@@ -39,7 +39,6 @@ use PrestaShop\PrestaShop\Core\Domain\Product\Stock\ValueObject\StockId;
 use PrestaShop\PrestaShop\Core\Domain\Product\Stock\ValueObject\StockModification;
 use PrestaShop\PrestaShop\Core\Domain\Shop\ValueObject\ShopConstraint;
 use PrestaShop\PrestaShop\Core\Domain\Shop\ValueObject\ShopId;
-use PrestaShop\PrestaShop\Core\Hook\HookDispatcherInterface;
 use PrestaShop\PrestaShop\Core\Stock\StockManager;
 use StockAvailable;
 
@@ -73,25 +72,18 @@ class CombinationStockUpdater
      */
     private $configuration;
 
-    /**
-     * @var HookDispatcherInterface
-     */
-    private $hookDispatcher;
-
     public function __construct(
         StockAvailableRepository $stockAvailableRepository,
         CombinationRepository $combinationRepository,
         MovementReasonRepository $movementReasonRepository,
         StockManager $stockManager,
-        ShopConfigurationInterface $configuration,
-        HookDispatcherInterface $hookDispatcher
+        ShopConfigurationInterface $configuration
     ) {
         $this->stockAvailableRepository = $stockAvailableRepository;
         $this->combinationRepository = $combinationRepository;
         $this->stockManager = $stockManager;
         $this->configuration = $configuration;
         $this->movementReasonRepository = $movementReasonRepository;
-        $this->hookDispatcher = $hookDispatcher;
     }
 
     /**
@@ -139,6 +131,7 @@ class CombinationStockUpdater
 
         $fallbackShopId = $this->stockAvailableRepository->getFallbackShopId($stockAvailable);
         $this->stockAvailableRepository->update($stockAvailable, $fallbackShopId);
+
         // save movement only after stockAvailable has been updated
         if ($stockModification) {
             $this->saveMovement($stockAvailable, $stockModification, $previousQuantity, $fallbackShopId->getValue());
@@ -172,15 +165,6 @@ class CombinationStockUpdater
                 'id_shop' => (int) $affectedShopId,
             ]
         );
-
-        $this->hookDispatcher->dispatchWithParameters('actionUpdateQuantity',
-            [
-                'id_product' => $stockAvailable->id_product,
-                'id_product_attribute' => $stockAvailable->id_product_attribute,
-                'quantity' => $stockAvailable->quantity,
-                'delta_quantity' => $deltaQuantity,
-                'id_shop' => $stockAvailable->id_shop,
-            ]);
     }
 
     private function updateStockByShopConstraint(

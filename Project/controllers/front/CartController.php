@@ -540,7 +540,7 @@ class CartControllerCore extends FrontController
         CartRule::autoAddToCart();
 
         // Finally check that all other products are also available, but only if there was no previous error
-        if ('add' !== $mode && empty($this->{$ErrorKey})) {
+        if (empty($this->{$ErrorKey})) {
             $areProductsAvailable = $this->areProductsAvailable();
             if (true !== $areProductsAvailable) {
                 $this->{$ErrorKey}[] = $areProductsAvailable;

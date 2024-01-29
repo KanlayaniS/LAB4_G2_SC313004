@@ -40,11 +40,6 @@ class ApeCode
     private $code;
 
     /**
-     * @var string
-     */
-    public const PATTERN = '/^[0-9]{1,2}?\.?[0-9]{1,2}[a-zA-Z]{1}$/s';
-
-    /**
      * @param mixed $code
      */
     public function __construct($code)
@@ -65,7 +60,7 @@ class ApeCode
     private function assertIsApeCode($code)
     {
         if (!is_string($code)
-            || (!empty($code) && !((bool) preg_match(self::PATTERN, $code)))
+            || (!empty($code) && !((bool) preg_match('/^\d{3,4}[a-zA-Z]{1}$/', $code)))
             ) {
             throw new CustomerConstraintException(sprintf('Invalid ape code %s provided', var_export($code, true)), CustomerConstraintException::INVALID_APE_CODE);
         }
