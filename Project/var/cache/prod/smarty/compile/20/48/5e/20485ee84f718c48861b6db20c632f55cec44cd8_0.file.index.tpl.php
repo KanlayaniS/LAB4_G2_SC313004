@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-29 16:12:36
+/* Smarty version 4.3.1, created on 2024-01-30 18:08:29
   from 'C:\xampp\htdocs\se_project\Project\modules\ps_themecusto\views\templates\admin\controllers\configuration\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b76c04650414_32476036',
+  'unifunc' => 'content_65b8d8ad1e8ce8_19692912',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '20485ee84f718c48861b6db20c632f55cec44cd8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\modules\\ps_themecusto\\views\\templates\\admin\\controllers\\configuration\\index.tpl',
-      1 => 1683813659,
+      1 => 1706534571,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./elem/modal.tpl' => 1,
   ),
 ),false)) {
-function content_65b76c04650414_32476036 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b8d8ad1e8ce8_19692912 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="psthemecusto" class="container-fluid clearfix">
     <div class="panel row">

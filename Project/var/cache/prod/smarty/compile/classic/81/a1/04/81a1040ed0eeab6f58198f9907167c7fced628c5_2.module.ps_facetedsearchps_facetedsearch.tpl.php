@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-29 16:00:56
+/* Smarty version 4.3.1, created on 2024-01-30 18:04:38
   from 'module:ps_facetedsearchps_facetedsearch.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b76948b40950_20532663',
+  'unifunc' => 'content_65b8d7c6c61958_43763848',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '81a1040ed0eeab6f58198f9907167c7fced628c5' => 
     array (
       0 => 'module:ps_facetedsearchps_facetedsearch.tpl',
-      1 => 1678742294,
+      1 => 1706534575,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65b76948b40950_20532663 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b8d7c6c61958_43763848 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['listing']->value['rendered_facets']))) {?>
 <div id="search_filters_wrapper" class="hidden-sm-down">
   <div id="search_filter_controls" class="hidden-md-up">

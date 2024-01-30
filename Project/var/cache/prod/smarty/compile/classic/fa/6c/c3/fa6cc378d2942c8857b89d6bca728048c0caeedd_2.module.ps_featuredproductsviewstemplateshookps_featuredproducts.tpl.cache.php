@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-29 15:18:27
+/* Smarty version 4.3.1, created on 2024-01-30 18:04:59
   from 'module:ps_featuredproductsviewstemplateshookps_featuredproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b75f53360f78_37194948',
+  'unifunc' => 'content_65b8d7db67b3a4_18898804',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fa6cc378d2942c8857b89d6bca728048c0caeedd' => 
     array (
       0 => 'module:ps_featuredproductsviewstemplateshookps_featuredproducts.tpl',
-      1 => 1678742294,
+      1 => 1706534575,
       2 => 'module',
     ),
   ),
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_65b75f53360f78_37194948 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '185509389265b75f53254860_98282706';
+function content_65b8d7db67b3a4_18898804 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '206522494165b8d7db673835_96099672';
 ?>
 <section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">

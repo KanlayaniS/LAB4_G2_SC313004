@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-29 15:23:20
+/* Smarty version 4.3.1, created on 2024-01-30 18:04:31
   from 'C:\xampp\htdocs\se_project\Project\admin2024se3\themes\new-theme\template\components\layout\mobile_quickaccess.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b76078d448e1_35377049',
+  'unifunc' => 'content_65b8d7bf36cc51_23938701',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bb136d31b67b2189cab2aa566b9f1ec447e2eae2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin2024se3\\themes\\new-theme\\template\\components\\layout\\mobile_quickaccess.tpl',
-      1 => 1695892354,
+      1 => 1706534566,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65b76078d448e1_35377049 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b8d7bf36cc51_23938701 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="component-search-quickaccess d-none">
   <p class="component-search-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Quick Access','d'=>'Admin.Navigation.Header'),$_smarty_tpl ) );?>
 </p>

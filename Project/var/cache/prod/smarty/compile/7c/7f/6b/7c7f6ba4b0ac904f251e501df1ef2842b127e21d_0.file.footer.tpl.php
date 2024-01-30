@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-29 15:22:25
+/* Smarty version 4.3.1, created on 2024-01-30 18:05:29
   from 'C:\xampp\htdocs\se_project\Project\admin2024se3\themes\default\template\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b7604149a972_92870295',
+  'unifunc' => 'content_65b8d7f9269609_08567785',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7c7f6ba4b0ac904f251e501df1ef2842b127e21d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin2024se3\\themes\\default\\template\\footer.tpl',
-      1 => 1695892354,
+      1 => 1706534566,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:error.tpl' => 1,
   ),
 ),false)) {
-function content_65b7604149a972_92870295 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b8d7f9269609_08567785 (Smarty_Internal_Template $_smarty_tpl) {
 ?>         <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayAdminEndContent'),$_smarty_tpl ) );?>
 
 	</div>
