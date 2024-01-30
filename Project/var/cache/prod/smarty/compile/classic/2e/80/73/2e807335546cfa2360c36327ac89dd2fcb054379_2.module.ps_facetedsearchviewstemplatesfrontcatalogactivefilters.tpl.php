@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-29 16:00:53
+/* Smarty version 4.3.1, created on 2024-01-30 18:04:36
   from 'module:ps_facetedsearchviewstemplatesfrontcatalogactivefilters.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b76945e2c2e3_30901783',
+  'unifunc' => 'content_65b8d7c41f4349_77548379',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2e807335546cfa2360c36327ac89dd2fcb054379' => 
     array (
       0 => 'module:ps_facetedsearchviewstemplatesfrontcatalogactivefilters.tpl',
-      1 => 1695048021,
+      1 => 1706534570,
       2 => 'module',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65b76945e2c2e3_30901783 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b8d7c41f4349_77548379 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <section id="js-active-search-filters" class="<?php if (smarty_modifier_count($_smarty_tpl->tpl_vars['activeFilters']->value)) {?>active_filters<?php } else { ?>hide<?php }?>">
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_138686938265b76945e102b5_62346347', 'active_filters_title');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_69196881665b8d7c41f0863_60509089', 'active_filters_title');
 ?>
 
 
@@ -40,7 +40,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['filter']->value)
 $_smarty_tpl->tpl_vars['filter']->do_else = false;
 ?>
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_93891781365b76945e25199_83525460', 'active_filters_item');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_103829103665b8d7c41f2806_04184144', 'active_filters_item');
 ?>
 
       <?php
@@ -51,12 +51,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 </section>
 <?php }
 /* {block 'active_filters_title'} */
-class Block_138686938265b76945e102b5_62346347 extends Smarty_Internal_Block
+class Block_69196881665b8d7c41f0863_60509089 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'active_filters_title' => 
   array (
-    0 => 'Block_138686938265b76945e102b5_62346347',
+    0 => 'Block_69196881665b8d7c41f0863_60509089',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -70,12 +70,12 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_projec
 }
 /* {/block 'active_filters_title'} */
 /* {block 'active_filters_item'} */
-class Block_93891781365b76945e25199_83525460 extends Smarty_Internal_Block
+class Block_103829103665b8d7c41f2806_04184144 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'active_filters_item' => 
   array (
-    0 => 'Block_93891781365b76945e25199_83525460',
+    0 => 'Block_103829103665b8d7c41f2806_04184144',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

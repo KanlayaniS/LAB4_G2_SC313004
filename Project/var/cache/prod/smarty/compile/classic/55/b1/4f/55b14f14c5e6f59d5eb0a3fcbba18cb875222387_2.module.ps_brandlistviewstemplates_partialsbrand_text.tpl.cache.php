@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-29 16:00:56
+/* Smarty version 4.3.1, created on 2024-01-30 18:04:38
   from 'module:ps_brandlistviewstemplates_partialsbrand_text.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b7694870c906_43473797',
+  'unifunc' => 'content_65b8d7c6911ea7_13951868',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '55b14f14c5e6f59d5eb0a3fcbba18cb875222387' => 
     array (
       0 => 'module:ps_brandlistviewstemplates_partialsbrand_text.tpl',
-      1 => 1678742294,
+      1 => 1706534575,
       2 => 'module',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65b7694870c906_43473797 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '19367901365b76948707979_33672867';
+function content_65b8d7c6911ea7_13951868 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '131579971765b8d7c690ecc3_90731950';
 ?>
 
 <ul>
