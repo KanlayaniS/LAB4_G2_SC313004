@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-11 14:33:46
+/* Smarty version 4.3.1, created on 2024-02-11 17:47:51
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\controllers\dashboard\helpers\view\view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65c8785a3c15b1_99397446',
+  'unifunc' => 'content_65c8a5d7ab4f52_35781981',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1ab3fb10b18033bf8706fbe5ff02318129ed2c9d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin-g2-dev\\themes\\default\\template\\controllers\\dashboard\\helpers\\view\\view.tpl',
-      1 => 1695892354,
+      1 => 1707644410,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65c8785a3c15b1_99397446 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65c8a5d7ab4f52_35781981 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
 	var dashboard_ajax_url = '<?php echo $_smarty_tpl->tpl_vars['link']->value->getAdminLink('AdminDashboard');?>

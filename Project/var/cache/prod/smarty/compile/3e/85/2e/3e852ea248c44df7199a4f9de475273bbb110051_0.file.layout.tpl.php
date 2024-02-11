@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-11 14:33:48
+/* Smarty version 4.3.1, created on 2024-02-11 18:13:01
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65c8785c0c31b0_59573356',
+  'unifunc' => 'content_65c8abbdd66f44_79887260',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3e852ea248c44df7199a4f9de475273bbb110051' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin-g2-dev\\themes\\default\\template\\layout.tpl',
-      1 => 1695892354,
+      1 => 1707644410,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65c8785c0c31b0_59573356 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65c8abbdd66f44_79887260 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 echo $_smarty_tpl->tpl_vars['header']->value;?>
 
