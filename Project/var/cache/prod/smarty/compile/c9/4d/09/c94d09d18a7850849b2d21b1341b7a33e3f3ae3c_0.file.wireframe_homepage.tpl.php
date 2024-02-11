@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-11 15:12:38
+/* Smarty version 4.3.1, created on 2024-02-11 17:56:56
   from 'C:\xampp\htdocs\se_project\Project\modules\ps_themecusto\views\templates\admin\controllers\configuration\elem\wireframe_homepage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65c88176b77dd2_40400036',
+  'unifunc' => 'content_65c8a7f851f641_55787034',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c94d09d18a7850849b2d21b1341b7a33e3f3ae3c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\modules\\ps_themecusto\\views\\templates\\admin\\controllers\\configuration\\elem\\wireframe_homepage.tpl',
-      1 => 1683813659,
+      1 => 1707644413,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65c88176b77dd2_40400036 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65c8a7f851f641_55787034 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="row no-gutter js-wireframe">
     <div class="col-xs-12 js-img-menu" data-module_name="menu">
