@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-30 18:04:38
+/* Smarty version 4.3.1, created on 2024-02-11 15:06:07
   from 'module:ps_supplierlistviewstemplateshookps_supplierlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b8d7c6a76260_74474642',
+  'unifunc' => 'content_65c87fef1fbd91_53372600',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5e98a1d231ad7587ed33d217eebc733ab1968889' => 
     array (
       0 => 'module:ps_supplierlistviewstemplateshookps_supplierlist.tpl',
-      1 => 1706534575,
+      1 => 1678742294,
       2 => 'module',
     ),
   ),
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:ps_supplierlist/views/templates/_partials/".((string)$_smarty_tpl->tpl_vars[\'supplier_display_type\']->value).".tpl' => 1,
   ),
 ),false)) {
-function content_65b8d7c6a76260_74474642 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '56229480665b8d7c6a72f31_10349330';
+function content_65c87fef1fbd91_53372600 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '94322590465c87fef1f2042_29564435';
 ?>
 
 <div id="search_filters_suppliers">

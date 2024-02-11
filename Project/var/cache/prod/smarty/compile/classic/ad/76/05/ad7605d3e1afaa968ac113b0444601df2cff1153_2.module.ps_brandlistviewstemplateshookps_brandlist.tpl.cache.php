@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-30 18:04:38
+/* Smarty version 4.3.1, created on 2024-02-11 15:06:06
   from 'module:ps_brandlistviewstemplateshookps_brandlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b8d7c6823a77_79708976',
+  'unifunc' => 'content_65c87feef07ea5_09129457',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ad7605d3e1afaa968ac113b0444601df2cff1153' => 
     array (
       0 => 'module:ps_brandlistviewstemplateshookps_brandlist.tpl',
-      1 => 1706534575,
+      1 => 1678742294,
       2 => 'module',
     ),
   ),
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:ps_brandlist/views/templates/_partials/".((string)$_smarty_tpl->tpl_vars[\'brand_display_type\']->value).".tpl' => 1,
   ),
 ),false)) {
-function content_65b8d7c6823a77_79708976 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '5399472865b8d7c681f3f9_14919347';
+function content_65c87feef07ea5_09129457 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '91512759665c87feeebe0a9_18561552';
 ?>
 
 <div id="search_filters_brands">

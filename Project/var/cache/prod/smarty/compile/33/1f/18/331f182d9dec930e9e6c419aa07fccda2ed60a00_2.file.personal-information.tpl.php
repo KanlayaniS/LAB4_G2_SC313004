@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-30 19:38:33
+/* Smarty version 4.3.1, created on 2024-02-11 15:23:42
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\steps\personal-information.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b8edc9559754_09379991',
+  'unifunc' => 'content_65c8840ec17708_42454819',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '331f182d9dec930e9e6c419aa07fccda2ed60a00' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\steps\\personal-information.tpl',
-      1 => 1706617826,
+      1 => 1707639791,
       2 => 'file',
     ),
   ),
@@ -20,25 +20,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65b8edc9559754_09379991 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65c8840ec17708_42454819 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_77695314365b8edc94fa9a2_20985168', 'step_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_114409142065c8840ec07115_70798389', 'step_content');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
-class Block_77695314365b8edc94fa9a2_20985168 extends Smarty_Internal_Block
+class Block_114409142065c8840ec07115_70798389 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'step_content' => 
   array (
-    0 => 'Block_77695314365b8edc94fa9a2_20985168',
+    0 => 'Block_114409142065c8840ec07115_70798389',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -99,24 +99,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
         </a>
       </li>
 
-      <li class="nav-item">
-        <span class="nav-separator"> | </span>
-      </li>
-
-      <li class="nav-item">
-        <a
-          class="nav-link <?php if ($_smarty_tpl->tpl_vars['show_login_form']->value) {?>active<?php }?>"
-          data-link-action="show-login-form"
-          data-toggle="tab"
-          href="#checkout-login-form"
-          role="tab"
-          aria-controls="checkout-login-form"
-          <?php if ($_smarty_tpl->tpl_vars['show_login_form']->value) {?> aria-selected="true"<?php }?>
-        >
-          <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Sign in','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
-
-        </a>
-      </li>
+      
     </ul>
 
     <div class="tab-content">
