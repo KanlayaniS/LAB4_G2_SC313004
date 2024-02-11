@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-01-30 18:04:40
+/* Smarty version 4.3.1, created on 2024-02-11 14:32:45
   from 'module:ps_customeraccountlinksps_customeraccountlinks.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65b8d7c85bf820_49612110',
+  'unifunc' => 'content_65c8781d3c4302_28031120',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '42f9461127ce7396a601c2484841253ea5ba658f' => 
     array (
       0 => 'module:ps_customeraccountlinksps_customeraccountlinks.tpl',
-      1 => 1706534575,
+      1 => 1678742294,
       2 => 'module',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65b8d7c85bf820_49612110 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65c8781d3c4302_28031120 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
-$_smarty_tpl->compiled->nocache_hash = '85010262265b8d7c85b09a2_07600570';
+$_smarty_tpl->compiled->nocache_hash = '47789163565c8781d3ab905_97614806';
 ?>
 
 <div id="block_myaccount_infos" class="col-md-3 links wrapper">

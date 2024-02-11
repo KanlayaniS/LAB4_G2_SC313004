@@ -31,6 +31,7 @@ Input address information
     Input text      id:field-postcode       40000
     Input text      id:field-city           ขอนแก่น
     Select From List By Index       field-id_country     3
+    Sleep       1
     Click Element       xpath://*[@name='confirm-addresses']
     Sleep       3
     
