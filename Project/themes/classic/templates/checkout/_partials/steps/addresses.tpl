@@ -64,7 +64,7 @@
             interactive = !$show_delivery_address_form and !$show_invoice_address_form
           }
         </div>
-
+<!---ถ้าที่อยู่ผิด-->
         {if isset($delivery_address_error)}
           <p class="alert alert-danger js-address-error" name="alert-delivery" id="id-failure-address-{$delivery_address_error.id_address}">{$delivery_address_error.exception}</p>
         {else}
@@ -121,7 +121,7 @@
         {/if}
 
       {/if}
-
+<!---ลบตรงนี้ออกจะไม่ต้องกรอก ที่อยู่-->
       {if !$form_has_continue_button}
         <div class="clearfix">
           <button type="submit" class="btn btn-primary continue float-xs-right" name="confirm-addresses" value="1">

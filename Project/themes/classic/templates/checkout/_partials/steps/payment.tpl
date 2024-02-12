@@ -10,8 +10,10 @@
   {if !empty($display_transaction_updated_info)}
   <p class="cart-payment-step-refreshed-info">
     {l s='Transaction amount has been correctly updated' d='Shop.Theme.Checkout'}
-  </p>
+0  </p>
   {/if}
+
+  
 
   {if $is_free}
     <p class="cart-payment-step-not-needed-info">{l s='No payment needed for this order' d='Shop.Theme.Checkout'}</p>
@@ -127,6 +129,7 @@
     {include file='checkout/_partials/order-final-summary.tpl'}
   {/if}
 
+  <!--Plac order-->
   <div id="payment-confirmation" class="js-payment-confirmation">
     <div class="ps-shown-by-js">
       <button type="submit" class="btn btn-primary center-block{if !$selected_payment_option} disabled{/if}">
