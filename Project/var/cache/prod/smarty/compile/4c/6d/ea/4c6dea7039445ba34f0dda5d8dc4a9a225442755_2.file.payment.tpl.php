@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 20:18:07
+/* Smarty version 4.3.1, created on 2024-02-12 23:19:55
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\steps\payment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca1a8f9f0750_50304776',
+  'unifunc' => 'content_65ca452b8af106_97167375',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4c6dea7039445ba34f0dda5d8dc4a9a225442755' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\steps\\payment.tpl',
-      1 => 1707675012,
+      1 => 1707747753,
       2 => 'file',
     ),
   ),
@@ -21,25 +21,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/order-final-summary.tpl' => 1,
   ),
 ),false)) {
-function content_65ca1a8f9f0750_50304776 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca452b8af106_97167375 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_71167064465ca1a8f9c7e08_62389462', 'step_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_205332335665ca452b89b136_48424982', 'step_content');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
-class Block_71167064465ca1a8f9c7e08_62389462 extends Smarty_Internal_Block
+class Block_205332335665ca452b89b136_48424982 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'step_content' => 
   array (
-    0 => 'Block_71167064465ca1a8f9c7e08_62389462',
+    0 => 'Block_205332335665ca452b89b136_48424982',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -56,10 +56,8 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_projec
   <p class="cart-payment-step-refreshed-info">
     <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Transaction amount has been correctly updated','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
 
-0  </p>
+  </p>
   <?php }?>
-
-  
 
   <?php if ($_smarty_tpl->tpl_vars['is_free']->value) {?>
     <p class="cart-payment-step-not-needed-info"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'No payment needed for this order','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
@@ -228,7 +226,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 ?>
   <?php }?>
 
-  <!--Plac order-->
   <div id="payment-confirmation" class="js-payment-confirmation">
     <div class="ps-shown-by-js">
       <button type="submit" class="btn btn-primary center-block<?php if (!$_smarty_tpl->tpl_vars['selected_payment_option']->value) {?> disabled<?php }?>">

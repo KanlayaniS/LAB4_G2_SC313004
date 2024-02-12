@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-11 17:47:06
+/* Smarty version 4.3.1, created on 2024-02-12 22:57:42
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\controllers\login\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65c8a5aa19f1e9_02646651',
+  'unifunc' => 'content_65ca3ff6a9c0a4_15314045',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b7b90d3e49140f9c5312b6f61cb3f09c24e752a4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin-g2-dev\\themes\\default\\template\\controllers\\login\\header.tpl',
-      1 => 1707644410,
+      1 => 1707747745,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65c8a5aa19f1e9_02646651 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca3ff6a9c0a4_15314045 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->

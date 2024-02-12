@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 20:50:06
+/* Smarty version 4.3.1, created on 2024-02-12 23:19:55
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\steps\addresses.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca220e7b7553_25787902',
+  'unifunc' => 'content_65ca452b0003c0_83541575',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f8925cd5f96e409632ef9af88e40929bc22bd785' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\steps\\addresses.tpl',
-      1 => 1707670322,
+      1 => 1707747753,
       2 => 'file',
     ),
   ),
@@ -21,25 +21,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/address-selector-block.tpl' => 2,
   ),
 ),false)) {
-function content_65ca220e7b7553_25787902 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca452b0003c0_83541575 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_167177524365ca220e7a05e2_29074629', 'step_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_212160966965ca452af34f30_41807182', 'step_content');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
-class Block_167177524365ca220e7a05e2_29074629 extends Smarty_Internal_Block
+class Block_212160966965ca452af34f30_41807182 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'step_content' => 
   array (
-    0 => 'Block_167177524365ca220e7a05e2_29074629',
+    0 => 'Block_212160966965ca452af34f30_41807182',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -82,7 +82,7 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_projec
           <?php $_smarty_tpl->_subTemplateRender('file:checkout/_partials/address-selector-block.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('addresses'=>$_smarty_tpl->tpl_vars['customer']->value['addresses'],'name'=>"id_address_delivery",'selected'=>$_smarty_tpl->tpl_vars['id_address_delivery']->value,'type'=>"delivery",'interactive'=>!$_smarty_tpl->tpl_vars['show_delivery_address_form']->value && !$_smarty_tpl->tpl_vars['show_invoice_address_form']->value), 0, false);
 ?>
         </div>
-<!---ถ้าที่อยู่ผิด-->
+
         <?php if ((isset($_smarty_tpl->tpl_vars['delivery_address_error']->value))) {?>
           <p class="alert alert-danger js-address-error" name="alert-delivery" id="id-failure-address-<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['delivery_address_error']->value['id_address'], ENT_QUOTES, 'UTF-8');?>
 "><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['delivery_address_error']->value['exception'], ENT_QUOTES, 'UTF-8');?>
@@ -143,7 +143,7 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_projec
         <?php }?>
 
       <?php }?>
-<!---ลบตรงนี้ออกจะไม่ต้องกรอก ที่อยู่-->
+
       <?php if (!$_smarty_tpl->tpl_vars['form_has_continue_button']->value) {?>
         <div class="clearfix">
           <button type="submit" class="btn btn-primary continue float-xs-right" name="confirm-addresses" value="1">

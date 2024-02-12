@@ -77,38 +77,49 @@
       </div>
     </div>
   </section>
+  
 
-  {block name='hook_payment_return'}
-    {if ! empty($HOOK_PAYMENT_RETURN)}
-    <section id="content-hook_payment_return" class="card definition-list">
-      <div class="card-block">
-        <div class="row">
-          <div class="col-md-12">
-            {$HOOK_PAYMENT_RETURN nofilter}
-          </div>
-        </div>
-      </div>
-    </section>
-    {/if}
-  {/block}
+<select id="payment_option" name="payment_option" onchange="showDescription()">
+    <option value="option1">เลบบัญชีธนาคาร</option>
+    <option value="option2">พร้อมเพย์</option>
+    <option value="option3">QR CODE</option>
+</select>
 
-  {if !$registered_customer_exists}
-    {block name='account_transformation_form'}
-      <div class="card">
-        <div class="card-block">
-          {include file='customer/_partials/account-transformation-form.tpl'}
-        </div>
-      </div>
-    {/block}
-  {/if}
+<div id="description">
+    <!-- Description for Option 1 -->
+    <p id="option1_desc" style="display: none;">กสิกรไทย 123456789 บัญชี ทดสอบ </p>
+    <!-- Description for Option 2 -->
+    <p id="option2_desc" style="display: none;">รหัสพร้อมเพย์ 1234567891234</p>
+    <!-- Description for Option 3 -->
+    <div id="option3_desc" style="display: none;">
+        
+        <img src="http://localhost/se_project/Project/11-home_default/qr.jpg" alt="Image for Option 3">
+        บัญชี ทดสอบ
+    </div>
+</div>
 
+<script>
+    // Initially show the description for the selected option
+    window.onload = showDescription;
+
+    function showDescription() {
+        var option = document.getElementById("payment_option").value;
+        document.getElementById("description").querySelectorAll("div, p").forEach(function (desc) {
+            desc.style.display = "none";
+        });
+        document.getElementById(option + "_desc").style.display = "block";
+    }
+</script>
+<h2>Upload Picture</h2>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="picture">Select Picture:</label><br>
+        <input type="file" id="picture" name="picture"><br><br>
+        <input type="submit" value="Upload">
+    </form>
+    
   {block name='hook_order_confirmation_1'}
     {hook h='displayOrderConfirmation1'}
   {/block}
 
-  {block name='hook_order_confirmation_2'}
-    <section id="content-hook-order-confirmation-footer">
-      {hook h='displayOrderConfirmation2'}
-    </section>
-  {/block}
+  
 {/block}

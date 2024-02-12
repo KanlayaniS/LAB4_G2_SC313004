@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 21:15:08
+/* Smarty version 4.3.1, created on 2024-02-12 23:18:41
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca27ec4c61b7_45559115',
+  'unifunc' => 'content_65ca44e1518c83_30458825',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '39d31a599d73c039735add7bd5dc7a2a3a72c0ba' => 
     array (
       0 => 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl',
-      1 => 1707746763,
+      1 => 1707747753,
       2 => 'module',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_65ca27ec4c61b7_45559115 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca44e1518c83_30458825 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 ?>
 <section class="featured-products clearfix mt-3">
