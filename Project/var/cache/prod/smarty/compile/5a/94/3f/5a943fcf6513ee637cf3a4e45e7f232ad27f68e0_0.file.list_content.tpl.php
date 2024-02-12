@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-11 18:12:57
+/* Smarty version 4.3.1, created on 2024-02-12 20:32:09
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\helpers\list\list_content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65c8abb993b241_21013614',
+  'unifunc' => 'content_65ca1dd99b0d21_09890707',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65c8abb993b241_21013614 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca1dd99b0d21_09890707 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\function.counter.php','function'=>'smarty_function_counter',),1=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
@@ -53,16 +53,16 @@ echo $_smarty_tpl->tpl_vars['tr']->value['class'];
 Box[]" value="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
 "<?php ob_start();
 echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];
-$_prefixVariable4 = ob_get_clean();
-if ((isset($_smarty_tpl->tpl_vars['checked_boxes']->value)) && is_array($_smarty_tpl->tpl_vars['checked_boxes']->value) && in_array($_prefixVariable4,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
+$_prefixVariable3 = ob_get_clean();
+if ((isset($_smarty_tpl->tpl_vars['checked_boxes']->value)) && is_array($_smarty_tpl->tpl_vars['checked_boxes']->value) && in_array($_prefixVariable3,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
 					<?php }?>
 				<?php } else { ?>
 					<input type="checkbox" name="<?php echo $_smarty_tpl->tpl_vars['list_id']->value;?>
 Box[]" value="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
 "<?php ob_start();
 echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];
-$_prefixVariable5 = ob_get_clean();
-if ((isset($_smarty_tpl->tpl_vars['checked_boxes']->value)) && is_array($_smarty_tpl->tpl_vars['checked_boxes']->value) && in_array($_prefixVariable5,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
+$_prefixVariable4 = ob_get_clean();
+if ((isset($_smarty_tpl->tpl_vars['checked_boxes']->value)) && is_array($_smarty_tpl->tpl_vars['checked_boxes']->value) && in_array($_prefixVariable4,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
 				<?php }?>
 			</td>
 		<?php }?>
@@ -73,15 +73,15 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['key']->value => 
 $_smarty_tpl->tpl_vars['params']->do_else = false;
 ?>
 			<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_106296416465c8abb98b1701_98981470', "open_td");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_24322375365ca1dd99320e7_23590654', "open_td");
 ?>
 
 			<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_203506075465c8abb98d3ae1_29873876', "td_content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_46696896165ca1dd9947a42_04490328', "td_content");
 ?>
 
 			<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_42253457765c8abb99277b3_41743825', "close_td");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_86656777165ca1dd99999b9_17138856', "close_td");
 ?>
 
 		<?php
@@ -184,12 +184,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 </tbody>
 <?php }
 /* {block "open_td"} */
-class Block_106296416465c8abb98b1701_98981470 extends Smarty_Internal_Block
+class Block_24322375365ca1dd99320e7_23590654 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'open_td' => 
   array (
-    0 => 'Block_106296416465c8abb98b1701_98981470',
+    0 => 'Block_24322375365ca1dd99320e7_23590654',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -233,7 +233,7 @@ if ($_smarty_tpl->tpl_vars['page']->value > 1) {?>&amp;page=<?php echo call_user
 }
 /* {/block "open_td"} */
 /* {block "default_field"} */
-class Block_78462239165c8abb991aed7_25302476 extends Smarty_Internal_Block
+class Block_159889266965ca1dd9989f07_61541361 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -242,16 +242,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "default_field"} */
 /* {block "td_content"} */
-class Block_203506075465c8abb98d3ae1_29873876 extends Smarty_Internal_Block
+class Block_46696896165ca1dd9947a42_04490328 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'td_content' => 
   array (
-    0 => 'Block_203506075465c8abb98d3ae1_29873876',
+    0 => 'Block_46696896165ca1dd9947a42_04490328',
   ),
   'default_field' => 
   array (
-    0 => 'Block_78462239165c8abb991aed7_25302476',
+    0 => 'Block_159889266965ca1dd9989f07_61541361',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -371,7 +371,7 @@ _<?php echo $_smarty_tpl->tpl_vars['tr']->value['id'];?>
 					<?php }?>
 				<?php } else { ?>
 					<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_78462239165c8abb991aed7_25302476', "default_field", $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_159889266965ca1dd9989f07_61541361', "default_field", $this->tplIndex);
 ?>
 
 				<?php }?>
@@ -389,12 +389,12 @@ echo $_smarty_tpl->tpl_vars['params']->value['suffix'];
 }
 /* {/block "td_content"} */
 /* {block "close_td"} */
-class Block_42253457765c8abb99277b3_41743825 extends Smarty_Internal_Block
+class Block_86656777165ca1dd99999b9_17138856 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'close_td' => 
   array (
-    0 => 'Block_42253457765c8abb99277b3_41743825',
+    0 => 'Block_86656777165ca1dd99999b9_17138856',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
