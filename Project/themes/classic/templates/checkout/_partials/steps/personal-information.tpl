@@ -57,15 +57,15 @@
           aria-controls="checkout-guest-form"
           {if !$show_login_form} aria-selected="true"{/if}
           >
-
-                    <!-- Order as a guest -->
           {if $guest_allowed}
             {l s='Order as a guest' d='Shop.Theme.Checkout'}
           {else}
             {l s='Create an account' d='Shop.Theme.Customeraccount'}
           {/if}
         </a>
-      </li>    
+      </li>
+
+      
     </ul>
 
     <div class="tab-content">

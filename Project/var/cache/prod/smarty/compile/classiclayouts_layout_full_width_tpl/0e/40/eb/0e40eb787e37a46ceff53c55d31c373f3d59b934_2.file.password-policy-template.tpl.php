@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 20:51:47
+/* Smarty version 4.3.1, created on 2024-02-12 21:15:55
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\_partials\password-policy-template.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca2273debce0_27628196',
+  'unifunc' => 'content_65ca281b685976_57785145',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0e40eb787e37a46ceff53c55d31c373f3d59b934' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\_partials\\password-policy-template.tpl',
-      1 => 1707644417,
+      1 => 1707746763,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca2273debce0_27628196 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca281b685976_57785145 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <template id="password-feedback">
