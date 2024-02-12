@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 19:32:58
+/* Smarty version 4.3.1, created on 2024-02-12 21:12:43
   from 'C:\xampp\htdocs\se_project\Project\modules\dashactivity\views\templates\hook\dashboard_zone_one.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca0ffaa75d71_83784859',
+  'unifunc' => 'content_65ca275b9ee0c5_59497934',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '596a76255230a3eb3dfc9b14dd89dec3f6ab9578' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\modules\\dashactivity\\views\\templates\\hook\\dashboard_zone_one.tpl',
-      1 => 1707644413,
+      1 => 1707746758,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca0ffaa75d71_83784859 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca275b9ee0c5_59497934 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section id="dashactivity" class="panel widget">
 	<div class="panel-heading">
 		<i class="icon-time"></i> <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Activity overview','d'=>'Modules.Dashactivity.Admin'),$_smarty_tpl ) );?>

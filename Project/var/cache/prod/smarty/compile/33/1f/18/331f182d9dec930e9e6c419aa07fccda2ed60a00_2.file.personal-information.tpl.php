@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 20:50:06
+/* Smarty version 4.3.1, created on 2024-02-12 21:15:27
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\steps\personal-information.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca220e38ab87_83420502',
+  'unifunc' => 'content_65ca27ff987b93_96403084',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '331f182d9dec930e9e6c419aa07fccda2ed60a00' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\steps\\personal-information.tpl',
-      1 => 1707668561,
+      1 => 1707651425,
       2 => 'file',
     ),
   ),
@@ -20,25 +20,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca220e38ab87_83420502 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca27ff987b93_96403084 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_40377363565ca220e379cf0_82639906', 'step_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_85498665465ca27ff941232_73244779', 'step_content');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
-class Block_40377363565ca220e379cf0_82639906 extends Smarty_Internal_Block
+class Block_85498665465ca27ff941232_73244779 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'step_content' => 
   array (
-    0 => 'Block_40377363565ca220e379cf0_82639906',
+    0 => 'Block_85498665465ca27ff941232_73244779',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -89,8 +89,6 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
           aria-controls="checkout-guest-form"
           <?php if (!$_smarty_tpl->tpl_vars['show_login_form']->value) {?> aria-selected="true"<?php }?>
           >
-
-                    <!-- Order as a guest -->
           <?php if ($_smarty_tpl->tpl_vars['guest_allowed']->value) {?>
             <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Order as a guest','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
 
@@ -99,7 +97,9 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
           <?php }?>
         </a>
-      </li>    
+      </li>
+
+      
     </ul>
 
     <div class="tab-content">
