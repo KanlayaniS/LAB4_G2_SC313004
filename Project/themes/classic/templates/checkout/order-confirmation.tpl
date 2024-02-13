@@ -82,7 +82,7 @@
 {/block} -->
 
 
-<!--------------------------------PART INVOICE------------------------------------->
+<!--------------------------PART INVOICE------------------------------------->
 <section id="content-hook_order_confirmation" class="card">
   <div class="card-block">
     <div class="row">
