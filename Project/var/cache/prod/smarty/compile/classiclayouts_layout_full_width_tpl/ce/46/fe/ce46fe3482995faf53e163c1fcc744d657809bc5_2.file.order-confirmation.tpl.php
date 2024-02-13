@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 20:33:13
+/* Smarty version 4.3.1, created on 2024-02-13 21:45:08
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\order-confirmation.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb6f99a7d3b5_01591846',
+  'unifunc' => 'content_65cb80747c6fc7_70348478',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ce46fe3482995faf53e163c1fcc744d657809bc5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\order-confirmation.tpl',
-      1 => 1707831190,
+      1 => 1707835430,
       2 => 'file',
     ),
   ),
@@ -21,23 +21,23 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/order-confirmation-table.tpl' => 1,
   ),
 ),false)) {
-function content_65cb6f99a7d3b5_01591846 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb80747c6fc7_70348478 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_63688652665cb6f99a6a228_89052712', 'page_content_container');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13915685165cb80747b7e98_26630806', 'page_content_container');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_194674517565cb6f99a6d2b8_56813603', 'page_content_container');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_92896545365cb80747ba1a3_57851298', 'page_content_container');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'page.tpl');
 }
 /* {block 'order_confirmation_header'} */
-class Block_132656088465cb6f99a6abe6_77152116 extends Smarty_Internal_Block
+class Block_33150629565cb80747b8778_38235048 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -51,7 +51,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'order_confirmation_header'} */
 /* {block 'hook_order_confirmation'} */
-class Block_65356622765cb6f99a6c129_53888041 extends Smarty_Internal_Block
+class Block_171375088865cb80747b9480_53319738 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -63,20 +63,20 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hook_order_confirmation'} */
 /* {block 'page_content_container'} */
-class Block_63688652665cb6f99a6a228_89052712 extends Smarty_Internal_Block
+class Block_13915685165cb80747b7e98_26630806 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_content_container' => 
   array (
-    0 => 'Block_63688652665cb6f99a6a228_89052712',
+    0 => 'Block_13915685165cb80747b7e98_26630806',
   ),
   'order_confirmation_header' => 
   array (
-    0 => 'Block_132656088465cb6f99a6abe6_77152116',
+    0 => 'Block_33150629565cb80747b8778_38235048',
   ),
   'hook_order_confirmation' => 
   array (
-    0 => 'Block_65356622765cb6f99a6c129_53888041',
+    0 => 'Block_171375088865cb80747b9480_53319738',
   ),
 );
 public $prepend = 'true';
@@ -90,12 +90,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
         <!---Confirm your Order -->
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_132656088465cb6f99a6abe6_77152116', 'order_confirmation_header', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_33150629565cb80747b8778_38235048', 'order_confirmation_header', $this->tplIndex);
 ?>
 
 
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_65356622765cb6f99a6c129_53888041', 'hook_order_confirmation', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_171375088865cb80747b9480_53319738', 'hook_order_confirmation', $this->tplIndex);
 ?>
 
 
@@ -108,7 +108,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_65356622765cb6f99a
 }
 /* {/block 'page_content_container'} */
 /* {block 'order_confirmation_table'} */
-class Block_25739137865cb6f99a6d741_79601667 extends Smarty_Internal_Block
+class Block_157591941365cb80747ba4d2_92492681 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -120,7 +120,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'order_confirmation_table'} */
 /* {block 'order_details'} */
-class Block_18703003665cb6f99a6f695_32312424 extends Smarty_Internal_Block
+class Block_137434065865cb80747bbb73_59615110 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -155,7 +155,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'order_details'} */
 /* {block 'hook_payment_return'} */
-class Block_98427653465cb6f99a77756_02110918 extends Smarty_Internal_Block
+class Block_88304101865cb80747c25a8_08931985 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -176,7 +176,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hook_payment_return'} */
 /* {block 'order_confirmation_header'} */
-class Block_75647307265cb6f99a78fd9_62544954 extends Smarty_Internal_Block
+class Block_171735206665cb80747c3732_83784180 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -190,7 +190,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'order_confirmation_header'} */
 /* {block 'order_confirmation_header'} */
-class Block_96345414065cb6f99a7a640_29517886 extends Smarty_Internal_Block
+class Block_17729433865cb80747c46e5_55210907 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -204,7 +204,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'order_confirmation_header'} */
 /* {block 'hook_order_confirmation'} */
-class Block_60679680465cb6f99a7b344_38771349 extends Smarty_Internal_Block
+class Block_169244435465cb80747c4ff0_55116135 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -216,33 +216,33 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hook_order_confirmation'} */
 /* {block 'page_content_container'} */
-class Block_194674517565cb6f99a6d2b8_56813603 extends Smarty_Internal_Block
+class Block_92896545365cb80747ba1a3_57851298 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_content_container' => 
   array (
-    0 => 'Block_194674517565cb6f99a6d2b8_56813603',
+    0 => 'Block_92896545365cb80747ba1a3_57851298',
   ),
   'order_confirmation_table' => 
   array (
-    0 => 'Block_25739137865cb6f99a6d741_79601667',
+    0 => 'Block_157591941365cb80747ba4d2_92492681',
   ),
   'order_details' => 
   array (
-    0 => 'Block_18703003665cb6f99a6f695_32312424',
+    0 => 'Block_137434065865cb80747bbb73_59615110',
   ),
   'hook_payment_return' => 
   array (
-    0 => 'Block_98427653465cb6f99a77756_02110918',
+    0 => 'Block_88304101865cb80747c25a8_08931985',
   ),
   'order_confirmation_header' => 
   array (
-    0 => 'Block_75647307265cb6f99a78fd9_62544954',
-    1 => 'Block_96345414065cb6f99a7a640_29517886',
+    0 => 'Block_171735206665cb80747c3732_83784180',
+    1 => 'Block_17729433865cb80747c46e5_55210907',
   ),
   'hook_order_confirmation' => 
   array (
-    0 => 'Block_60679680465cb6f99a7b344_38771349',
+    0 => 'Block_169244435465cb80747c4ff0_55116135',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -253,12 +253,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
     <div class="row">
 
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_25739137865cb6f99a6d741_79601667', 'order_confirmation_table', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_157591941365cb80747ba4d2_92492681', 'order_confirmation_table', $this->tplIndex);
 ?>
 
 
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_18703003665cb6f99a6f695_32312424', 'order_details', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_137434065865cb80747bbb73_59615110', 'order_details', $this->tplIndex);
 ?>
 
 
@@ -267,7 +267,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_18703003665cb6f99a
 </section>
 
 <!-- <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_98427653465cb6f99a77756_02110918', 'hook_payment_return', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_88304101865cb80747c25a8_08931985', 'hook_payment_return', $this->tplIndex);
 ?>
  -->
 
@@ -280,7 +280,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_98427653465cb6f99a
 
         <!---Confirm your Order -->
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_75647307265cb6f99a78fd9_62544954', 'order_confirmation_header', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_171735206665cb80747c3732_83784180', 'order_confirmation_header', $this->tplIndex);
 ?>
 
 
@@ -325,12 +325,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_75647307265cb6f99a
 
         <!---Confirm your Order -->
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_96345414065cb6f99a7a640_29517886', 'order_confirmation_header', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_17729433865cb80747c46e5_55210907', 'order_confirmation_header', $this->tplIndex);
 ?>
 
 
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_60679680465cb6f99a7b344_38771349', 'hook_order_confirmation', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_169244435465cb80747c4ff0_55116135', 'hook_order_confirmation', $this->tplIndex);
 ?>
 
 
@@ -382,20 +382,158 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_60679680465cb6f99a
   </div>
 </section>
 
+
+<!--------------------------------PART แนบหลักฐานการโอน------------------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+/* Style for the modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  text-align: center;
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+/* Style for the modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  text-align: center;
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
 <section id="content-hook_order_confirmation" class="card">
   <div class="card-block">
     <div class="row">
       <div class="col-md-12">
         <h2>แนบหลักฐานการโอน</h2>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
+        <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
           <label for="picture">เลือกรูปภาพ:</label><br>
-          <input type="file" id="picture" name="picture"><br><br>
+          <input type="file" id="picture" name="picture"accept="image/*"><br><br>
           <input type="submit" class="continue btn btn-primary float-xs-right" value="ยืนยัน">
         </form>
+        <!-- The modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Thank you for submitting! <i class="fas fa-check-circle" style="color: green;"></i></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<?php echo '<script'; ?>
+ src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+document.getElementById("uploadForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent the form from submitting normally
+  var form = event.target;
+  var formData = new FormData(form);
+  
+  // Here, you would typically perform an AJAX request to submit the form data
+  // and handle the response accordingly. For this example, let's just show the modal.
+  modal.style.display = "block";
+});
+
+// When the user clicks on <span> (x), close the modal and redirect
+span.onclick = function() {
+  modal.style.display = "none";
+  window.location.href = 'http://localhost/se_project/Project/th/';
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    window.location.href = 'http://localhost/se_project/Project/th/';
+  }
+}
+<?php echo '</script'; ?>
+>
+
 
 <?php
 }

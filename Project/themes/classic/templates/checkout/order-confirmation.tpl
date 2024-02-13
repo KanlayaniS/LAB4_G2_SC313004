@@ -186,19 +186,153 @@
   </div>
 </section>
 
+
+<!--------------------------------PART แนบหลักฐานการโอน------------------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+/* Style for the modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  text-align: center;
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+/* Style for the modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  text-align: center;
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
 <section id="content-hook_order_confirmation" class="card">
   <div class="card-block">
     <div class="row">
       <div class="col-md-12">
         <h2>แนบหลักฐานการโอน</h2>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
+        <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
           <label for="picture">เลือกรูปภาพ:</label><br>
-          <input type="file" id="picture" name="picture"><br><br>
+          <input type="file" id="picture" name="picture"accept="image/*"><br><br>
           <input type="submit" class="continue btn btn-primary float-xs-right" value="ยืนยัน">
         </form>
+        <!-- The modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Thank you for submitting! <i class="fas fa-check-circle" style="color: green;"></i></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+document.getElementById("uploadForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent the form from submitting normally
+  var form = event.target;
+  var formData = new FormData(form);
+  
+  // Here, you would typically perform an AJAX request to submit the form data
+  // and handle the response accordingly. For this example, let's just show the modal.
+  modal.style.display = "block";
+});
+
+// When the user clicks on <span> (x), close the modal and redirect
+span.onclick = function() {
+  modal.style.display = "none";
+  window.location.href = 'http://localhost/se_project/Project/th/';
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    window.location.href = 'http://localhost/se_project/Project/th/';
+  }
+}
+</script>
+
 
 {/block}
