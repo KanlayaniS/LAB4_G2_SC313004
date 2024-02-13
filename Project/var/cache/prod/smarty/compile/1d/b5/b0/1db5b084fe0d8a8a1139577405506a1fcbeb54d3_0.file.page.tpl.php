@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 19:56:55
+/* Smarty version 4.3.1, created on 2024-02-13 18:09:00
   from 'C:\xampp\htdocs\se_project\Project\modules\ps_themecusto\views\templates\admin\page.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca1597d4a713_88283803',
+  'unifunc' => 'content_65cb4dccaa2974_21730514',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1db5b084fe0d8a8a1139577405506a1fcbeb54d3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\modules\\ps_themecusto\\views\\templates\\admin\\page.tpl',
-      1 => 1707644413,
+      1 => 1707819287,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./controllers/".((string)$_smarty_tpl->tpl_vars[\'configure_type\']->value)."/index.tpl' => 1,
   ),
 ),false)) {
-function content_65ca1597d4a713_88283803 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb4dccaa2974_21730514 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="content-div">
     <div class="grid">

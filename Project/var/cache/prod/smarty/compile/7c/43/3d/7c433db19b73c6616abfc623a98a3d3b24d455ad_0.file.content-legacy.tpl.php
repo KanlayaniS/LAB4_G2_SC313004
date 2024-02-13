@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 21:14:49
+/* Smarty version 4.3.1, created on 2024-02-13 18:19:33
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\controllers\modules\content-legacy.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca27d99eaf17_96606887',
+  'unifunc' => 'content_65cb5045cd0d15_07979674',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7c433db19b73c6616abfc623a98a3d3b24d455ad' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin-g2-dev\\themes\\default\\template\\controllers\\modules\\content-legacy.tpl',
-      1 => 1707746753,
+      1 => 1707819282,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:controllers/modules/page.tpl' => 1,
   ),
 ),false)) {
-function content_65ca27d99eaf17_96606887 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb5045cd0d15_07979674 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['module_content']->value))) {?>
 	<?php echo $_smarty_tpl->tpl_vars['module_content']->value;?>
 

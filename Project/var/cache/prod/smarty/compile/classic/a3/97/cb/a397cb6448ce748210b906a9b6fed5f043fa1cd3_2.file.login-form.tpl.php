@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 23:19:52
+/* Smarty version 4.3.1, created on 2024-02-13 18:12:05
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\login-form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca4528ded992_80740892',
+  'unifunc' => 'content_65cb4e85ac95b8_67024249',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a397cb6448ce748210b906a9b6fed5f043fa1cd3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\login-form.tpl',
-      1 => 1707747753,
+      1 => 1707819290,
       2 => 'file',
     ),
   ),
@@ -20,25 +20,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca4528ded992_80740892 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb4e85ac95b8_67024249 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_30314620465ca4528dece62_29862722', 'form_buttons');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_33443973365cb4e85ac8339_63010437', 'form_buttons');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'customer/_partials/login-form.tpl');
 }
 /* {block 'form_buttons'} */
-class Block_30314620465ca4528dece62_29862722 extends Smarty_Internal_Block
+class Block_33443973365cb4e85ac8339_63010437 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'form_buttons' => 
   array (
-    0 => 'Block_30314620465ca4528dece62_29862722',
+    0 => 'Block_33443973365cb4e85ac8339_63010437',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
