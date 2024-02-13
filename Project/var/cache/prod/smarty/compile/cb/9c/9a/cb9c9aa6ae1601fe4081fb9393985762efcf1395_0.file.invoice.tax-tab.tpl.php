@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 23:48:00
+/* Smarty version 4.3.1, created on 2024-02-14 01:07:29
   from 'C:\xampp\htdocs\se_project\Project\pdf\invoice.tax-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb9d4026c997_18162620',
+  'unifunc' => 'content_65cbafe1b97710_73406003',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cb9c9aa6ae1601fe4081fb9393985762efcf1395' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\pdf\\invoice.tax-tab.tpl',
-      1 => 1707824453,
+      1 => 1707847180,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb9d4026c997_18162620 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cbafe1b97710_73406003 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!--  TAX DETAILS -->
 <?php if ($_smarty_tpl->tpl_vars['isTaxEnabled']->value) {?>
