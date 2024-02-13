@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 20:21:27
+/* Smarty version 4.3.1, created on 2024-02-13 18:19:32
   from 'C:\xampp\htdocs\se_project\Project\modules\ps_imageslider\views\templates\hook\list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca1b57c94660_17243754',
+  'unifunc' => 'content_65cb5044e80dd2_11803726',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7880d70d892a589c024b4db73a069ce1765bd107' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\modules\\ps_imageslider\\views\\templates\\hook\\list.tpl',
-      1 => 1707644413,
+      1 => 1707819287,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca1b57c94660_17243754 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb5044e80dd2_11803726 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="panel"><h3><i class="icon-list-ul"></i> <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Slides list','d'=>'Modules.Imageslider.Admin'),$_smarty_tpl ) );?>
 
 	<span class="panel-heading-action">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-11 17:53:53
+/* Smarty version 4.3.1, created on 2024-02-13 17:24:50
   from 'module:ps_supplierlistviewstemplateshookps_supplierlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65c8a741177827_99268157',
+  'unifunc' => 'content_65cb43725588e4_70144317',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5e98a1d231ad7587ed33d217eebc733ab1968889' => 
     array (
       0 => 'module:ps_supplierlistviewstemplateshookps_supplierlist.tpl',
-      1 => 1707644417,
+      1 => 1707819290,
       2 => 'module',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:ps_supplierlist/views/templates/_partials/".((string)$_smarty_tpl->tpl_vars[\'supplier_display_type\']->value).".tpl' => 1,
   ),
 ),false)) {
-function content_65c8a741177827_99268157 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb43725588e4_70144317 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="search_filters_suppliers">
   <section class="facet">

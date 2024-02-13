@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-11 17:53:52
+/* Smarty version 4.3.1, created on 2024-02-13 17:24:50
   from 'module:ps_brandlistviewstemplateshookps_brandlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65c8a740f354a5_16021175',
+  'unifunc' => 'content_65cb437230d735_50251348',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ad7605d3e1afaa968ac113b0444601df2cff1153' => 
     array (
       0 => 'module:ps_brandlistviewstemplateshookps_brandlist.tpl',
-      1 => 1707644417,
+      1 => 1707819290,
       2 => 'module',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:ps_brandlist/views/templates/_partials/".((string)$_smarty_tpl->tpl_vars[\'brand_display_type\']->value).".tpl' => 1,
   ),
 ),false)) {
-function content_65c8a740f354a5_16021175 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb437230d735_50251348 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="search_filters_brands">
   <section class="facet">

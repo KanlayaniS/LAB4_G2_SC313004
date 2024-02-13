@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 19:57:05
+/* Smarty version 4.3.1, created on 2024-02-13 18:09:01
   from 'C:\xampp\htdocs\se_project\Project\modules\ps_themecusto\views\templates\admin\controllers\configuration\elem\module_actions.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca15a199a255_62149739',
+  'unifunc' => 'content_65cb4dcdc75329_09508676',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5be29d3e2327574a2d6fa294061d91352ba05245' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\modules\\ps_themecusto\\views\\templates\\admin\\controllers\\configuration\\elem\\module_actions.tpl',
-      1 => 1707644413,
+      1 => 1707819287,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca15a199a255_62149739 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb4dcdc75329_09508676 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="loader src_loader_<?php echo $_smarty_tpl->tpl_vars['module']->value['name'];?>
 "></div>
 

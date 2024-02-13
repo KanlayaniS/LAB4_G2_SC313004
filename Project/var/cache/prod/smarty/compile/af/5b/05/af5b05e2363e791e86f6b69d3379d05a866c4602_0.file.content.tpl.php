@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 23:01:13
+/* Smarty version 4.3.1, created on 2024-02-13 17:55:09
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca40c9018ef6_86335735',
+  'unifunc' => 'content_65cb4a8dacbb26_47481128',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'af5b05e2363e791e86f6b69d3379d05a866c4602' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin-g2-dev\\themes\\default\\template\\content.tpl',
-      1 => 1707747745,
+      1 => 1707819282,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca40c9018ef6_86335735 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb4a8dacbb26_47481128 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="ajax_confirmation" class="alert alert-success hide"></div>
 <div id="ajaxBox" style="display:none"></div>
 <div id="content-message-box"></div>
