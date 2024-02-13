@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 21:45:07
+/* Smarty version 4.3.1, created on 2024-02-13 23:34:38
   from 'C:\xampp\htdocs\se_project\Project\pdf\invoice.note-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb807358cd88_98436984',
+  'unifunc' => 'content_65cb9a1ed1cae6_56448105',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd00f75640c34a0c21425d83c687347c603631969' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\pdf\\invoice.note-tab.tpl',
-      1 => 1707831618,
+      1 => 1707824453,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb807358cd88_98436984 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb9a1ed1cae6_56448105 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['order_invoice']->value->note)) && $_smarty_tpl->tpl_vars['order_invoice']->value->note) {?>
 	<tr>
 		<td colspan="12" height="10">&nbsp;</td>

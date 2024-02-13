@@ -293,7 +293,7 @@
           <!-- Modal content -->
           <div class="modal-content">
             <span class="close">&times;</span>
-            <p>Thank you for submitting! <i class="fas fa-check-circle" style="color: green;"></i></p>
+            <p>ขอบคุณที่สนับสนุน! <i class="fas fa-check-circle" style="color: green;"></i></p>
           </div>
         </div>
       </div>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 21:45:07
+/* Smarty version 4.3.1, created on 2024-02-13 23:34:39
   from 'C:\xampp\htdocs\se_project\Project\pdf\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb8073b792c5_41907434',
+  'unifunc' => 'content_65cb9a1f4313c8_81260739',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a7afb9cb7eb18e4f997a22cfeabc3d14e1d2c8da' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\pdf\\footer.tpl',
-      1 => 1707831618,
+      1 => 1707824453,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb8073b792c5_41907434 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb9a1f4313c8_81260739 (Smarty_Internal_Template $_smarty_tpl) {
 ?><table style="width: 100%;">
 	<tr>
 		<td style="text-align: center; font-size: 6pt; color: #444;  width:100%;">
