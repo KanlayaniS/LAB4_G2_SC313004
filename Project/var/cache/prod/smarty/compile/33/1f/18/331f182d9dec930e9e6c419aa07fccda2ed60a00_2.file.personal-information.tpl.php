@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 18:12:01
+/* Smarty version 4.3.1, created on 2024-02-13 20:32:51
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\steps\personal-information.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb4e818fa2c2_65318843',
+  'unifunc' => 'content_65cb6f83150099_42265222',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '331f182d9dec930e9e6c419aa07fccda2ed60a00' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\steps\\personal-information.tpl',
-      1 => 1707819651,
+      1 => 1707826985,
       2 => 'file',
     ),
   ),
@@ -20,23 +20,23 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb4e818fa2c2_65318843 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb6f83150099_42265222 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_55017592665cb4e818e3905_31504167', 'step_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_188029594465cb6f83140254_23432342', 'step_content');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
-class Block_55017592665cb4e818e3905_31504167 extends Smarty_Internal_Block
+class Block_188029594465cb6f83140254_23432342 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'step_content' => 
   array (
-    0 => 'Block_55017592665cb4e818e3905_31504167',
+    0 => 'Block_188029594465cb6f83140254_23432342',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -85,8 +85,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
                     <!-- Order as a guest -->
 
-            <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Order as a guest','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
-
+            
         </a>
       </li>    
     </ul>

@@ -105,19 +105,7 @@
 
         <!-- in option want ka -->
         <div id="additionalInfo" style="display: none;">
-          <p>
-            {if $order.details.invoice_url}
-            {* [1][/1] is for an HTML tag. *}
-            {l
-            s='คุณสามารถกดรับ [1]ใบกำกับภาษีได้ที่นี่[/1]'
-            d='Shop.Theme.Checkout'
-            sprintf=[
-            '[1]' => "<a href='{$order.details.invoice_url}'>",
-              '[/1]' => "</a>"
-            ]
-            }
-            {/if}
-          </p>
+          {l s="ใบกำกับภาษีจะถูกส่งให้ทางอีเมล หลังจากตรวจสอบหลักฐานการโอน"}
         </div>
 
         <script>
@@ -165,76 +153,52 @@
 
         <div id="description">
           <!-- Description for Option 1 -->
-          <p id="option1_desc" style="display: none;">กสิกรไทย 123456789 บัญชี ทดสอบ </p>
+          <div id="option1_desc" style="display: none;">{l s="กสิกรไทย 123456789 บัญชี ทดสอบ"} </div>
           <!-- Description for Option 2 -->
-          <p id="option2_desc" style="display: none;">รหัสพร้อมเพย์ 1234567891234</p>
+          <div id="option2_desc" style="display: none;">{l s="รหัสพร้อมเพย์ 1234567891234"}</div>
           <!-- Description for Option 3 -->
           <div id="option3_desc" style="display: none;">
-
-            <img src="http://localhost/se_project/Project/11-home_default/qr.jpg" alt="Image for Option 3">
+            <img src="http://localhost/se_project/Project/themes/classic/templates/checkout/promptpay.png" alt="Image for Option 3" width="300" height="400">
             บัญชี ทดสอบ
           </div>
-
         </div>
 
         <script>
-          // Initially show the description for the selected option
-          window.onload = showDescription;
-
-          function showDescription() {
-            var option = document.getElementById("payment_option").value;
-            document.getElementById("description").querySelectorAll("div, p").forEach(function (desc) {
-              desc.style.display = "none";
-            });
-            document.getElementById(option + "_desc").style.display = "block";
+          window.onload = showAdditionalInfo;
+          function showAdditionalInfo() {
+            const selectedOption = document.getElementById('payment_option').value;
+            const descriptions = document.getElementById('description').children;
+            for (let i = 0; i < descriptions.length; i++) {
+              const desc = descriptions[i];
+              if (desc.id === selectedOption + "_desc") {
+                desc.style.display = 'block';
+              } else {
+                desc.style.display = 'none';
+              }
+            }
           }
         </script>
 
-        <h2>Upload Picture</h2>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
-          <label for="picture">Select Picture:</label><br>
-          <input type="file" id="picture" name="picture"><br><br>
-          <input type="submit" value="Upload">
-        </form>
-
-
-
-
-
-
-
-
-
+        
 
       </div>
     </div>
   </div>
 </section>
 
-
-
-
-
-
-<!-------------------------------------------------------->
-<!-- {if !$registered_customer_exists}
-{block name='account_transformation_form'}
-<div class="card">
+<section id="content-hook_order_confirmation" class="card">
   <div class="card-block">
-    {include file='customer/_partials/account-transformation-form.tpl'}
+    <div class="row">
+      <div class="col-md-12">
+        <h2>แนบหลักฐานการโอน</h2>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+          <label for="picture">เลือกรูปภาพ:</label><br>
+          <input type="file" id="picture" name="picture"><br><br>
+          <input type="submit" class="continue btn btn-primary float-xs-right" value="ยืนยัน">
+        </form>
+      </div>
+    </div>
   </div>
-</div>
-{/block} -->
-
-{/if}
-
-{block name='hook_order_confirmation_1'}
-{hook h='displayOrderConfirmation1'}
-{/block}
-
-{block name='hook_order_confirmation_2'}
-<section id="content-hook-order-confirmation-footer">
-  {hook h='displayOrderConfirmation2'}
 </section>
-{/block}
+
 {/block}

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 18:19:37
+/* Smarty version 4.3.1, created on 2024-02-13 19:56:27
   from 'C:\xampp\htdocs\se_project\Project\themes\javascript.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb5049901167_84521184',
+  'unifunc' => 'content_65cb66fb763c23_02528456',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ca0e7c1cdce44290665bc46b82c52e9c7ac18e6b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\javascript.tpl',
-      1 => 1707819290,
+      1 => 1707824457,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb5049901167_84521184 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb66fb763c23_02528456 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 if ((isset($_smarty_tpl->tpl_vars['js_def']->value)) && is_array($_smarty_tpl->tpl_vars['js_def']->value) && smarty_modifier_count($_smarty_tpl->tpl_vars['js_def']->value)) {
 echo '<script'; ?>
