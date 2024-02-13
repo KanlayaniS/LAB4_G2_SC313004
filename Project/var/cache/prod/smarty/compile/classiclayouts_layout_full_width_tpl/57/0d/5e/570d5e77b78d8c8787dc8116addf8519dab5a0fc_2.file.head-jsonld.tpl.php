@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 23:58:10
+/* Smarty version 4.3.1, created on 2024-02-14 01:08:06
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\_partials\microdata\head-jsonld.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb9fa233a7f8_37853227',
+  'unifunc' => 'content_65cbb0063f3e24_36469280',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '570d5e77b78d8c8787dc8116addf8519dab5a0fc' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\_partials\\microdata\\head-jsonld.tpl',
-      1 => 1707824457,
+      1 => 1707847184,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb9fa233a7f8_37853227 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cbb0063f3e24_36469280 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  type="application/ld+json">
   {

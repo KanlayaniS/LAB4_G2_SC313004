@@ -120,13 +120,8 @@
         <div id="myModal" class="modal">
           <!-- Modal content -->
           <div class="modal-content">
-<<<<<<< HEAD
             <span class="close" onclick="closeModal()">&times;</span>
-            <p>Thank you for submitting!</p>
-=======
-            <span class="close">&times;</span>
-            <p>ขอบคุณที่สนับสนุน! <i class="fas fa-check-circle" style="color: green;"></i></p>
->>>>>>> master2
+            <p>ขอบคุณที่สนับสนุน!</p>
           </div>
         </div>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 23:57:59
+/* Smarty version 4.3.1, created on 2024-02-14 01:06:13
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\catalog\_partials\product-discounts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb9f97ba4965_50053064',
+  'unifunc' => 'content_65cbaf955d5d66_56217572',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c970941e0615be9f3dbd9054b1cb198ca01d91da' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\catalog\\_partials\\product-discounts.tpl',
-      1 => 1707824457,
+      1 => 1707847184,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb9f97ba4965_50053064 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cbaf955d5d66_56217572 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -29,19 +29,19 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <p class="h6 product-discounts-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Volume discounts','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
 </p>
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_72091836765cb9f97b9d159_37500007', 'product_discount_table');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_157663969865cbaf955d0ba3_41377992', 'product_discount_table');
 ?>
 
   <?php }?>
 </section>
 <?php }
 /* {block 'product_discount_table'} */
-class Block_72091836765cb9f97b9d159_37500007 extends Smarty_Internal_Block
+class Block_157663969865cbaf955d0ba3_41377992 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_discount_table' => 
   array (
-    0 => 'Block_72091836765cb9f97b9d159_37500007',
+    0 => 'Block_157663969865cbaf955d0ba3_41377992',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
