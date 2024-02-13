@@ -12,7 +12,7 @@
                   <!---Confirm your Order -->
                   {block name='order_confirmation_header'}
                   <h3 class="h1 card-title">
-                    <i class="material-icons rtl-no-flip done">&#xE876;</i>{l s='ชำระเงิน' d='Shop.Theme.Checkout'}
+                    <i class="material-icons rtl-no-flip done">&#xE876;</i>{l s='ช่องทางการชำระเงิน' d='Shop.Theme.Checkout'}
                   </h3>
                   {/block}
           
@@ -150,12 +150,23 @@
   cursor: pointer;
 }
 </style>
+<section id="submit-section" class="card">
+  <div class="card-block">
+    <div class="row">
+      <div class="col-md-12">
+        {block name='order_confirmation_header'}
+                  <h4 class="h1 card-title">
+                    <i class="material-icons rtl-no-flip done">&#xE876;</i>{l s='แนบสลิปการโอน' d='Shop.Theme.Checkout'}
+                  </h4>
+                  {/block}
         <form method="post" enctype="multipart/form-data">
-            <label for="slip_upload">แนบสลิปการโอน</label>
             <input type="file" name="slip_upload" id="slip_upload" accept="image/*" required/>
-            <button type="submit" name="placeorder">
+            <button type="submit" name="placeorder" class="btn btn-primary">
                 Upload
             </button>
         </form>
+      </div>
     </div>
+  </div>
+</section>
 {/block}

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-14 01:07:29
+/* Smarty version 4.3.1, created on 2024-02-14 01:22:47
   from 'C:\xampp\htdocs\se_project\Project\pdf\invoice.style-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cbafe1e95735_27739348',
+  'unifunc' => 'content_65cbb3777fc2f5_43190460',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,28 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cbafe1e95735_27739348 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cbb3777fc2f5_43190460 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_106443844665cbafe1e896f3_02154484', "variables");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_137051197865cbb3777efcc3_32347530', "variables");
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_45851978765cbafe1e8f013_51651238', "styles");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_152867673665cbb3777f5758_17455136', "styles");
 ?>
 
 <?php }
 /* {block "variables"} */
-class Block_106443844665cbafe1e896f3_02154484 extends Smarty_Internal_Block
+class Block_137051197865cbb3777efcc3_32347530 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'variables' => 
   array (
-    0 => 'Block_106443844665cbafe1e896f3_02154484',
+    0 => 'Block_137051197865cbb3777efcc3_32347530',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -61,12 +61,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "variables"} */
 /* {block "styles"} */
-class Block_45851978765cbafe1e8f013_51651238 extends Smarty_Internal_Block
+class Block_152867673665cbb3777f5758_17455136 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'styles' => 
   array (
-    0 => 'Block_45851978765cbafe1e8f013_51651238',
+    0 => 'Block_152867673665cbb3777f5758_17455136',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
