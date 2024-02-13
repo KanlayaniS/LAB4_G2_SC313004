@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 19:33:03
+/* Smarty version 4.3.1, created on 2024-02-12 23:09:28
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\helpers\calendar\calendar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca0fff29e223_55716528',
+  'unifunc' => 'content_65ca42b84c46e4_77112966',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca0fff29e223_55716528 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca42b84c46e4_77112966 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 ?>
 <div id="datepicker" class="row row-padding-top hide">

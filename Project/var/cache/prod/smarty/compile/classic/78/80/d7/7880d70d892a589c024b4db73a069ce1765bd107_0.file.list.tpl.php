@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 20:21:27
+/* Smarty version 4.3.1, created on 2024-02-12 23:11:31
   from 'C:\xampp\htdocs\se_project\Project\modules\ps_imageslider\views\templates\hook\list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca1b57c94660_17243754',
+  'unifunc' => 'content_65ca4333592241_51549030',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca1b57c94660_17243754 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca4333592241_51549030 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="panel"><h3><i class="icon-list-ul"></i> <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Slides list','d'=>'Modules.Imageslider.Admin'),$_smarty_tpl ) );?>
 
 	<span class="panel-heading-action">

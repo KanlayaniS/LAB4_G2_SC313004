@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-11 18:12:57
+/* Smarty version 4.3.1, created on 2024-02-12 22:19:58
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\helpers\list\list_action_enable.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65c8abb94c7e24_96492813',
+  'unifunc' => 'content_65ca371e073755_91719985',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65c8abb94c7e24_96492813 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca371e073755_91719985 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['migrated_url_enable']->value))) {?>
   <?php $_smarty_tpl->_assignInScope('url_enable', $_smarty_tpl->tpl_vars['migrated_url_enable']->value);
 }?>

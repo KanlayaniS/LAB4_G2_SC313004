@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 20:49:48
+/* Smarty version 4.3.1, created on 2024-02-13 13:36:54
   from 'module:ps_shoppingcartmodal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca21fcf19731_56273545',
+  'unifunc' => 'content_65cb0e0650b255_33376302',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca21fcf19731_56273545 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb0e0650b255_33376302 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="blockcart-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">

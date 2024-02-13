@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-12 20:21:23
+/* Smarty version 4.3.1, created on 2024-02-12 23:11:28
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\controllers\modules\modal_translation.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ca1b537723e9_67458887',
+  'unifunc' => 'content_65ca43308ce434_48214138',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ca1b537723e9_67458887 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ca43308ce434_48214138 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="modal-body">
 	<div class="input-group">
 		<button type="button" class="btn btn-default dropdown-toggle" tabindex="-1" data-toggle="dropdown">
