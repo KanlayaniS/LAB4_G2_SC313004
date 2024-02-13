@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-13 23:12:45
+=======
+/* Smarty version 4.3.1, created on 2024-02-13 23:32:38
+>>>>>>> master2
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\steps\addresses.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65cb94fdc5ca05_06997449',
+=======
+  'unifunc' => 'content_65cb99a64f1c71_81085967',
+>>>>>>> master2
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f8925cd5f96e409632ef9af88e40929bc22bd785' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\steps\\addresses.tpl',
+<<<<<<< HEAD
       1 => 1707837723,
+=======
+      1 => 1707824457,
+>>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -21,25 +33,41 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/address-selector-block.tpl' => 2,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65cb94fdc5ca05_06997449 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65cb99a64f1c71_81085967 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> master2
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
+<<<<<<< HEAD
 $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_73765534365cb94fdc47d59_31822244', 'step_content');
+=======
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_167774923365cb99a64db224_81317322', 'step_content');
+>>>>>>> master2
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
+<<<<<<< HEAD
 class Block_73765534365cb94fdc47d59_31822244 extends Smarty_Internal_Block
+=======
+class Block_167774923365cb99a64db224_81317322 extends Smarty_Internal_Block
+>>>>>>> master2
 {
 public $subBlocks = array (
   'step_content' => 
   array (
+<<<<<<< HEAD
     0 => 'Block_73765534365cb94fdc47d59_31822244',
+=======
+    0 => 'Block_167774923365cb99a64db224_81317322',
+>>>>>>> master2
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

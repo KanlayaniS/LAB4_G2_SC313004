@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-13 23:12:29
+=======
+/* Smarty version 4.3.1, created on 2024-02-13 23:31:50
+>>>>>>> master2
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\catalog\_partials\product-variants.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65cb94ed9918d2_17585542',
+=======
+  'unifunc' => 'content_65cb9976c9b575_19812886',
+>>>>>>> master2
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e54185b036ec315a6376c3ff520da23eb84f8952' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\catalog\\_partials\\product-variants.tpl',
+<<<<<<< HEAD
       1 => 1707837723,
+=======
+      1 => 1707824457,
+>>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65cb94ed9918d2_17585542 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65cb9976c9b575_19812886 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> master2
 ?><div class="product-variants js-product-variants">
   <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['groups']->value, 'group', false, 'id_attribute_group');

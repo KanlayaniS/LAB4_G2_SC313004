@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-13 23:13:21
+=======
+/* Smarty version 4.3.1, created on 2024-02-13 23:34:41
+>>>>>>> master2
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\_partials\microdata\head-jsonld.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65cb9521dbbc00_76259640',
+=======
+  'unifunc' => 'content_65cb9a215f13a9_58414280',
+>>>>>>> master2
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '570d5e77b78d8c8787dc8116addf8519dab5a0fc' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\_partials\\microdata\\head-jsonld.tpl',
+<<<<<<< HEAD
       1 => 1707837723,
+=======
+      1 => 1707824457,
+>>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65cb9521dbbc00_76259640 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65cb9a215f13a9_58414280 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> master2
 echo '<script'; ?>
  type="application/ld+json">
   {

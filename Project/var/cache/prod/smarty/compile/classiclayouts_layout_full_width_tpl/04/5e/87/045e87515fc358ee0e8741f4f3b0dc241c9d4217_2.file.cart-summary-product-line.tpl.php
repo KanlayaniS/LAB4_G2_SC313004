@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-13 23:12:45
+=======
+/* Smarty version 4.3.1, created on 2024-02-13 23:32:39
+>>>>>>> master2
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\cart-summary-product-line.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65cb94fdd90b37_61005733',
+=======
+  'unifunc' => 'content_65cb99a772ce30_09390216',
+>>>>>>> master2
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '045e87515fc358ee0e8741f4f3b0dc241c9d4217' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\cart-summary-product-line.tpl',
+<<<<<<< HEAD
       1 => 1707837723,
+=======
+      1 => 1707824457,
+>>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -20,20 +32,35 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65cb94fdd90b37_61005733 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_151670808665cb94fdd809f5_11081321', 'cart_summary_product_line');
+=======
+function content_65cb99a772ce30_09390216 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_loadInheritance();
+$_smarty_tpl->inheritance->init($_smarty_tpl, false);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_71382105965cb99a771cfe9_35132195', 'cart_summary_product_line');
+>>>>>>> master2
 ?>
 
 <?php }
 /* {block 'cart_summary_product_line'} */
+<<<<<<< HEAD
 class Block_151670808665cb94fdd809f5_11081321 extends Smarty_Internal_Block
+=======
+class Block_71382105965cb99a771cfe9_35132195 extends Smarty_Internal_Block
+>>>>>>> master2
 {
 public $subBlocks = array (
   'cart_summary_product_line' => 
   array (
+<<<<<<< HEAD
     0 => 'Block_151670808665cb94fdd809f5_11081321',
+=======
+    0 => 'Block_71382105965cb99a771cfe9_35132195',
+>>>>>>> master2
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

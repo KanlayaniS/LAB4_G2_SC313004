@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-13 23:12:29
+=======
+/* Smarty version 4.3.1, created on 2024-02-13 23:31:51
+>>>>>>> master2
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\catalog\_partials\product-discounts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65cb94ed9b9fe9_68603818',
+=======
+  'unifunc' => 'content_65cb997715b260_22369284',
+>>>>>>> master2
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c970941e0615be9f3dbd9054b1cb198ca01d91da' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\catalog\\_partials\\product-discounts.tpl',
+<<<<<<< HEAD
       1 => 1707837723,
+=======
+      1 => 1707824457,
+>>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65cb94ed9b9fe9_68603818 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65cb997715b260_22369284 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> master2
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -29,19 +45,31 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <p class="h6 product-discounts-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Volume discounts','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
 </p>
     <?php 
+<<<<<<< HEAD
 $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_208915561165cb94ed9b3203_30105712', 'product_discount_table');
+=======
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_188236724565cb9977155ea1_15109129', 'product_discount_table');
+>>>>>>> master2
 ?>
 
   <?php }?>
 </section>
 <?php }
 /* {block 'product_discount_table'} */
+<<<<<<< HEAD
 class Block_208915561165cb94ed9b3203_30105712 extends Smarty_Internal_Block
+=======
+class Block_188236724565cb9977155ea1_15109129 extends Smarty_Internal_Block
+>>>>>>> master2
 {
 public $subBlocks = array (
   'product_discount_table' => 
   array (
+<<<<<<< HEAD
     0 => 'Block_208915561165cb94ed9b3203_30105712',
+=======
+    0 => 'Block_188236724565cb9977155ea1_15109129',
+>>>>>>> master2
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

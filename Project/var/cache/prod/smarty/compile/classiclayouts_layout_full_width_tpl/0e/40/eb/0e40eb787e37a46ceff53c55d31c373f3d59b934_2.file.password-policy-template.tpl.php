@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-13 23:13:22
+=======
+/* Smarty version 4.3.1, created on 2024-02-13 23:34:43
+>>>>>>> master2
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\_partials\password-policy-template.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65cb9522023f33_85193125',
+=======
+  'unifunc' => 'content_65cb9a2310db21_33844524',
+>>>>>>> master2
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0e40eb787e37a46ceff53c55d31c373f3d59b934' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\_partials\\password-policy-template.tpl',
+<<<<<<< HEAD
       1 => 1707837723,
+=======
+      1 => 1707824457,
+>>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65cb9522023f33_85193125 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65cb9a2310db21_33844524 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> master2
 ?>
 
 <template id="password-feedback">

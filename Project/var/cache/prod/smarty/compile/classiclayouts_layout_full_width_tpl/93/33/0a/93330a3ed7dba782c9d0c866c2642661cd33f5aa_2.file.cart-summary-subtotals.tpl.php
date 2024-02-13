@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-13 23:12:45
+=======
+/* Smarty version 4.3.1, created on 2024-02-13 23:32:39
+>>>>>>> master2
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\checkout\_partials\cart-summary-subtotals.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65cb94fddb1f29_82792863',
+=======
+  'unifunc' => 'content_65cb99a796c249_20779160',
+>>>>>>> master2
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '93330a3ed7dba782c9d0c866c2642661cd33f5aa' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\checkout\\_partials\\cart-summary-subtotals.tpl',
+<<<<<<< HEAD
       1 => 1707837723,
+=======
+      1 => 1707824457,
+>>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65cb94fddb1f29_82792863 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65cb99a796c249_20779160 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> master2
 ?>
 <div class="card-block cart-summary-subtotals-container js-cart-summary-subtotals-container">
 

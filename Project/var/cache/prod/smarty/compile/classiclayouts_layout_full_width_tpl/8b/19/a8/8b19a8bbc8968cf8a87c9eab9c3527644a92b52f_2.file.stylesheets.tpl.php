@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-13 23:13:21
+=======
+/* Smarty version 4.3.1, created on 2024-02-13 23:34:41
+>>>>>>> master2
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\_partials\stylesheets.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65cb9521e07255_38240344',
+=======
+  'unifunc' => 'content_65cb9a219fadb1_70146895',
+>>>>>>> master2
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8b19a8bbc8968cf8a87c9eab9c3527644a92b52f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\_partials\\stylesheets.tpl',
+<<<<<<< HEAD
       1 => 1707837723,
+=======
+      1 => 1707824457,
+>>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65cb9521e07255_38240344 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65cb9a219fadb1_70146895 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> master2
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['stylesheets']->value['external'], 'stylesheet');
 $_smarty_tpl->tpl_vars['stylesheet']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['stylesheet']->value) {
