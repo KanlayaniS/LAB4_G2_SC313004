@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 21:44:10
+/* Smarty version 4.3.1, created on 2024-02-13 23:12:31
   from 'module:ps_shoppingcartmodal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb803a4427a0_94907077',
+  'unifunc' => 'content_65cb94efe1d6a4_80337310',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0de54a7df2ce9f325675562cb8b6164899785ff9' => 
     array (
       0 => 'module:ps_shoppingcartmodal.tpl',
-      1 => 1707831622,
+      1 => 1707837723,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb803a4427a0_94907077 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb94efe1d6a4_80337310 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="blockcart-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">

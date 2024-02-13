@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 21:45:06
+/* Smarty version 4.3.1, created on 2024-02-13 23:13:04
   from 'C:\xampp\htdocs\se_project\Project\pdf\invoice.addresses-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb8072caa298_20804051',
+  'unifunc' => 'content_65cb9510135a46_09325241',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2039076d214462aeedda2a3c8edd3dc4daca7f3f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\pdf\\invoice.addresses-tab.tpl',
-      1 => 1707831618,
+      1 => 1707837717,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb8072caa298_20804051 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb9510135a46_09325241 (Smarty_Internal_Template $_smarty_tpl) {
 ?><table id="addresses-tab" cellspacing="0" cellpadding="0">
 	<tr>
 		<td width="50%"><?php if ($_smarty_tpl->tpl_vars['delivery_address']->value) {?><span class="bold"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Delivery address','d'=>'Shop.Pdf','pdf'=>'true'),$_smarty_tpl ) );?>
