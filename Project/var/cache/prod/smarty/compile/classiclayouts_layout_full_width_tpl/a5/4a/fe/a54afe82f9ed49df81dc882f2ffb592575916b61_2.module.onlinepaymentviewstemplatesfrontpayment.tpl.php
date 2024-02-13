@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-14 01:07:09
+/* Smarty version 4.3.1, created on 2024-02-14 01:22:27
   from 'module:onlinepaymentviewstemplatesfrontpayment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cbafcdd27475_71389047',
+  'unifunc' => 'content_65cbb363a12fb1_84672588',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a54afe82f9ed49df81dc882f2ffb592575916b61' => 
     array (
       0 => 'module:onlinepaymentviewstemplatesfrontpayment.tpl',
-      1 => 1707847179,
+      1 => 1707848544,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cbafcdd27475_71389047 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cbb363a12fb1_84672588 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -29,17 +29,17 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_183608089465cbafcdd16da9_21091980', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_185464094365cbb363a060c5_12876268', "content");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'page.tpl');
 }
 /* {block 'order_confirmation_header'} */
-class Block_72595009765cbafcdd187f7_80366695 extends Smarty_Internal_Block
+class Block_167552780965cbb363a06ba0_56676771 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
                   <h3 class="h1 card-title">
-                    <i class="material-icons rtl-no-flip done">&#xE876;</i><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'ชำระเงิน','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
+                    <i class="material-icons rtl-no-flip done">&#xE876;</i><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'ช่องทางการชำระเงิน','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
 
                   </h3>
                   <?php
@@ -47,7 +47,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'order_confirmation_header'} */
 /* {block 'hook_order_confirmation'} */
-class Block_47090823065cbafcdd1d7a0_13919932 extends Smarty_Internal_Block
+class Block_164877126465cbb363a0ad47_49926805 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -58,21 +58,36 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 }
 /* {/block 'hook_order_confirmation'} */
+/* {block 'order_confirmation_header'} */
+class Block_105522849265cbb363a11cf4_10006852 extends Smarty_Internal_Block
+{
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+
+                  <h4 class="h1 card-title">
+                    <i class="material-icons rtl-no-flip done">&#xE876;</i><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'แนบสลิปการโอน','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
+
+                  </h4>
+                  <?php
+}
+}
+/* {/block 'order_confirmation_header'} */
 /* {block "content"} */
-class Block_183608089465cbafcdd16da9_21091980 extends Smarty_Internal_Block
+class Block_185464094365cbb363a060c5_12876268 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_183608089465cbafcdd16da9_21091980',
+    0 => 'Block_185464094365cbb363a060c5_12876268',
   ),
   'order_confirmation_header' => 
   array (
-    0 => 'Block_72595009765cbafcdd187f7_80366695',
+    0 => 'Block_167552780965cbb363a06ba0_56676771',
+    1 => 'Block_105522849265cbb363a11cf4_10006852',
   ),
   'hook_order_confirmation' => 
   array (
-    0 => 'Block_47090823065cbafcdd1d7a0_13919932',
+    0 => 'Block_164877126465cbb363a0ad47_49926805',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -86,12 +101,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
           
                   <!---Confirm your Order -->
                   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_72595009765cbafcdd187f7_80366695', 'order_confirmation_header', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_167552780965cbb363a06ba0_56676771', 'order_confirmation_header', $this->tplIndex);
 ?>
 
           
                   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_47090823065cbafcdd1d7a0_13919932', 'hook_order_confirmation', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_164877126465cbb363a0ad47_49926805', 'hook_order_confirmation', $this->tplIndex);
 ?>
 
           
@@ -229,14 +244,24 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_47090823065cbafcdd
   cursor: pointer;
 }
 </style>
+<section id="submit-section" class="card">
+  <div class="card-block">
+    <div class="row">
+      <div class="col-md-12">
+        <?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_105522849265cbb363a11cf4_10006852', 'order_confirmation_header', $this->tplIndex);
+?>
+
         <form method="post" enctype="multipart/form-data">
-            <label for="slip_upload">แนบสลิปการโอน</label>
             <input type="file" name="slip_upload" id="slip_upload" accept="image/*" required/>
-            <button type="submit" name="placeorder">
+            <button type="submit" name="placeorder" class="btn btn-primary">
                 Upload
             </button>
         </form>
+      </div>
     </div>
+  </div>
+</section>
 <?php
 }
 }

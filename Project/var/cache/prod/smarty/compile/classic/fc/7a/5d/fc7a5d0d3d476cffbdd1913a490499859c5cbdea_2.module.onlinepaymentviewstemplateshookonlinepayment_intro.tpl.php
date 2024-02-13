@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-14 01:07:05
+/* Smarty version 4.3.1, created on 2024-02-14 01:19:21
   from 'module:onlinepaymentviewstemplateshookonlinepayment_intro.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cbafc9647540_60454514',
+  'unifunc' => 'content_65cbb2a9b22468_21937132',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cbafc9647540_60454514 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cbb2a9b22468_21937132 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section>
   <p>
     Pay by QR Code and Bank Transfer. After you paid, you must upload slip.
