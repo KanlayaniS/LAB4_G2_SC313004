@@ -55,7 +55,7 @@
 
                     <!-- Order as a guest -->
 
-            {l s='Order as a guest' d='Shop.Theme.Checkout'}
+            
         </a>
       </li>    
     </ul>

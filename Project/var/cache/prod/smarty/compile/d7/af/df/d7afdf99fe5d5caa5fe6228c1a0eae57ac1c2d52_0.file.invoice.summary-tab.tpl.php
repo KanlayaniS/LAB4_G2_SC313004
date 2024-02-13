@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 18:12:34
+/* Smarty version 4.3.1, created on 2024-02-13 19:55:45
   from 'C:\xampp\htdocs\se_project\Project\pdf\invoice.summary-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb4ea235e667_15007656',
+  'unifunc' => 'content_65cb66d1d865d0_18818602',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd7afdf99fe5d5caa5fe6228c1a0eae57ac1c2d52' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\pdf\\invoice.summary-tab.tpl',
-      1 => 1707819287,
+      1 => 1707824453,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb4ea235e667_15007656 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb66d1d865d0_18818602 (Smarty_Internal_Template $_smarty_tpl) {
 ?><table id="summary-tab" width="100%">
 	<tr>
 		<th class="header small" valign="middle"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Invoice Number','d'=>'Shop.Pdf','pdf'=>'true'),$_smarty_tpl ) );?>

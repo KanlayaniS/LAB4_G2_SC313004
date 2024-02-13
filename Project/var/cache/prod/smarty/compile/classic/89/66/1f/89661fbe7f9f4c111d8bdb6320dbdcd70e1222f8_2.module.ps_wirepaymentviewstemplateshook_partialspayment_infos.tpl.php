@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 18:12:37
+/* Smarty version 4.3.1, created on 2024-02-13 20:33:13
   from 'module:ps_wirepaymentviewstemplateshook_partialspayment_infos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb4ea50fdf70_07216985',
+  'unifunc' => 'content_65cb6f998d9744_56674265',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '89661fbe7f9f4c111d8bdb6320dbdcd70e1222f8' => 
     array (
       0 => 'module:ps_wirepaymentviewstemplateshook_partialspayment_infos.tpl',
-      1 => 1707819287,
+      1 => 1707824453,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb4ea50fdf70_07216985 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb6f998d9744_56674265 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <dl>
