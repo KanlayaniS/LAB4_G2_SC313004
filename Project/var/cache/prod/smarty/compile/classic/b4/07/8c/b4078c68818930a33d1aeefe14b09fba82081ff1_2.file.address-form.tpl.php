@@ -1,30 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-13 23:12:40
-=======
-/* Smarty version 4.3.1, created on 2024-02-13 23:32:18
->>>>>>> master2
+/* Smarty version 4.3.1, created on 2024-02-13 23:54:22
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\customer\_partials\address-form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65cb94f8c40961_52621336',
-=======
-  'unifunc' => 'content_65cb9992cfc3a1_86470129',
->>>>>>> master2
+  'unifunc' => 'content_65cb9ebe283956_24147202',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b4078c68818930a33d1aeefe14b09fba82081ff1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\customer\\_partials\\address-form.tpl',
-<<<<<<< HEAD
-      1 => 1707837723,
-=======
       1 => 1707824457,
->>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -33,26 +21,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:_partials/form-errors.tpl' => 1,
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65cb94f8c40961_52621336 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb9ebe283956_24147202 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_75440309365cb94f8c378d1_67659961', "address_form");
-=======
-function content_65cb9992cfc3a1_86470129 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_loadInheritance();
-$_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_38099013365cb9992cf4d04_01768925', "address_form");
->>>>>>> master2
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_9007042565cb9ebe27b046_19137621', "address_form");
 ?>
 
 <?php }
 /* {block "address_form_url"} */
-<<<<<<< HEAD
-class Block_56146614665cb94f8c38c73_98885861 extends Smarty_Internal_Block
-=======
-class Block_16862163065cb9992cf5f78_44211155 extends Smarty_Internal_Block
->>>>>>> master2
+class Block_183202075665cb9ebe27c837_12922251 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -71,11 +48,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "address_form_url"} */
 /* {block 'form_field'} */
-<<<<<<< HEAD
-class Block_173896522065cb94f8c3c739_75614249 extends Smarty_Internal_Block
-=======
-class Block_124236107965cb9992cf9514_24966392 extends Smarty_Internal_Block
->>>>>>> master2
+class Block_16559893965cb9ebe280424_37409170 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -87,11 +60,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'form_field'} */
 /* {block 'form_fields'} */
-<<<<<<< HEAD
-class Block_130743197165cb94f8c3b901_06925685 extends Smarty_Internal_Block
-=======
-class Block_158328315165cb9992cf8775_10820876 extends Smarty_Internal_Block
->>>>>>> master2
+class Block_211532061965cb9ebe27f529_91010920 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -103,11 +72,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['field']->value) 
 $_smarty_tpl->tpl_vars['field']->do_else = false;
 ?>
               <?php 
-<<<<<<< HEAD
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_173896522065cb94f8c3c739_75614249', 'form_field', $this->tplIndex);
-=======
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_124236107965cb9992cf9514_24966392', 'form_field', $this->tplIndex);
->>>>>>> master2
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16559893965cb9ebe280424_37409170', 'form_field', $this->tplIndex);
 ?>
 
             <?php
@@ -118,22 +83,14 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block 'form_fields'} */
 /* {block "address_form_fields"} */
-<<<<<<< HEAD
-class Block_207470618765cb94f8c3b3c4_92573586 extends Smarty_Internal_Block
-=======
-class Block_90733489165cb9992cf82d6_79213025 extends Smarty_Internal_Block
->>>>>>> master2
+class Block_83719813465cb9ebe27eff0_64321655 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
         <section class="form-fields">
           <?php 
-<<<<<<< HEAD
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_130743197165cb94f8c3b901_06925685', 'form_fields', $this->tplIndex);
-=======
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_158328315165cb9992cf8775_10820876', 'form_fields', $this->tplIndex);
->>>>>>> master2
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_211532061965cb9ebe27f529_91010920', 'form_fields', $this->tplIndex);
 ?>
 
         </section>
@@ -142,11 +99,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_158328315165cb9992
 }
 /* {/block "address_form_fields"} */
 /* {block 'form_buttons'} */
-<<<<<<< HEAD
-class Block_115009085265cb94f8c3f179_78907903 extends Smarty_Internal_Block
-=======
-class Block_13408795065cb9992cfb0b6_25147432 extends Smarty_Internal_Block
->>>>>>> master2
+class Block_67807607065cb9ebe2823c5_21211404 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -160,11 +113,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'form_buttons'} */
 /* {block "address_form_footer"} */
-<<<<<<< HEAD
-class Block_142774724265cb94f8c3ea49_70263877 extends Smarty_Internal_Block
-=======
-class Block_191635469565cb9992cfac18_52705891 extends Smarty_Internal_Block
->>>>>>> master2
+class Block_127752829265cb9ebe281e94_56436784 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -172,11 +121,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
       <footer class="form-footer clearfix">
         <input type="hidden" name="submitAddress" value="1">
         <?php 
-<<<<<<< HEAD
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_115009085265cb94f8c3f179_78907903', 'form_buttons', $this->tplIndex);
-=======
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13408795065cb9992cfb0b6_25147432', 'form_buttons', $this->tplIndex);
->>>>>>> master2
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_67807607065cb9ebe2823c5_21211404', 'form_buttons', $this->tplIndex);
 ?>
 
       </footer>
@@ -185,68 +130,36 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13408795065cb9992c
 }
 /* {/block "address_form_footer"} */
 /* {block "address_form"} */
-<<<<<<< HEAD
-class Block_75440309365cb94f8c378d1_67659961 extends Smarty_Internal_Block
-=======
-class Block_38099013365cb9992cf4d04_01768925 extends Smarty_Internal_Block
->>>>>>> master2
+class Block_9007042565cb9ebe27b046_19137621 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'address_form' => 
   array (
-<<<<<<< HEAD
-    0 => 'Block_75440309365cb94f8c378d1_67659961',
+    0 => 'Block_9007042565cb9ebe27b046_19137621',
   ),
   'address_form_url' => 
   array (
-    0 => 'Block_56146614665cb94f8c38c73_98885861',
+    0 => 'Block_183202075665cb9ebe27c837_12922251',
   ),
   'address_form_fields' => 
   array (
-    0 => 'Block_207470618765cb94f8c3b3c4_92573586',
+    0 => 'Block_83719813465cb9ebe27eff0_64321655',
   ),
   'form_fields' => 
   array (
-    0 => 'Block_130743197165cb94f8c3b901_06925685',
+    0 => 'Block_211532061965cb9ebe27f529_91010920',
   ),
   'form_field' => 
   array (
-    0 => 'Block_173896522065cb94f8c3c739_75614249',
+    0 => 'Block_16559893965cb9ebe280424_37409170',
   ),
   'address_form_footer' => 
   array (
-    0 => 'Block_142774724265cb94f8c3ea49_70263877',
+    0 => 'Block_127752829265cb9ebe281e94_56436784',
   ),
   'form_buttons' => 
   array (
-    0 => 'Block_115009085265cb94f8c3f179_78907903',
-=======
-    0 => 'Block_38099013365cb9992cf4d04_01768925',
-  ),
-  'address_form_url' => 
-  array (
-    0 => 'Block_16862163065cb9992cf5f78_44211155',
-  ),
-  'address_form_fields' => 
-  array (
-    0 => 'Block_90733489165cb9992cf82d6_79213025',
-  ),
-  'form_fields' => 
-  array (
-    0 => 'Block_158328315165cb9992cf8775_10820876',
-  ),
-  'form_field' => 
-  array (
-    0 => 'Block_124236107965cb9992cf9514_24966392',
-  ),
-  'address_form_footer' => 
-  array (
-    0 => 'Block_191635469565cb9992cfac18_52705891',
-  ),
-  'form_buttons' => 
-  array (
-    0 => 'Block_13408795065cb9992cfb0b6_25147432',
->>>>>>> master2
+    0 => 'Block_67807607065cb9ebe2823c5_21211404',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -257,29 +170,17 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
     <?php 
-<<<<<<< HEAD
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_56146614665cb94f8c38c73_98885861', "address_form_url", $this->tplIndex);
-=======
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16862163065cb9992cf5f78_44211155', "address_form_url", $this->tplIndex);
->>>>>>> master2
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_183202075665cb9ebe27c837_12922251', "address_form_url", $this->tplIndex);
 ?>
 
 
       <?php 
-<<<<<<< HEAD
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_207470618765cb94f8c3b3c4_92573586', "address_form_fields", $this->tplIndex);
-=======
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_90733489165cb9992cf82d6_79213025', "address_form_fields", $this->tplIndex);
->>>>>>> master2
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_83719813465cb9ebe27eff0_64321655', "address_form_fields", $this->tplIndex);
 ?>
 
 
       <?php 
-<<<<<<< HEAD
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_142774724265cb94f8c3ea49_70263877', "address_form_footer", $this->tplIndex);
-=======
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_191635469565cb9992cfac18_52705891', "address_form_footer", $this->tplIndex);
->>>>>>> master2
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_127752829265cb9ebe281e94_56436784', "address_form_footer", $this->tplIndex);
 ?>
 
 

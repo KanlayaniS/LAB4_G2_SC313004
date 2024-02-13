@@ -1,30 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-13 23:13:04
-=======
-/* Smarty version 4.3.1, created on 2024-02-13 23:34:38
->>>>>>> master2
+/* Smarty version 4.3.1, created on 2024-02-13 23:48:01
   from 'C:\xampp\htdocs\se_project\Project\pdf\invoice.note-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65cb95101eaf01_39900696',
-=======
-  'unifunc' => 'content_65cb9a1ed1cae6_56448105',
->>>>>>> master2
+  'unifunc' => 'content_65cb9d412ba4a9_86334503',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd00f75640c34a0c21425d83c687347c603631969' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\pdf\\invoice.note-tab.tpl',
-<<<<<<< HEAD
-      1 => 1707837717,
-=======
       1 => 1707824453,
->>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -32,11 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65cb95101eaf01_39900696 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_65cb9a1ed1cae6_56448105 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> master2
+function content_65cb9d412ba4a9_86334503 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['order_invoice']->value->note)) && $_smarty_tpl->tpl_vars['order_invoice']->value->note) {?>
 	<tr>
 		<td colspan="12" height="10">&nbsp;</td>

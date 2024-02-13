@@ -1,30 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-13 23:13:03
-=======
-/* Smarty version 4.3.1, created on 2024-02-13 23:34:37
->>>>>>> master2
+/* Smarty version 4.3.1, created on 2024-02-13 23:47:59
   from 'C:\xampp\htdocs\se_project\Project\mails\_partials\order_conf_product_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65cb950fc88876_29031466',
-=======
-  'unifunc' => 'content_65cb9a1d2caa89_96944914',
->>>>>>> master2
+  'unifunc' => 'content_65cb9d3fb98e98_05694288',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b0c32c254caba0de29849a31c3b7e299a4ac9a07' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\mails\\_partials\\order_conf_product_list.tpl',
-<<<<<<< HEAD
-      1 => 1707837715,
-=======
       1 => 1707824452,
->>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -32,11 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65cb950fc88876_29031466 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_65cb9a1d2caa89_96944914 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> master2
+function content_65cb9d3fb98e98_05694288 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['list']->value, 'product');
 $_smarty_tpl->tpl_vars['product']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['product']->value) {

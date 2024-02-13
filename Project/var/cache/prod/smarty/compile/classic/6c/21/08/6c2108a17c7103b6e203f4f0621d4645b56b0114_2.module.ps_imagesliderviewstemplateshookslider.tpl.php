@@ -1,30 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-13 23:13:21
-=======
-/* Smarty version 4.3.1, created on 2024-02-13 23:31:43
->>>>>>> master2
+/* Smarty version 4.3.1, created on 2024-02-13 23:57:50
   from 'module:ps_imagesliderviewstemplateshookslider.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65cb9521a9c544_34248634',
-=======
-  'unifunc' => 'content_65cb996f08d246_95815498',
->>>>>>> master2
+  'unifunc' => 'content_65cb9f8e7fd895_95058188',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6c2108a17c7103b6e203f4f0621d4645b56b0114' => 
     array (
       0 => 'module:ps_imagesliderviewstemplateshookslider.tpl',
-<<<<<<< HEAD
-      1 => 1707837723,
-=======
       1 => 1707824457,
->>>>>>> master2
       2 => 'module',
     ),
   ),
@@ -32,11 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65cb9521a9c544_34248634 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_65cb996f08d246_95815498 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> master2
+function content_65cb9f8e7fd895_95058188 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['homeslider']->value['slides']) {?>
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['homeslider']->value['speed'], ENT_QUOTES, 'UTF-8');?>
 " data-wrap="<?php echo htmlspecialchars((string) (string)$_smarty_tpl->tpl_vars['homeslider']->value['wrap'], ENT_QUOTES, 'UTF-8');?>

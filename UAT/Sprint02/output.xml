@@ -1,167 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240213 23:31:40.741" rpa="false" schemaversion="4">
-<suite id="s1" name="Test Sprint2 Tc04" source="C:\xampp\htdocs\se_project\UAT\Sprint02\test_sprint2_tc04.robot">
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240213 23:57:48.222" rpa="false" schemaversion="4">
+<suite id="s1" name="Test Sprint2 Tc03" source="C:\xampp\htdocs\se_project\UAT\Sprint02\test_sprint2_tc03.robot">
 <test id="s1-t1" name="Open Browser" line="9">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20240213 23:31:41.029" level="INFO">Opening browser 'Chrome' to base url 'http://localhost/se_project/Project/th/'.</msg>
-<status status="PASS" starttime="20240213 23:31:41.028" endtime="20240213 23:31:46.456"/>
+<msg timestamp="20240213 23:57:48.541" level="INFO">Opening browser 'Chrome' to base url 'http://localhost/se_project/Project/th/'.</msg>
+<status status="PASS" starttime="20240213 23:57:48.541" endtime="20240213 23:57:54.093"/>
 </kw>
-<status status="PASS" starttime="20240213 23:31:41.028" endtime="20240213 23:31:46.458"/>
+<status status="PASS" starttime="20240213 23:57:48.540" endtime="20240213 23:57:54.098"/>
 </test>
 <test id="s1-t2" name="Select Product" line="11">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//a[contains(text(),'500')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240213 23:31:46.462" level="INFO">Clicking element '//a[contains(text(),'500')]'.</msg>
-<status status="PASS" starttime="20240213 23:31:46.461" endtime="20240213 23:31:52.829"/>
+<msg timestamp="20240213 23:57:54.103" level="INFO">Clicking element '//a[contains(text(),'500')]'.</msg>
+<status status="PASS" starttime="20240213 23:57:54.102" endtime="20240213 23:58:02.314"/>
 </kw>
-<status status="PASS" starttime="20240213 23:31:46.460" endtime="20240213 23:31:52.829"/>
+<status status="PASS" starttime="20240213 23:57:54.101" endtime="20240213 23:58:02.314"/>
 </test>
 <test id="s1-t3" name="Add to Cart" line="13">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>class:add</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240213 23:31:52.831" level="INFO">Clicking element 'class:add'.</msg>
-<status status="PASS" starttime="20240213 23:31:52.831" endtime="20240213 23:31:52.955"/>
+<msg timestamp="20240213 23:58:02.316" level="INFO">Clicking element 'class:add'.</msg>
+<status status="PASS" starttime="20240213 23:58:02.315" endtime="20240213 23:58:02.381"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20240213 23:31:53.955" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20240213 23:31:52.955" endtime="20240213 23:31:53.955"/>
+<msg timestamp="20240213 23:58:03.383" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240213 23:58:02.382" endtime="20240213 23:58:03.383"/>
 </kw>
-<status status="PASS" starttime="20240213 23:31:52.830" endtime="20240213 23:31:53.955"/>
+<status status="PASS" starttime="20240213 23:58:02.315" endtime="20240213 23:58:03.383"/>
 </test>
 <test id="s1-t4" name="Go to Cart" line="16">
 <kw name="Go To" library="SeleniumLibrary">
 <arg>http://localhost/se_project/Project/th/ตะกร้า?action=show</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20240213 23:31:53.957" level="INFO">Opening url 'http://localhost/se_project/Project/th/ตะกร้า?action=show'</msg>
-<status status="PASS" starttime="20240213 23:31:53.956" endtime="20240213 23:31:58.084"/>
+<msg timestamp="20240213 23:58:03.385" level="INFO">Opening url 'http://localhost/se_project/Project/th/ตะกร้า?action=show'</msg>
+<status status="PASS" starttime="20240213 23:58:03.385" endtime="20240213 23:58:07.581"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20240213 23:31:59.086" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20240213 23:31:58.085" endtime="20240213 23:31:59.086"/>
+<msg timestamp="20240213 23:58:08.582" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240213 23:58:07.582" endtime="20240213 23:58:08.582"/>
 </kw>
-<status status="PASS" starttime="20240213 23:31:53.956" endtime="20240213 23:31:59.086"/>
+<status status="PASS" starttime="20240213 23:58:03.384" endtime="20240213 23:58:08.583"/>
 </test>
 <test id="s1-t5" name="Make order" line="19">
 <kw name="Go To" library="SeleniumLibrary">
 <arg>http://localhost/se_project/Project/th/รายการสั่งซื้อ</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20240213 23:31:59.088" level="INFO">Opening url 'http://localhost/se_project/Project/th/รายการสั่งซื้อ'</msg>
-<status status="PASS" starttime="20240213 23:31:59.088" endtime="20240213 23:32:08.653"/>
+<msg timestamp="20240213 23:58:08.585" level="INFO">Opening url 'http://localhost/se_project/Project/th/รายการสั่งซื้อ'</msg>
+<status status="PASS" starttime="20240213 23:58:08.585" endtime="20240213 23:58:18.002"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20240213 23:32:09.654" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20240213 23:32:08.653" endtime="20240213 23:32:09.654"/>
+<msg timestamp="20240213 23:58:19.002" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240213 23:58:18.002" endtime="20240213 23:58:19.002"/>
 </kw>
-<status status="PASS" starttime="20240213 23:31:59.087" endtime="20240213 23:32:09.654"/>
+<status status="PASS" starttime="20240213 23:58:08.584" endtime="20240213 23:58:19.003"/>
 </test>
 <test id="s1-t6" name="Input customer information" line="22">
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id=field-firstname</arg>
 <arg>ศุภโชค</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:09.657" level="INFO">Typing text 'ศุภโชค' into text field 'id=field-firstname'.</msg>
-<status status="PASS" starttime="20240213 23:32:09.656" endtime="20240213 23:32:09.782"/>
+<msg timestamp="20240213 23:58:19.005" level="INFO">Typing text 'ศุภโชค' into text field 'id=field-firstname'.</msg>
+<status status="PASS" starttime="20240213 23:58:19.004" endtime="20240213 23:58:19.107"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id=field-lastname</arg>
 <arg>ครับ</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:09.782" level="INFO">Typing text 'ครับ' into text field 'id=field-lastname'.</msg>
-<status status="PASS" starttime="20240213 23:32:09.782" endtime="20240213 23:32:09.859"/>
+<msg timestamp="20240213 23:58:19.108" level="INFO">Typing text 'ครับ' into text field 'id=field-lastname'.</msg>
+<status status="PASS" starttime="20240213 23:58:19.108" endtime="20240213 23:58:19.177"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id=field-email</arg>
-<arg>test@gmail.com</arg>
+<arg>test</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:09.859" level="INFO">Typing text 'test@gmail.com' into text field 'id=field-email'.</msg>
-<status status="PASS" starttime="20240213 23:32:09.859" endtime="20240213 23:32:09.956"/>
+<msg timestamp="20240213 23:58:19.178" level="INFO">Typing text 'test' into text field 'id=field-email'.</msg>
+<status status="PASS" starttime="20240213 23:58:19.177" endtime="20240213 23:58:19.248"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://*[@class='continue btn btn-primary float-xs-right']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:09.956" level="INFO">Clicking element 'xpath://*[@class='continue btn btn-primary float-xs-right']'.</msg>
-<status status="PASS" starttime="20240213 23:32:09.956" endtime="20240213 23:32:27.751"/>
+<msg timestamp="20240213 23:58:19.249" level="INFO">Clicking element 'xpath://*[@class='continue btn btn-primary float-xs-right']'.</msg>
+<status status="PASS" starttime="20240213 23:58:19.248" endtime="20240213 23:58:19.314"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20240213 23:32:28.752" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20240213 23:32:27.751" endtime="20240213 23:32:28.752"/>
+<msg timestamp="20240213 23:58:20.316" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240213 23:58:19.315" endtime="20240213 23:58:20.316"/>
 </kw>
-<status status="PASS" starttime="20240213 23:32:09.655" endtime="20240213 23:32:28.753"/>
+<status status="PASS" starttime="20240213 23:58:19.003" endtime="20240213 23:58:20.316"/>
 </test>
-<test id="s1-t7" name="Input address information" line="28">
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>id:field-address1</arg>
-<arg>10 ม.10 ต.ศิลา อ.เมื่อง</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:28.756" level="INFO">Typing text '10 ม.10 ต.ศิลา อ.เมื่อง' into text field 'id:field-address1'.</msg>
-<status status="PASS" starttime="20240213 23:32:28.755" endtime="20240213 23:32:28.903"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>id:field-postcode</arg>
-<arg>40000</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:28.904" level="INFO">Typing text '40000' into text field 'id:field-postcode'.</msg>
-<status status="PASS" starttime="20240213 23:32:28.904" endtime="20240213 23:32:29.002"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>id:field-city</arg>
-<arg>ขอนแก่น</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:29.002" level="INFO">Typing text 'ขอนแก่น' into text field 'id:field-city'.</msg>
-<status status="PASS" starttime="20240213 23:32:29.002" endtime="20240213 23:32:29.094"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20240213 23:32:30.094" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20240213 23:32:29.094" endtime="20240213 23:32:30.094"/>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>xpath://*[@name='confirm-addresses']</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:30.096" level="INFO">Clicking element 'xpath://*[@name='confirm-addresses']'.</msg>
-<status status="PASS" starttime="20240213 23:32:30.095" endtime="20240213 23:32:40.131"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20240213 23:32:41.133" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20240213 23:32:40.132" endtime="20240213 23:32:41.133"/>
-</kw>
-<status status="PASS" starttime="20240213 23:32:28.754" endtime="20240213 23:32:41.133"/>
-</test>
-<test id="s1-t8" name="Go to Payment" line="35">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>xpath://*[@class='btn btn-primary center-block']</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240213 23:32:41.136" level="INFO">Clicking element 'xpath://*[@class='btn btn-primary center-block']'.</msg>
-<status status="PASS" starttime="20240213 23:32:41.135" endtime="20240213 23:32:41.195"/>
-</kw>
-<status status="PASS" starttime="20240213 23:32:41.133" endtime="20240213 23:32:41.195"/>
-</test>
-<status status="PASS" starttime="20240213 23:31:40.742" endtime="20240213 23:32:41.197"/>
+<status status="PASS" starttime="20240213 23:57:48.224" endtime="20240213 23:58:20.318"/>
 </suite>
 <statistics>
 <total>
-<stat pass="8" fail="0" skip="0">All Tests</stat>
+<stat pass="6" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="8" fail="0" skip="0" id="s1" name="Test Sprint2 Tc04">Test Sprint2 Tc04</stat>
+<stat pass="6" fail="0" skip="0" id="s1" name="Test Sprint2 Tc03">Test Sprint2 Tc03</stat>
 </suite>
 </statistics>
 <errors>

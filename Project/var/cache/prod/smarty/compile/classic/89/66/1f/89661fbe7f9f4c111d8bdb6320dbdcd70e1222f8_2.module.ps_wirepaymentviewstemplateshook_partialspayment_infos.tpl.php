@@ -1,30 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-13 22:50:13
-=======
-/* Smarty version 4.3.1, created on 2024-02-13 23:34:40
->>>>>>> master2
+/* Smarty version 4.3.1, created on 2024-02-13 23:39:14
   from 'module:ps_wirepaymentviewstemplateshook_partialspayment_infos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65cb8fb5ca4db0_62588599',
-=======
-  'unifunc' => 'content_65cb9a20015117_14277270',
->>>>>>> master2
+  'unifunc' => 'content_65cb9b328f9d54_05687415',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '89661fbe7f9f4c111d8bdb6320dbdcd70e1222f8' => 
     array (
       0 => 'module:ps_wirepaymentviewstemplateshook_partialspayment_infos.tpl',
-<<<<<<< HEAD
-      1 => 1707837717,
-=======
       1 => 1707824453,
->>>>>>> master2
       2 => 'module',
     ),
   ),
@@ -32,11 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65cb8fb5ca4db0_62588599 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_65cb9a20015117_14277270 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> master2
+function content_65cb9b328f9d54_05687415 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <dl>

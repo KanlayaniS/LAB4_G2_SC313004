@@ -4,6 +4,7 @@ Library             SeleniumLibrary
 *** Variables ***
 ${URL}              http://localhost/se_project/Project/th/
 ${BROWSER}          Chrome
+${FILE_PATH}        C:\Users\iSuphachok\Downloads\slip01.jpg
 
 *** Test Cases ***
 Open Browser
@@ -34,5 +35,9 @@ Input address information
     Sleep       1
 Go to Payment
     Click Element       xpath://*[@class='btn btn-primary center-block']
-
+Upload Slip
+    Choose File         id=slip_upload      ${FILE_PATH} 
+    Submit Form
+Last Summit
+    Click Element       xpath://*[@class='btn btn-primary']
 

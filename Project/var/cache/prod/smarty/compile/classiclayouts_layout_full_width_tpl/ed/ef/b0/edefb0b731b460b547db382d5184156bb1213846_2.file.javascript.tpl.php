@@ -1,30 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-13 23:13:21
-=======
-/* Smarty version 4.3.1, created on 2024-02-13 23:34:41
->>>>>>> master2
+/* Smarty version 4.3.1, created on 2024-02-13 23:58:10
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\_partials\javascript.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65cb9521e25471_71000673',
-=======
-  'unifunc' => 'content_65cb9a21ac1151_77132177',
->>>>>>> master2
+  'unifunc' => 'content_65cb9fa2915d97_05917257',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'edefb0b731b460b547db382d5184156bb1213846' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\_partials\\javascript.tpl',
-<<<<<<< HEAD
-      1 => 1707837723,
-=======
       1 => 1707824457,
->>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -32,11 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65cb9521e25471_71000673 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_65cb9a21ac1151_77132177 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> master2
+function content_65cb9fa2915d97_05917257 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['javascript']->value['external'], 'js');
 $_smarty_tpl->tpl_vars['js']->do_else = true;

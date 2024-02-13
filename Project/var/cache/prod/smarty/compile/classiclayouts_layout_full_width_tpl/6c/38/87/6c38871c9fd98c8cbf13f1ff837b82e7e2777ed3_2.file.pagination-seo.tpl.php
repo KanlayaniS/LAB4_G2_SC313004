@@ -1,30 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-13 23:13:21
-=======
-/* Smarty version 4.3.1, created on 2024-02-13 23:34:41
->>>>>>> master2
+/* Smarty version 4.3.1, created on 2024-02-13 23:58:10
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\_partials\pagination-seo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65cb9521deb927_55751647',
-=======
-  'unifunc' => 'content_65cb9a21838a34_30203457',
->>>>>>> master2
+  'unifunc' => 'content_65cb9fa2690c64_51609835',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6c38871c9fd98c8cbf13f1ff837b82e7e2777ed3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\_partials\\pagination-seo.tpl',
-<<<<<<< HEAD
-      1 => 1707837723,
-=======
       1 => 1707824457,
->>>>>>> master2
       2 => 'file',
     ),
   ),
@@ -32,11 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65cb9521deb927_55751647 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_65cb9a21838a34_30203457 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> master2
+function content_65cb9fa2690c64_51609835 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 ?>
 
