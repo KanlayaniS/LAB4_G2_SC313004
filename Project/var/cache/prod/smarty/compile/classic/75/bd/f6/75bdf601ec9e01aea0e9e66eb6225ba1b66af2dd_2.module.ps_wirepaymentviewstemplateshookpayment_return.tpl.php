@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 22:27:53
+/* Smarty version 4.3.1, created on 2024-02-13 23:39:14
   from 'module:ps_wirepaymentviewstemplateshookpayment_return.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb8a79f19ce6_10797144',
+  'unifunc' => 'content_65cb9b327cf384_29066033',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '75bdf601ec9e01aea0e9e66eb6225ba1b66af2dd' => 
     array (
       0 => 'module:ps_wirepaymentviewstemplateshookpayment_return.tpl',
-      1 => 1707837717,
+      1 => 1707824453,
       2 => 'module',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:ps_wirepayment/views/templates/hook/_partials/payment_infos.tpl' => 1,
   ),
 ),false)) {
-function content_65cb8a79f19ce6_10797144 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65cb9b327cf384_29066033 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <p>
   <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Your order on %s is complete.','sprintf'=>array($_smarty_tpl->tpl_vars['shop_name']->value),'d'=>'Modules.Wirepayment.Shop'),$_smarty_tpl ) );?>
