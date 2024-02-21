@@ -1,13 +1,13 @@
-FROM prestashop/prestashop:latest
+FROM kanlayani/ks_ps:v2
 
 # Copy project files
 COPY ./Project /var/www/html
 
 # Remove the install directory
-RUN rm -rf /var/www/html/install
+#RUN rm -rf /var/www/html/install
 
 # Remove the admin directory
-RUN rm -rf /var/www/html/admin
+#RUN rm -rf /var/www/html/admin
 
 # Set permissions for www-data user on additional directories
 RUN chown -R www-data:www-data /var/www/html
