@@ -1,0 +1,5 @@
+*ERROR* 	v8.1.2	2024/02/25 - 11:28:10: SQLSTATE[42S02]: Base table or view not found: 1932 Table &#039;prestashop_db.ps_shop_url&#039; doesn&#039;t exist in engine at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 11:28:19: SQLSTATE[42S02]: Base table or view not found: 1932 Table &#039;prestashop_db.ps_shop_url&#039; doesn&#039;t exist in engine at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 20:41:15: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop_db.ps_your_table_name&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 20:41:29: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop_db.ps_your_table_name&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 20:42:13: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop_db.ps_your_table_name&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php

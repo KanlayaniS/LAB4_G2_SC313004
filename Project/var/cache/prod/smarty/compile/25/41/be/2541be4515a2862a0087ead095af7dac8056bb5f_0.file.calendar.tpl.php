@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-13 22:22:58
+/* Smarty version 4.3.1, created on 2024-02-25 17:31:29
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\default\template\helpers\calendar\calendar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65cb8952db8508_98779772',
+  'unifunc' => 'content_65db170119f0d0_56331133',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2541be4515a2862a0087ead095af7dac8056bb5f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin-g2-dev\\themes\\default\\template\\helpers\\calendar\\calendar.tpl',
-      1 => 1707837711,
+      1 => 1708856857,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65cb8952db8508_98779772 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65db170119f0d0_56331133 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\se_project\\Project\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 ?>
 <div id="datepicker" class="row row-padding-top hide">
