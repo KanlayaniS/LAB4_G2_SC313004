@@ -1,0 +1,8 @@
+*ERROR* 	v8.1.2	2024/02/26 - 15:05:58: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;file_path&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/26 - 15:14:26: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;file_path&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/26 - 15:15:26: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;file_path&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/26 - 15:26:30: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;file_path&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/26 - 15:28:40: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;file_path&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/26 - 15:29:15: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;file_path&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/26 - 15:29:21: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;file_path&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/26 - 15:30:00: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;file_path&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php

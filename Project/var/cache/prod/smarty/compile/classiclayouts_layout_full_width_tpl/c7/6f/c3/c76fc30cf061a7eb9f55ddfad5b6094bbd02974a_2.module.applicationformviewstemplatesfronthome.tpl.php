@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-26 16:14:26
+/* Smarty version 4.3.1, created on 2024-02-26 16:20:13
   from 'module:applicationformviewstemplatesfronthome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65dc5672dc6580_33859738',
+  'unifunc' => 'content_65dc57cd258fd0_61788500',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c76fc30cf061a7eb9f55ddfad5b6094bbd02974a' => 
     array (
       0 => 'module:applicationformviewstemplatesfronthome.tpl',
-      1 => 1708938863,
+      1 => 1708939117,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65dc5672dc6580_33859738 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65dc57cd258fd0_61788500 (Smarty_Internal_Template $_smarty_tpl) {
 ?><body>
   <div class="detail-first">
       <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"เลือกรูปแบบการเข้าสู่ระบบ"),$_smarty_tpl ) );?>
@@ -56,11 +56,9 @@ function content_65dc5672dc6580_33859738 (Smarty_Internal_Template $_smarty_tpl)
 
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap");
-  
     html {
       font-size: calc(60% + 0.8vmin);
-    }
-  
+    }  
     body {
       margin: 0;
       padding: 0;

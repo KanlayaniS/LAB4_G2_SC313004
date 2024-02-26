@@ -1,18 +1,42 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-26 14:43:38
+=======
+<<<<<<< HEAD
+/* Smarty version 4.3.1, created on 2024-02-25 23:19:48
+=======
+/* Smarty version 4.3.1, created on 2024-02-26 14:14:05
+>>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
+>>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
   from 'module:applicationformviewstemplatesfrontteacherteacherhome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65dc412a8f93d3_02564852',
+=======
+<<<<<<< HEAD
+  'unifunc' => 'content_65db68a4633754_07375114',
+=======
+  'unifunc' => 'content_65dc3a3d0f2337_83202703',
+>>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
+>>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '90e60fad8d5761b732f6dbe85125e84093850b11' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontteacherteacherhome.tpl',
+<<<<<<< HEAD
       1 => 1708932907,
+=======
+<<<<<<< HEAD
+      1 => 1708877076,
+=======
+      1 => 1708931637,
+>>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
+>>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
       2 => 'module',
     ),
   ),
@@ -20,7 +44,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65dc412a8f93d3_02564852 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+<<<<<<< HEAD
+function content_65db68a4633754_07375114 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65dc3a3d0f2337_83202703 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
+>>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -36,14 +68,36 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_87640310765dc412a8
         <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Logout",'mod'=>"applicationform"),$_smarty_tpl ) );?>
 
     </button>
+<<<<<<< HEAD
+</form>
+
+<?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_192203980365db68a4615d83_07211697', 'page_content');
+}
+/* {block 'page_content'} */
+class Block_192203980365db68a4615d83_07211697 extends Smarty_Internal_Block
+=======
 </form><?php }
 /* {block 'page_content'} */
+<<<<<<< HEAD
 class Block_87640310765dc412a8d7103_51229579 extends Smarty_Internal_Block
+=======
+class Block_138054762665dc3a3d0e41d6_90628871 extends Smarty_Internal_Block
+>>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
+>>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
 {
 public $subBlocks = array (
   'page_content' => 
   array (
+<<<<<<< HEAD
     0 => 'Block_87640310765dc412a8d7103_51229579',
+=======
+<<<<<<< HEAD
+    0 => 'Block_192203980365db68a4615d83_07211697',
+=======
+    0 => 'Block_138054762665dc3a3d0e41d6_90628871',
+>>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
+>>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
