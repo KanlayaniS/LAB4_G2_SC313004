@@ -1,14 +1,29 @@
 {block name='page_content'}
-    <h2>My test page content</h2>
+    <h2>สถานะคำร้อง</h2>
     {$student_email}
-    {foreach from=$applications item=item}
-        <p>{$item.application_date}</p>
-        <p>{$item.id_application}</p>
-        <p>{$item.teacher_status}</p>
-        <p>{$item.status}</p>
-    {/foreach}
+    <div style="overflow-x:auto;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Application Date</th>
+                    <th>Application ID</th>
+                    <th>Teacher Status</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {foreach from=$applications item=item}
+                <tr>
+                    <td>{$item.application_date}</td>
+                    <td>{$item.id_application}</td>
+                    <td>{$item.teacher_status}</td>
+                    <td>{$item.status}</td>
+                </tr>
+                {/foreach}
+            </tbody>
+        </table>
+    </div>
 {/block}
-
 
 <form method="post">
     <button type="submit" name="goback" class="btn-default pull-right">
