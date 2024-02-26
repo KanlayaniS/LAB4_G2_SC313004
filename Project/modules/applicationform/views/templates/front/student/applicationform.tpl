@@ -2,7 +2,6 @@
     <h1>{l s='Scholarship Application Form'}</h1>
 {/capture}
 
-
 <div id="application_form">
     <form method="post" enctype="multipart/form-data">
         <div class="form-group">
@@ -58,9 +57,7 @@
         </div>
         <div class="form-group">
             <label for="teacher_email">{l s='อีเมลที่ปรึกษา'}:</label>
-            <input type="email" class="form-control" id="teacher_email" name="teacher_email" required
-            required pattern=".+@kku\.ac\.th$">
-            
+            <input type="email" class="form-control" id="teacher_email" name="teacher_email" required pattern=".+@kku\.ac\.th$">
         </div>
         <div class="form-group">
             <label for="address">{l s='ที่อยู่'}:</label>
@@ -70,15 +67,25 @@
             <label for="reason_for_scholarship">{l s='เหตุผลการขอเงินสนับสนุน'}:</label>
             <textarea class="form-control" id="reason_for_scholarship" name="reason_for_scholarship" rows="4" required></textarea>
         </div>
+        
+        <!-- File Upload Field -->
+        <div class="form-group">
+            <label for="file_input_name">{l s='Upload File'}:</label>
+            <input type="file" class="form-control" id="file_input_name" name="file_input_name" required>
+        </div>
+        
+        <!-- Submit Button -->
         <button type="submit" name="submitapplicationform" class="btn-default pull-right">
             <i class="process-icon-save"></i>
             {l s="Submit" mod="applicationform"}
         </button>
     </form>
+    
+    <!-- Go back button -->
     <form method="post">
-    <button type="submit" name="goback" class="btn-default pull-right">
-        <i class="process-icon-save"></i>
-        {l s="Back" mod="applicationform"}
-    </button>
-</form>
+        <button type="submit" name="goback" class="btn-default pull-right">
+            <i class="process-icon-save"></i>
+            {l s="Back" mod="applicationform"}
+        </button>
+    </form>
 </div>
