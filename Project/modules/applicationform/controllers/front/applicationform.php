@@ -10,12 +10,14 @@ class ApplicationFormApplicationFormModuleFrontController extends ModuleFrontCon
     {
         $context = Context::getContext();
         $student_email = $context->cookie->student_email;
+        $old_data = unserialize($context->cookie->old_data);
         if($student_email==null)
         {
             $this->goToHome();
         }
         $this->context->smarty->assign([
             'student_email' => $student_email,
+            "old_data" => $old_data,
         ]);
         parent::initContent();
         $this->setTemplate('module:applicationform/views/templates/front/student/applicationform.tpl');
@@ -26,22 +28,21 @@ class ApplicationFormApplicationFormModuleFrontController extends ModuleFrontCon
         if(Tools::isSubmit('submitapplicationform'))
         {
             $teacher_email = Tools::getValue('teacher_email');//รับข้อมูลจากเว็บไซต์
+            $teacher_email = Tools::getValue('teacher_email');
+            $first_name = Tools::getValue('first_name');
+            $last_name = Tools::getValue('last_name');
+            $student_id = Tools::getValue('student_id');
+            $citizen_id = Tools::getValue('citizen_id');
+            $year = Tools::getValue('year');
+            $major = Tools::getValue('major');
+            $GPA = Tools::getValue('GPA');
+            $phone_number = Tools::getValue('phone_number');
+            $date_of_birth = Tools::getValue('date_of_birth');
+            $address = Tools::getValue('address');
+            $reason_for_scholarship = Tools::getValue('reason_for_scholarship');
+
             if($this->isTeacherEmailExists($teacher_email))
-
             {
-                $teacher_email = Tools::getValue('teacher_email');
-                $first_name = Tools::getValue('first_name');
-                $last_name = Tools::getValue('last_name');
-                $student_id = Tools::getValue('student_id');
-                $citizen_id = Tools::getValue('citizen_id');
-                $year = Tools::getValue('year');
-                $major = Tools::getValue('major');
-                $GPA = Tools::getValue('GPA');
-                $phone_number = Tools::getValue('phone_number');
-                $date_of_birth = Tools::getValue('date_of_birth');
-                $address = Tools::getValue('address');
-                $reason_for_scholarship = Tools::getValue('reason_for_scholarship');
-
                 // Handle file upload
                 $fileInputName = 'file_input_name'; // Change to the name of your file input field
                 $destinationDirectory = _PS_MODULE_DIR_ . 'applicationform/evidence';// Change to your desired upload directory
@@ -77,9 +78,26 @@ class ApplicationFormApplicationFormModuleFrontController extends ModuleFrontCon
                 if (!Db::getInstance()->insert('applicationform', $data)) {
                     return false;
                 }
+                $context->cookie->old_data = null;
                 $this->goToStudentHome();
             }
-            
+            $old_data = array(
+                'teacher_email' => $teacher_email,
+                'first_name' => $first_name,
+                'last_name' => $last_name,
+                'student_id' => $student_id,
+                'citizen_id' => $citizen_id,
+                'year' => $year,
+                'major' => $major,
+                'GPA' => $GPA,
+                'phone_number' => $phone_number,
+                'date_of_birth' => $date_of_birth,
+                'address' => $address,
+                'reason_for_scholarship' => $reason_for_scholarship,
+                'error' => "อีเมลที่ปรึกษาไม่ถูกต้อง!"
+            );
+            $context = Context::getContext();
+            $context->cookie->old_data = serialize($old_data);
             $this->goToApplicationForm();
         }
         if(Tools::isSubmit('goback'))
