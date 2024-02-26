@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-25 22:55:29
+/* Smarty version 4.3.1, created on 2024-02-26 13:08:04
   from 'module:applicationformviewstemplatesfrontstudentstudentlogin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65db62f1395169_86939512',
+  'unifunc' => 'content_65dc2ac4148446_05839864',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4746689e62dbc13f5703fb0f92110c6c804e4817' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentstudentlogin.tpl',
-      1 => 1708876247,
+      1 => 1708877909,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65db62f1395169_86939512 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65dc2ac4148446_05839864 (Smarty_Internal_Template $_smarty_tpl) {
 ?><form mothod="POST">
     <div class="panel">
         <div class="panel-heading">

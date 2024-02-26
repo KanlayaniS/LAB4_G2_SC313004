@@ -3,3 +3,8 @@
 *ERROR* 	v8.1.2	2024/02/25 - 20:41:15: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop_db.ps_your_table_name&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
 *ERROR* 	v8.1.2	2024/02/25 - 20:41:29: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop_db.ps_your_table_name&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
 *ERROR* 	v8.1.2	2024/02/25 - 20:42:13: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop_db.ps_your_table_name&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 17:21:04: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;root&#039;@&#039;localhost&#039; (using password: NO) at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 17:21:06: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;root&#039;@&#039;localhost&#039; (using password: NO) at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 17:21:07: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;root&#039;@&#039;localhost&#039; (using password: NO) at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 17:21:07: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;root&#039;@&#039;localhost&#039; (using password: NO) at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.2	2024/02/25 - 17:21:07: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;root&#039;@&#039;localhost&#039; (using password: NO) at line 119 in file classes/db/DbPDO.php
