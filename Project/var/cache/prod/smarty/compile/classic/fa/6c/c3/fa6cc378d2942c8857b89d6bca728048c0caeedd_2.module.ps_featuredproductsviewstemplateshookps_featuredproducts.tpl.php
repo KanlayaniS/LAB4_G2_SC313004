@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-25 17:30:25
+/* Smarty version 4.3.1, created on 2024-02-26 14:48:19
   from 'module:ps_featuredproductsviewstemplateshookps_featuredproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65db16c1f05519_93946745',
+  'unifunc' => 'content_65dc4243b9dfd2_24006092',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fa6cc378d2942c8857b89d6bca728048c0caeedd' => 
     array (
       0 => 'module:ps_featuredproductsviewstemplateshookps_featuredproducts.tpl',
-      1 => 1708856867,
+      1 => 1708932072,
       2 => 'module',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_65db16c1f05519_93946745 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65dc4243b9dfd2_24006092 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
     <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Popular Products','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
