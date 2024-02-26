@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-26 14:09:47
+/* Smarty version 4.3.1, created on 2024-02-26 14:42:34
   from 'module:applicationformviewstemplatesfrontstudentapplicationform.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65dc393bb61308_72940591',
+  'unifunc' => 'content_65dc40eaa6e028_81401330',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8bcc05074b3c88be6f4521f3e776418c749876cf' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentapplicationform.tpl',
-      1 => 1708930542,
+      1 => 1708932907,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65dc393bb61308_72940591 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65dc40eaa6e028_81401330 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'path', null, null);?>
     <h1><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Scholarship Application Form'),$_smarty_tpl ) );?>
 </h1>
