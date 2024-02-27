@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-25 17:30:29
+/* Smarty version 4.3.1, created on 2024-02-26 14:48:21
   from 'C:\xampp\htdocs\se_project\Project\themes\classic\templates\_partials\breadcrumb.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65db16c5489a34_74307834',
+  'unifunc' => 'content_65dc4245cf5676_02639201',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4ef0a40c223bd3264b9e35be0000b439d6d87967' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\themes\\classic\\templates\\_partials\\breadcrumb.tpl',
-      1 => 1708856867,
+      1 => 1708932072,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65db16c5489a34_74307834 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65dc4245cf5676_02639201 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -28,14 +28,14 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 " class="breadcrumb">
   <ol>
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_7479862365db16c5485624_89671776', 'breadcrumb');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_142321921165dc4245cf26e5_69673575', 'breadcrumb');
 ?>
 
   </ol>
 </nav>
 <?php }
 /* {block 'breadcrumb_item'} */
-class Block_200405223965db16c54868e9_86044189 extends Smarty_Internal_Block
+class Block_28262908865dc4245cf34b2_90010984 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -55,16 +55,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'breadcrumb_item'} */
 /* {block 'breadcrumb'} */
-class Block_7479862365db16c5485624_89671776 extends Smarty_Internal_Block
+class Block_142321921165dc4245cf26e5_69673575 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'breadcrumb' => 
   array (
-    0 => 'Block_7479862365db16c5485624_89671776',
+    0 => 'Block_142321921165dc4245cf26e5_69673575',
   ),
   'breadcrumb_item' => 
   array (
-    0 => 'Block_200405223965db16c54868e9_86044189',
+    0 => 'Block_28262908865dc4245cf34b2_90010984',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -83,7 +83,7 @@ $_smarty_tpl->tpl_vars['__smarty_foreach_breadcrumb']->value['iteration']++;
 $_smarty_tpl->tpl_vars['__smarty_foreach_breadcrumb']->value['last'] = $_smarty_tpl->tpl_vars['__smarty_foreach_breadcrumb']->value['iteration'] === $_smarty_tpl->tpl_vars['__smarty_foreach_breadcrumb']->value['total'];
 ?>
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_200405223965db16c54868e9_86044189', 'breadcrumb_item', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_28262908865dc4245cf34b2_90010984', 'breadcrumb_item', $this->tplIndex);
 ?>
 
       <?php

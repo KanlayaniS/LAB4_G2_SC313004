@@ -2,6 +2,16 @@
     <h1>{l s='Scholarship Application Form'}</h1>
 {/capture}
 
+<<<<<<< HEAD
+<style>
+
+#application_form
+
+</style>
+
+
+=======
+>>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
 <div id="application_form">
     <form method="post" enctype="multipart/form-data">
         <div class="form-group">

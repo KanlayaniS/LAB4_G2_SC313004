@@ -1,7 +1,9 @@
 
 {block name='page_content'}
-    <h2>{$teacher_email}</h2>
-    {$student_email}
+    <div class="h2-container">
+    <h2>User : {$teacher_email}</h2>
+    </div>
+
     <div style="overflow-x:auto;">
         <table class="table">
             <thead>
