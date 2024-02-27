@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.1, created on 2024-02-26 19:29:20
+=======
+/* Smarty version 4.3.1, created on 2024-02-26 18:42:56
+>>>>>>> c405336dfed70d26b35f84ea6d9085d8425990fd
   from 'module:ps_languageselectorps_languageselector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
+<<<<<<< HEAD
   'unifunc' => 'content_65dc8420785f34_35125384',
+=======
+  'unifunc' => 'content_65dc7940ed4359_40603752',
+>>>>>>> c405336dfed70d26b35f84ea6d9085d8425990fd
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1c00f78dace25d509ec3a1f54176b7ae2000accf' => 
     array (
       0 => 'module:ps_languageselectorps_languageselector.tpl',
+<<<<<<< HEAD
       1 => 1708932914,
+=======
+      1 => 1708932072,
+>>>>>>> c405336dfed70d26b35f84ea6d9085d8425990fd
       2 => 'module',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_65dc8420785f34_35125384 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_65dc7940ed4359_40603752 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> c405336dfed70d26b35f84ea6d9085d8425990fd
 ?><div id="_desktop_language_selector">
   <div class="language-selector-wrapper">
     <span id="language-selector-label" class="hidden-md-up"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Language:','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 19:15:44
+/* Smarty version 4.3.1, created on 2024-02-27 20:30:16
   from 'module:applicationformviewstemplatesfrontteacherteacherlogin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ddd270d59300_64421058',
+  'unifunc' => 'content_65dde3e8335046_69480545',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '39d9009e86bb6aee8016d3e70d27ca4333a73b12' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontteacherteacherlogin.tpl',
-      1 => 1709035389,
+      1 => 1709039482,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ddd270d59300_64421058 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65dde3e8335046_69480545 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
