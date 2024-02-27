@@ -25,6 +25,7 @@
               <th>หมายเลขอ้างอิง</th>
               <th>ความเห็นอาจารย์<br />ที่ปรึกษา</th>
               <th>สถานะคำร้อง</th>
+              <th>รายละเอียดเพิ่มเติม</th>
             </tr>
           </thead>
           <tbody>
@@ -34,6 +35,14 @@
               <td>{$item.id_application}</td>
               <td>{$item.teacher_status}</td>
               <td>{$item.status}</td>
+              <td>
+                <a class="no-href" onclick="openPopup(this, '{$item.id_application}', '{$item.first_name} {$item.last_name}', 
+                '{$item.application_date}', '{$item.student_id}', '{$item.year}', '{$item.major}', '{$item.GPA}',
+                '{$item.phone_number}', '{$item.student_email}', '{$item.reason_for_scholarship}')">
+                    <i class="process-icon-save"></i>
+                    {l s="รายละเอียด" mod="applicationform"}
+                </a>
+              </td>
             </tr>
             {/foreach}
           </tbody>
@@ -45,6 +54,19 @@
           </button>
         </form>
       </div>
+    </div>
+    <div id="popup" class="popup">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <p><strong>หมายเลขอ้างอิง:</strong> <span id="appId"></span></p>
+      <p><strong>ชื่อ-สกุล:</strong> <span id="studentName"></span></p>
+      <p><strong>วันที่ยื่น:</strong> <span id="appDate"></span></p>
+      <p><strong>รหัสนักศึกษา:</strong> <span id="studentId"></span></p>
+      <p><strong>ชั้นปีที่:</strong> <span id="studentYear"></span></p>
+      <p><strong>หลักสูตร:</strong> <span id="studentMajor"></span></p>
+      <p><strong>GPA:</strong> <span id="studentGPA"></span></p>
+      <p><strong>หมายเลขโทรศัพท์:</strong> <span id="studentPhone"></span></p>
+      <p><strong>อีเมล:</strong> <span id="studentEmail"></span></p>
+      <p><strong>เหตุผลการขอเงินสนับสนุน:</strong> <span id="studentReason"></span></p>
     </div>
   </body>
 </html>
@@ -164,4 +186,68 @@
     transition: 0.5s;
     color: black;
   }
+  /* Popup container */
+  .popup {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+  a.no-href {
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+    text-decoration: underline; /* Add underline to text */
+    color: blue; /* Set text color to blue */
+  }
 </style>
+
+<script>
+// Function to open the popup
+function openPopup(button, applicationId, studentName, appDate, studentId, studentYear, studentMajor, studentGPA, studentPhone, studentEmail, studentReason) {
+  // Get the position of the button
+  var rect = button.getBoundingClientRect();
+  
+  // Set the position of the popup
+  var popup = document.getElementById("popup");
+  popup.style.top = (rect.top + window.scrollY) + "px";
+  popup.style.left = (rect.left + window.scrollX) + "px";
+  
+  // Populate the popup content
+  document.getElementById("appId").textContent = applicationId;
+  document.getElementById("studentName").textContent = studentName;
+  document.getElementById("appDate").textContent = appDate;
+  document.getElementById("studentId").textContent = studentId;
+  document.getElementById("studentYear").textContent = studentYear;
+  document.getElementById("studentMajor").textContent = studentMajor;
+  document.getElementById("studentGPA").textContent = studentGPA;
+  document.getElementById("studentPhone").textContent = studentPhone;
+  document.getElementById("studentEmail").textContent = studentEmail;
+  document.getElementById("studentReason").textContent = studentReason;
+
+  // Display the popup
+  popup.style.display = "block";
+}
+
+// Function to close the popup
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+
+// Close the popup if the user clicks outside of it
+window.onclick = function(event) {
+  var popup = document.getElementById("popup");
+  if (event.target == popup) {
+    popup.style.display = "none";
+  }
+}
+</script>

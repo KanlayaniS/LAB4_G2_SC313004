@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-25 17:33:05
+/* Smarty version 4.3.1, created on 2024-02-27 21:07:37
   from 'C:\xampp\htdocs\se_project\Project\admin-g2-dev\themes\new-theme\template\components\layout\employee_dropdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65db1761eeb6e5_25437005',
+  'unifunc' => 'content_65ddeca9c70d67_06078586',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8378b431a1acfdb0fefa9550961c67320473f693' => 
     array (
       0 => 'C:\\xampp\\htdocs\\se_project\\Project\\admin-g2-dev\\themes\\new-theme\\template\\components\\layout\\employee_dropdown.tpl',
-      1 => 1708856858,
+      1 => 1709041092,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65db1761eeb6e5_25437005 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ddeca9c70d67_06078586 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['employee']->value))) {?>
 <div class="dropdown employee-dropdown">
   <div class="rounded-circle person" data-toggle="dropdown">

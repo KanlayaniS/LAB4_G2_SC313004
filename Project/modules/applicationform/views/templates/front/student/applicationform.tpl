@@ -17,12 +17,12 @@
           <h4>ข้อมูลส่วนตัว</h4>
 
           <!-- <div class="form-group">
-            <label for="mrmsfirst">คำนำหน้าชื่อ</label>
+            <label for="name_title">คำนำหน้าชื่อ</label>
             <input
               type="text"
               class="form-control"
               placeholder="ระบุคำนำหน้าชื่อ"
-              name="mrmsfirst"
+              name="name_title"
               required
             />
           </div> -->
@@ -30,13 +30,14 @@
 
                         <!-- ชื่อ -->
             <div class="form-group">
-              <label for="flname">{l s='คำนำหน้าชื่อ'}</label>
+              <label for="name_title">{l s='คำนำหน้าชื่อ'}</label>
               <input
                 type="text"
                 class="form-control"
                 placeholder="ระบุคำนำหน้าชื่อ"
-                id="flname"
-                name="flname"
+                id="name_title"
+                name="name_title"
+                value="{$old_data.name_title}"
                 required
               />
             </div>
@@ -168,8 +169,8 @@
 
             <!-- date  -->
             <div class="form-group">
-              <label for="date_of_birth">{l s='เหตุผลการขอเงินสนับสนุน'}</label>
-              <textarea row="10"></textarea>
+              <label for="reason_for_scholarship">{l s='เหตุผลการขอเงินสนับสนุน'}</label>
+              <textarea id="reason_for_scholarship" name="reason_for_scholarship" row="10" required>{$old_data.reason_for_scholarship}</textarea>
               
             </div>
 
@@ -199,7 +200,7 @@
                 </div>
                 <div class="modal-body">
                     <h2 class="modal-title"> <label for="file_input_name">{l s='แนบหลักฐาน (ถ้ามี)'}</label></h2>
-                    <button class="upload-area">
+                    <div class="upload-area">
                         <span class="upload-area-icon">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340.531" height="419.116" viewBox="0 0 340.531 419.116">
               <g id="files-new" clip-path="url(#clip-files-new)">
@@ -209,7 +210,7 @@
                         </span>
                         <span class="upload-area-title">แนบหลักฐานที่นี่</span>
                         <input type="file" class="form-control" id="file_input_name" name="file_input_name">
-                    </button>
+                    </div>
                 </div>
             </div>
 

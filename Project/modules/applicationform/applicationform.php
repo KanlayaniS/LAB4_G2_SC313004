@@ -32,6 +32,7 @@ class applicationform extends Module
         $sql[] = "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "applicationform` (
             `id_application` INT(11) AUTO_INCREMENT PRIMARY KEY,
             `student_email` VARCHAR(255),
+            `name_title` VARCHAR(255),
             `first_name` VARCHAR(255),
             `last_name` VARCHAR(255),
             `student_id` VARCHAR(255),
@@ -60,21 +61,21 @@ class applicationform extends Module
         $teachers = array(
             array(
                 'teacher_email' => 'teacher1@kku.ac.th',
-                'name_title' => 'Mr.',
-                'first_name' => 'John',
-                'last_name' => 'Doe'
+                'name_title' => 'อ.',
+                'first_name' => 'จอห์น',
+                'last_name' => 'ดี'
             ),
             array(
                 'teacher_email' => 'teacher2@kku.ac.th',
-                'name_title' => 'Ms.',
-                'first_name' => 'Jane',
-                'last_name' => 'Smith'
+                'name_title' => 'ผศ.ดร.',
+                'first_name' => 'เจน',
+                'last_name' => 'จบ'
             ),
             array(
                 'teacher_email' => 'teacher3@kku.ac.th',
-                'name_title' => 'Mr.',
-                'first_name' => 'Joe',
-                'last_name' => 'Smith'
+                'name_title' => 'รศ.ดร.',
+                'first_name' => 'โจ',
+                'last_name' => 'จาน'
             ),
         );
     

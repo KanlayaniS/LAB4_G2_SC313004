@@ -10,6 +10,7 @@ class ApplicationFormTeacherHomeModuleFrontController extends ModuleFrontControl
     {
         $context = Context::getContext();
         $teacher_email = $context->cookie->teacher_email;
+        $localhost = $context->cookie->localhost;
         if($teacher_email==null)
         {
             $this->goToHome();
@@ -18,6 +19,7 @@ class ApplicationFormTeacherHomeModuleFrontController extends ModuleFrontControl
         $this->context->smarty->assign([
             'teacher_email' => $teacher_email,
             'applications' => $applications,
+            'localhost' => $localhost,
         ]);
         parent::initContent();
         $this->setTemplate('module:applicationform/views/templates/front/teacher/teacherhome.tpl');
