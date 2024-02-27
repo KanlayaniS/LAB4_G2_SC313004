@@ -8,8 +8,11 @@ class ApplicationFormHomeModuleFrontController extends ModuleFrontController
     }
     public function initContent()
     {
+        $context = Context::getContext();
+        $context->cookie->localhost = "http://localhost:".$_SERVER['SERVER_PORT']."/se_project/Project/modules/applicationform";
+        $localhost = $context->cookie->localhost;
         $this->context->smarty->assign([
-            'TEST' => 'Hi, There!',
+            'localhost' => $localhost,
         ]);
         parent::initContent();
         $this->setTemplate('module:applicationform/views/templates/front/home.tpl');
