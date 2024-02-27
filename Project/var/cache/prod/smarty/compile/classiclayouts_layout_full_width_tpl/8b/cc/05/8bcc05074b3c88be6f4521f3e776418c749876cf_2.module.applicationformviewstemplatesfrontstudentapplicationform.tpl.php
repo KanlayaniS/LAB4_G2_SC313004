@@ -1,30 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-26 20:58:38
-=======
-/* Smarty version 4.3.1, created on 2024-02-26 16:06:08
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
+/* Smarty version 4.3.1, created on 2024-02-27 11:48:58
   from 'module:applicationformviewstemplatesfrontstudentapplicationform.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65dc990e2cb1a2_76849926',
-=======
-  'unifunc' => 'content_65dc5480102811_07669243',
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
+  'unifunc' => 'content_65dd69bab7b1d6_65519823',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8bcc05074b3c88be6f4521f3e776418c749876cf' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentapplicationform.tpl',
-<<<<<<< HEAD
-      1 => 1708935014,
-=======
-      1 => 1708938343,
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
+      1 => 1708956666,
       2 => 'module',
     ),
   ),
@@ -32,11 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65dc990e2cb1a2_76849926 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_65dc5480102811_07669243 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
+function content_65dd69bab7b1d6_65519823 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'path', null, null);?>
     <h1><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Scholarship Application Form'),$_smarty_tpl ) );?>
 </h1>

@@ -13,7 +13,7 @@
 /* Form header */
 .panel-heading {
     font-size: 30px;
-    background-color: #0B76BC;
+    background-color: #4a55a2;
     color: #ffffff;
     padding: 20px;
     border-top-left-radius: 10px;
@@ -41,13 +41,13 @@
 
 /* Form input focus effect */
 .form-control:focus {
-  border-color: #0B76BC;
+  border-color: #4a55a2;
 }
 
 /* Form submit button */
 .btn-default {
 
-    background-color: #0B76BC;
+    background-color: #4a55a2;
     color: #ffffff;
     padding: 15px 30px;
     margin-top: 20px;
@@ -63,17 +63,27 @@
 
 /* Form submit button hover effect */
 .btn-default:hover {
-    background-color: #00008B;
+    background-color: #7895cb;
 }
 
 /* Align button to the right */
 .pull-right {
-    float: right;
-    margin-top: 50px
-    width: 50px;
-    font-size: 20px
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* Set width based on content */
+    font-size: 22px; /* Decrease font size */
 }
 
+
+
+.login-container {
+    background-color: #DEF3FF; /* Background color */
+    padding: 20px; /* Padding */
+    padding-right: 20px;
+    border-radius: 5px; /* Border radius to create rounded corners */
+}
 
 
 </style>
@@ -84,10 +94,12 @@
             {l s="Student Login" mod="applicationform"}
         </div>
         <div class="panel-body">
+          <div class="login-container"> <!-- Added container div -->
             <label for="student_email">{l s="Your Email: " mod="applicationform"}</label>
             <input type="text" name="student_email" id="student_email" class="form-control"/>
         </div>
         <div class="panel-footer">
+            <div class="login-container"> <!-- Added container div -->
             <button type="submit" name="loginstudent" class="btn-default pull-right">
                 <i class="process-icon-save"></i>
                 {l s="Login" mod="applicationform"}

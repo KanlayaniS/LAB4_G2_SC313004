@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-26 21:09:48
+/* Smarty version 4.3.1, created on 2024-02-27 13:29:24
   from 'module:applicationformviewstemplatesfrontteacherteacherhome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65dc9baceac4f1_68818212',
+  'unifunc' => 'content_65dd81444d8292_20734718',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '90e60fad8d5761b732f6dbe85125e84093850b11' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontteacherteacherhome.tpl',
-      1 => 1708932068,
+      1 => 1709015363,
       2 => 'module',
     ),
   ),
@@ -20,13 +20,107 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65dc9baceac4f1_68818212 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65dd81444d8292_20734718 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
+<style>
+/* Page content styling */
+#page_content {
+    margin-top: 20px;
+
+}
+
+
+
+/* Heading styling */
+h2 {
+    color: #0B76BC;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    text-align: left;
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2); /* Add a subtle text shadow for depth */
+    letter-spacing: 1px; /* Increase letter spacing for improved readability */
+    line-height: 1.5; /* Increase line height for better spacing between lines */
+}
+
+
+/* Table styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Table header styling */
+.table th {
+    font-size:20px;
+    background-color: #0B76BC;
+    color: #ffffff;
+    padding: 15px 10px;
+    text-align: left;
+}
+
+/* Table cell styling */
+.table td {
+    border: 1px solid #cccccc;
+    padding: 15px 10px;
+}
+
+/* Table column styling */
+.table td:nth-child(odd) {
+    background-color: #f2f2f2; /* Set background color for odd columns */
+}
+
+.table td:nth-child(even) {
+    background-color: #ffffff; /* Set background color for even columns */
+}
+
+/* Button styling */
+.btn-default {
+    font-size: 20px;
+    background-color: #0B76BC;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-default:hover {
+    background-color: #00008B;
+}
+
+/* Align button to the right */
+.pull-right {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* Set width based on content */
+    font-size: 22px; /* Decrease font size */
+}
+
+.h2-container {
+    border: 2px solid #0B76BC; /* Border style */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px; /* Padding around the h2 element */
+    display: inline-block; /* Display as inline-block to fit content */
+}
+
+</style>
+
+
+
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_190296747765dc9bace9af42_15670901', 'page_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13150966765dd81444cd406_48552914', 'page_content');
 ?>
 
 
@@ -38,20 +132,21 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_190296747765dc9bac
     </button>
 </form><?php }
 /* {block 'page_content'} */
-class Block_190296747765dc9bace9af42_15670901 extends Smarty_Internal_Block
+class Block_13150966765dd81444cd406_48552914 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_content' => 
   array (
-    0 => 'Block_190296747765dc9bace9af42_15670901',
+    0 => 'Block_13150966765dd81444cd406_48552914',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
-    <h2><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['teacher_email']->value, ENT_QUOTES, 'UTF-8');?>
+    <div class="h2-container">
+    <h2>User: <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['teacher_email']->value, ENT_QUOTES, 'UTF-8');?>
 </h2>
-    <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['student_email']->value, ENT_QUOTES, 'UTF-8');?>
+    </div>
 
     <div style="overflow-x:auto;">
         <table class="table">

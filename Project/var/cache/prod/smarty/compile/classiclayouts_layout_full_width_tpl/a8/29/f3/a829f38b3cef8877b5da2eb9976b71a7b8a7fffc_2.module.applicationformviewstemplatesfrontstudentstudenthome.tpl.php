@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-26 21:09:23
+/* Smarty version 4.3.1, created on 2024-02-27 13:24:24
   from 'module:applicationformviewstemplatesfrontstudentstudenthome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65dc9b93bac562_87160053',
+  'unifunc' => 'content_65dd8018654346_17753430',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65dc9b93bac562_87160053 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65dd8018654346_17753430 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Select Menu"),$_smarty_tpl ) );?>

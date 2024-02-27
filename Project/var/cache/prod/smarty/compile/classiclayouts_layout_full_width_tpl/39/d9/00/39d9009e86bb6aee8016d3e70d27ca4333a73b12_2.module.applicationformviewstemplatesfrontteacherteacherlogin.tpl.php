@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-26 21:09:31
+/* Smarty version 4.3.1, created on 2024-02-27 16:56:47
   from 'module:applicationformviewstemplatesfrontteacherteacherlogin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65dc9b9b93f472_96789590',
+  'unifunc' => 'content_65ddb1df396a23_68776606',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '39d9009e86bb6aee8016d3e70d27ca4333a73b12' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontteacherteacherlogin.tpl',
-      1 => 1708956062,
+      1 => 1709027800,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65dc9b9b93f472_96789590 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ddb1df396a23_68776606 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <style>
@@ -36,7 +36,7 @@ function content_65dc9b9b93f472_96789590 (Smarty_Internal_Template $_smarty_tpl)
 /* Form header */
 .panel-heading {
   font-size: 30px;
-  background-color: #0B76BC;
+  background-color: #4a55a2;
   color: #ffffff;
   padding: 20px;
   border-top-left-radius: 10px;
@@ -63,12 +63,12 @@ function content_65dc9b9b93f472_96789590 (Smarty_Internal_Template $_smarty_tpl)
 
 /* Form input focus effect */
 .form-control:focus {
-  border-color: #0B76BC;
+  border-color: #4a55a2;
 }
 
 /* Form submit button */
 .btn-default {
-  background-color: #0B76BC;
+  background-color: #4a55a2;
   color: #ffffff;
   padding: 15px 30px;
   margin-top: 20px;
@@ -85,7 +85,7 @@ function content_65dc9b9b93f472_96789590 (Smarty_Internal_Template $_smarty_tpl)
 
 /* Form submit button hover effect */
 .btn-default:hover {
-  background-color: #00008B;
+  background-color: #7895cb;
 }
 
 .panel-footer {
@@ -93,40 +93,53 @@ function content_65dc9b9b93f472_96789590 (Smarty_Internal_Template $_smarty_tpl)
 
 /* Align button to the right */
 .pull-right {
-    float: right;
-    margin-top: 50px
-    width: 50px;
-    font-size: 20px
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* Set width based on content */
+    font-size: 22px; /* Decrease font size */
 }
+
+
+.login-container {
+    background-color: #DEF3FF; /* Background color */
+    padding: 20px; /* Padding */
+    padding-right: 20px;
+    border-radius: 5px; /* Border radius to create rounded corners */
+}
+
+
+
 </style>
 
 
-
-<form mothod="POST">
+<form method="POST">
     <div class="panel">
         <div class="panel-heading">
             <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Teacher Login",'mod'=>"applicationform"),$_smarty_tpl ) );?>
 
         </div>
         <div class="panel-body">
-            <label for="teacher_email"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Your Email:",'mod'=>"applicationform"),$_smarty_tpl ) );?>
+            <div class="login-container"> <!-- Added container div -->
+                <label for="teacher_email"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Your Email:",'mod'=>"applicationform"),$_smarty_tpl ) );?>
 </label>
-            <input type="text" name="teacher_email" id="teacher_email" class="form-control"/>
+                <input type="text" name="teacher_email" id="teacher_email" class="form-control"/><br/><br/>
+                <button type="submit" name="loginteacher" class="btn-default pull-right">
+                    <i class="process-icon-save"></i>
+                    <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Login",'mod'=>"applicationform"),$_smarty_tpl ) );?>
+
+                </button>
+            </div>
         </div>
         <div class="panel-footer">
-            <button type="submit" name="loginteacher" class="btn-default pull-right">
+            <button type="submit" name="goback" class="btn-default pull-right">
                 <i class="process-icon-save"></i>
-                <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Login",'mod'=>"applicationform"),$_smarty_tpl ) );?>
+                <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Back",'mod'=>"applicationform"),$_smarty_tpl ) );?>
 
             </button>
         </div>
     </div>
 </form>
-<form mothod="POST">
-    <button type="submit" name="goback" class="btn-default pull-right">
-        <i class="process-icon-save"></i>
-        <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Back",'mod'=>"applicationform"),$_smarty_tpl ) );?>
-
-    </button>
-</form><?php }
+<?php }
 }
