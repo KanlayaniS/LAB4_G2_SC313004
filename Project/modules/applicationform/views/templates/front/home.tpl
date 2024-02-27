@@ -1,3 +1,4 @@
+<title>หน้าหลัก</title>
 <div class="main-container">
   <body>
     <div class="detail-first">

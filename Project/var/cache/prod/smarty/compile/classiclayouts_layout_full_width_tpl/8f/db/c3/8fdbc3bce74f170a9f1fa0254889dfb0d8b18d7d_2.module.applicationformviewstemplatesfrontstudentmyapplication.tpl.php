@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 21:42:43
+/* Smarty version 4.3.1, created on 2024-02-27 22:48:10
   from 'module:applicationformviewstemplatesfrontstudentmyapplication.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ddf4e333cab5_30353832',
+  'unifunc' => 'content_65de043a71aa00_64861224',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ddf4e333cab5_30353832 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65de043a71aa00_64861224 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>

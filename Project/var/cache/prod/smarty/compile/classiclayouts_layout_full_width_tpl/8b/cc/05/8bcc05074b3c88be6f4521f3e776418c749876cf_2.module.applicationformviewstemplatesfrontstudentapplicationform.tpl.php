@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 21:33:20
+/* Smarty version 4.3.1, created on 2024-02-27 22:48:07
   from 'module:applicationformviewstemplatesfrontstudentapplicationform.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ddf2b074d831_97288781',
+  'unifunc' => 'content_65de0437230a86_30503010',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8bcc05074b3c88be6f4521f3e776418c749876cf' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentapplicationform.tpl',
-      1 => 1709044343,
+      1 => 1709048368,
       2 => 'module',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ddf2b074d831_97288781 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65de0437230a86_30503010 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Application Form</title>
+    <title>แบบฟอร์มขอเงินสนับสนุน</title>
   </head>
 
   <body>
@@ -220,7 +220,7 @@ function content_65ddf2b074d831_97288781 (Smarty_Internal_Template $_smarty_tpl)
 
             <!-- date  -->
             <div class="form-group">
-              <label for="reason_for_scholarship"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'เหตุผลการขอเงินสนับสนุน'),$_smarty_tpl ) );?>
+              <label for="date_of_birth"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'เหตุผลการขอเงินสนับสนุน'),$_smarty_tpl ) );?>
 </label>
               <textarea id="reason_for_scholarship" name="reason_for_scholarship" row="10" required><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['old_data']->value['reason_for_scholarship'], ENT_QUOTES, 'UTF-8');?>
 </textarea>

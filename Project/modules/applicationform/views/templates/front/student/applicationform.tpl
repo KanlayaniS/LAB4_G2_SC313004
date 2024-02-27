@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Application Form</title>
+    <title>แบบฟอร์มขอเงินสนับสนุน</title>
   </head>
 
   <body>
@@ -169,7 +169,7 @@
 
             <!-- date  -->
             <div class="form-group">
-              <label for="reason_for_scholarship">{l s='เหตุผลการขอเงินสนับสนุน'}</label>
+              <label for="date_of_birth">{l s='เหตุผลการขอเงินสนับสนุน'}</label>
               <textarea id="reason_for_scholarship" name="reason_for_scholarship" row="10" required>{$old_data.reason_for_scholarship}</textarea>
               
             </div>

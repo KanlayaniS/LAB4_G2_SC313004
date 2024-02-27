@@ -48,11 +48,6 @@ class ApplicationFormApplicationFormModuleFrontController extends ModuleFrontCon
                 $destinationDirectory = _PS_MODULE_DIR_ . 'applicationform/evidence';// Change to your desired upload directory
                 $uploadedFilePath = $this->uploadFile($fileInputName, $destinationDirectory);
 
-                if (!$uploadedFilePath) {
-                    // File upload failed or invalid, handle accordingly
-                    $this->goToApplicationForm();
-                }
-
                 $context = Context::getContext();
                 $student_email = $context->cookie->student_email;
                 $data = array(

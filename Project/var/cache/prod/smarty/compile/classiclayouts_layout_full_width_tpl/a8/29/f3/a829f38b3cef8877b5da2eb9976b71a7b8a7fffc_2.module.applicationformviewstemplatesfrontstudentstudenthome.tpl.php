@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 21:43:07
+/* Smarty version 4.3.1, created on 2024-02-27 22:48:11
   from 'module:applicationformviewstemplatesfrontstudentstudenthome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ddf4fb062890_21992530',
+  'unifunc' => 'content_65de043b663d92_62785517',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a829f38b3cef8877b5da2eb9976b71a7b8a7fffc' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentstudenthome.tpl',
-      1 => 1709041097,
+      1 => 1709048346,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ddf4fb062890_21992530 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65de043b663d92_62785517 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Part Code  tpl -->
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org%22%3E/
@@ -30,7 +30,7 @@ function content_65ddf4fb062890_21992530 (Smarty_Internal_Template $_smarty_tpl)
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>StudentHome</title>
+    <title>หน้าหลักสำหรับนักศึกษา</title>
 </head>
 
 <body>

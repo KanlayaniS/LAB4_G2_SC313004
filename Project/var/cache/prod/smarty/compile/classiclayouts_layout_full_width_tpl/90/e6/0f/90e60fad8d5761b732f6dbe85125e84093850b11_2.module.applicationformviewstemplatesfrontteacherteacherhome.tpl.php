@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 21:38:23
+/* Smarty version 4.3.1, created on 2024-02-27 22:48:15
   from 'module:applicationformviewstemplatesfrontteacherteacherhome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ddf3df99bd64_90591430',
+  'unifunc' => 'content_65de043f599f20_07217777',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '90e60fad8d5761b732f6dbe85125e84093850b11' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontteacherteacherhome.tpl',
-      1 => 1709044641,
+      1 => 1709048637,
       2 => 'module',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ddf3df99bd64_90591430 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65de043f599f20_07217777 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ตรวจสอบสถานะคำร้อง</title>
+    <title>หน้าหลักสำหรับอาจารย์</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
