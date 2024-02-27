@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 16:56:45
+/* Smarty version 4.3.1, created on 2024-02-27 16:59:17
   from 'module:applicationformviewstemplatesfronthome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ddb1ddd1b5f0_16751904',
+  'unifunc' => 'content_65ddb27506e0b5_62930338',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ddb1ddd1b5f0_16751904 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ddb27506e0b5_62930338 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Select Login"),$_smarty_tpl ) );?>
 
 <form mothod="POST">

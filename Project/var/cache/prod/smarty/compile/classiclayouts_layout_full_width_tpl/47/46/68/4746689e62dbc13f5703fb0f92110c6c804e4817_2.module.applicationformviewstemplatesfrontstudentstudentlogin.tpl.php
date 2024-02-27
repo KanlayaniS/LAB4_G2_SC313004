@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 15:54:25
+/* Smarty version 4.3.1, created on 2024-02-27 16:59:18
   from 'module:applicationformviewstemplatesfrontstudentstudentlogin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65dda341d53f60_83404248',
+  'unifunc' => 'content_65ddb27657a727_02441741',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4746689e62dbc13f5703fb0f92110c6c804e4817' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentstudentlogin.tpl',
-      1 => 1709024060,
+      1 => 1709027818,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65dda341d53f60_83404248 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ddb27657a727_02441741 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <style>
 
@@ -102,7 +102,7 @@ function content_65dda341d53f60_83404248 (Smarty_Internal_Template $_smarty_tpl)
 
 
 .login-container {
-    background-color: #BAE6FF; /* Background color */
+    background-color: #DEF3FF; /* Background color */
     padding: 20px; /* Padding */
     padding-right: 20px;
     border-radius: 5px; /* Border radius to create rounded corners */
