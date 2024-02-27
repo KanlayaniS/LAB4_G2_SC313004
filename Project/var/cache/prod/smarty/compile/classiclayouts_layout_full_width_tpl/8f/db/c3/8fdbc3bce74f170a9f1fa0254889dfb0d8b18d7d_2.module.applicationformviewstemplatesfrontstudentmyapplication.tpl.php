@@ -1,54 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-27 19:15:58
-=======
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-26 16:02:58
-=======
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2024-02-26 15:03:52
-=======
-/* Smarty version 4.3.1, created on 2024-02-26 14:09:51
->>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
->>>>>>> c405336dfed70d26b35f84ea6d9085d8425990fd
+/* Smarty version 4.3.1, created on 2024-02-27 21:42:43
   from 'module:applicationformviewstemplatesfrontstudentmyapplication.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_65ddd27e524816_11845416',
-=======
-<<<<<<< HEAD
-  'unifunc' => 'content_65dc53c2525071_02062335',
-=======
-<<<<<<< HEAD
-  'unifunc' => 'content_65dc45e866a3f6_47704070',
-=======
-  'unifunc' => 'content_65dc393f893b88_23342882',
->>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
->>>>>>> c405336dfed70d26b35f84ea6d9085d8425990fd
+  'unifunc' => 'content_65ddf4e333cab5_30353832',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8fdbc3bce74f170a9f1fa0254889dfb0d8b18d7d' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentmyapplication.tpl',
-<<<<<<< HEAD
-      1 => 1709015757,
-=======
-<<<<<<< HEAD
-      1 => 1708932068,
-=======
-<<<<<<< HEAD
-      1 => 1708877010,
-=======
-      1 => 1708878681,
->>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
->>>>>>> c405336dfed70d26b35f84ea6d9085d8425990fd
+      1 => 1709044959,
       2 => 'module',
     ),
   ),
@@ -56,8 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_65ddd27e524816_11845416 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ddf4e333cab5_30353832 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -86,85 +49,11 @@ function content_65ddd27e524816_11845416 (Smarty_Internal_Template $_smarty_tpl)
               <th>หมายเลขอ้างอิง</th>
               <th>ความเห็นอาจารย์<br />ที่ปรึกษา</th>
               <th>สถานะคำร้อง</th>
+              <th>รายละเอียดเพิ่มเติม</th>
             </tr>
           </thead>
           <tbody>
             <?php
-=======
-<<<<<<< HEAD
-function content_65dc53c2525071_02062335 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-<<<<<<< HEAD
-function content_65dc45e866a3f6_47704070 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_loadInheritance();
-$_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_48482019165dc45e85054b5_39922056', 'page_content');
-?>
-
-
-
-=======
-function content_65dc393f893b88_23342882 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
-$_smarty_tpl->_loadInheritance();
-$_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_91742741665dc53c251a177_70595276', 'page_content');
-?>
-
-
->>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
-<form method="post">
-    <button type="submit" name="goback" class="btn-default pull-right">
-        <i class="process-icon-save"></i>
-        <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Back",'mod'=>"applicationform"),$_smarty_tpl ) );?>
-
-    </button>
-</form>
-<?php }
-/* {block 'page_content'} */
-<<<<<<< HEAD
-class Block_91742741665dc53c251a177_70595276 extends Smarty_Internal_Block
-=======
-<<<<<<< HEAD
-class Block_48482019165dc45e85054b5_39922056 extends Smarty_Internal_Block
-=======
-class Block_21635959865dc393f880043_41230380 extends Smarty_Internal_Block
->>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
-{
-public $subBlocks = array (
-  'page_content' => 
-  array (
-<<<<<<< HEAD
-    0 => 'Block_91742741665dc53c251a177_70595276',
-=======
-<<<<<<< HEAD
-    0 => 'Block_48482019165dc45e85054b5_39922056',
-=======
-    0 => 'Block_21635959865dc393f880043_41230380',
->>>>>>> 96cec5412928c8e87e116ac547b85a5a59293406
->>>>>>> faf569ad0585d11786f25feb859f6612e67f17d8
-  ),
-);
-public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
-?>
-
-    <h2>สถานะคำร้อง</h2>
-    <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['student_email']->value, ENT_QUOTES, 'UTF-8');?>
-
-    <div style="overflow-x:auto;">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Application Date</th>
-                    <th>Application ID</th>
-                    <th>Teacher Status</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
->>>>>>> c405336dfed70d26b35f84ea6d9085d8425990fd
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['applications']->value, 'item');
 $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item']->value) {
@@ -179,6 +68,26 @@ $_smarty_tpl->tpl_vars['item']->do_else = false;
 </td>
               <td><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['status'], ENT_QUOTES, 'UTF-8');?>
 </td>
+              <td>
+                <a class="no-href" onclick="openPopup(this, '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['id_application'], ENT_QUOTES, 'UTF-8');?>
+', '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['first_name'], ENT_QUOTES, 'UTF-8');?>
+ <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['last_name'], ENT_QUOTES, 'UTF-8');?>
+', 
+                '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['application_date'], ENT_QUOTES, 'UTF-8');?>
+', '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['student_id'], ENT_QUOTES, 'UTF-8');?>
+', '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['year'], ENT_QUOTES, 'UTF-8');?>
+', '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['major'], ENT_QUOTES, 'UTF-8');?>
+', '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['GPA'], ENT_QUOTES, 'UTF-8');?>
+',
+                '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['phone_number'], ENT_QUOTES, 'UTF-8');?>
+', '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['student_email'], ENT_QUOTES, 'UTF-8');?>
+', '<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item']->value['reason_for_scholarship'], ENT_QUOTES, 'UTF-8');?>
+')">
+                    <i class="process-icon-save"></i>
+                    <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"รายละเอียด",'mod'=>"applicationform"),$_smarty_tpl ) );?>
+
+                </a>
+              </td>
             </tr>
             <?php
 }
@@ -193,6 +102,19 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
           </button>
         </form>
       </div>
+    </div>
+    <div id="popup" class="popup">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <p><strong>หมายเลขอ้างอิง:</strong> <span id="appId"></span></p>
+      <p><strong>ชื่อ-สกุล:</strong> <span id="studentName"></span></p>
+      <p><strong>วันที่ยื่น:</strong> <span id="appDate"></span></p>
+      <p><strong>รหัสนักศึกษา:</strong> <span id="studentId"></span></p>
+      <p><strong>ชั้นปีที่:</strong> <span id="studentYear"></span></p>
+      <p><strong>หลักสูตร:</strong> <span id="studentMajor"></span></p>
+      <p><strong>GPA:</strong> <span id="studentGPA"></span></p>
+      <p><strong>หมายเลขโทรศัพท์:</strong> <span id="studentPhone"></span></p>
+      <p><strong>อีเมล:</strong> <span id="studentEmail"></span></p>
+      <p><strong>เหตุผลการขอเงินสนับสนุน:</strong> <span id="studentReason"></span></p>
     </div>
   </body>
 </html>
@@ -312,6 +234,72 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     transition: 0.5s;
     color: black;
   }
+  /* Popup container */
+  .popup {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+  a.no-href {
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+    text-decoration: underline; /* Add underline to text */
+    color: blue; /* Set text color to blue */
+  }
 </style>
+
+<?php echo '<script'; ?>
+>
+// Function to open the popup
+function openPopup(button, applicationId, studentName, appDate, studentId, studentYear, studentMajor, studentGPA, studentPhone, studentEmail, studentReason) {
+  // Get the position of the button
+  var rect = button.getBoundingClientRect();
+  
+  // Set the position of the popup
+  var popup = document.getElementById("popup");
+  popup.style.top = (rect.top + window.scrollY) + "px";
+  popup.style.left = (rect.left + window.scrollX) + "px";
+  
+  // Populate the popup content
+  document.getElementById("appId").textContent = applicationId;
+  document.getElementById("studentName").textContent = studentName;
+  document.getElementById("appDate").textContent = appDate;
+  document.getElementById("studentId").textContent = studentId;
+  document.getElementById("studentYear").textContent = studentYear;
+  document.getElementById("studentMajor").textContent = studentMajor;
+  document.getElementById("studentGPA").textContent = studentGPA;
+  document.getElementById("studentPhone").textContent = studentPhone;
+  document.getElementById("studentEmail").textContent = studentEmail;
+  document.getElementById("studentReason").textContent = studentReason;
+
+  // Display the popup
+  popup.style.display = "block";
+}
+
+// Function to close the popup
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+
+// Close the popup if the user clicks outside of it
+window.onclick = function(event) {
+  var popup = document.getElementById("popup");
+  if (event.target == popup) {
+    popup.style.display = "none";
+  }
+}
+<?php echo '</script'; ?>
+>
 <?php }
 }

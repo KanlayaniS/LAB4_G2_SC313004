@@ -3,6 +3,7 @@ class ApplicationForm extends ObjectModel
 {
     public $id_application;
     public $student_email;
+    public $name_title;
     public $first_name;
     public $last_name;
     public $student_id;
@@ -29,6 +30,7 @@ class ApplicationForm extends ObjectModel
         'fields' => array(
             'id_application' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'),
             'student_email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'required' => true),
+            'name_title' => array('type' => self::TYPE_STRING, 'validate' => 'isString'),
             'first_name' => array('type' => self::TYPE_STRING, 'validate' => 'isString'),
             'last_name' => array('type' => self::TYPE_STRING, 'validate' => 'isString'),
             'student_id' => array('type' => self::TYPE_STRING, 'validate' => 'isString'),

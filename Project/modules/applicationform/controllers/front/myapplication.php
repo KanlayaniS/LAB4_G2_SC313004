@@ -15,9 +15,11 @@ class ApplicationFormMyApplicationModuleFrontController extends ModuleFrontContr
             $this->goToHome();
         }
         $applications = $this->getDataByStudentEmail($student_email);
+        $localhost = $context->cookie->localhost;
         $this->context->smarty->assign([
             'student_email' => $student_email,
             'applications' => $applications,
+            'localhost' => $localhost,
         ]);
         parent::initContent();
         $this->setTemplate('module:applicationform/views/templates/front/student/myapplication.tpl');

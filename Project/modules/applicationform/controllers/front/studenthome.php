@@ -17,9 +17,6 @@ class ApplicationFormStudentHomeModuleFrontController extends ModuleFrontControl
         $this->context->smarty->assign([
             'student_email' => $student_email,
         ]);
-        $this->context->smarty->assign([
-            'TEST' => 'Hi, There!',
-        ]);
         parent::initContent();
         $this->setTemplate('module:applicationform/views/templates/front/student/studenthome.tpl');
     }

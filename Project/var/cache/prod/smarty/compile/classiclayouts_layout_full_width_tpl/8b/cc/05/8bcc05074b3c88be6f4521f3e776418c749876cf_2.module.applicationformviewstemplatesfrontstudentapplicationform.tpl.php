@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 20:30:58
+/* Smarty version 4.3.1, created on 2024-02-27 21:33:20
   from 'module:applicationformviewstemplatesfrontstudentapplicationform.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65dde41271b965_21340420',
+  'unifunc' => 'content_65ddf2b074d831_97288781',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8bcc05074b3c88be6f4521f3e776418c749876cf' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentapplicationform.tpl',
-      1 => 1709039282,
+      1 => 1709044343,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65dde41271b965_21340420 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ddf2b074d831_97288781 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -42,12 +42,12 @@ function content_65dde41271b965_21340420 (Smarty_Internal_Template $_smarty_tpl)
           <h4>ข้อมูลส่วนตัว</h4>
 
           <!-- <div class="form-group">
-            <label for="mrmsfirst">คำนำหน้าชื่อ</label>
+            <label for="name_title">คำนำหน้าชื่อ</label>
             <input
               type="text"
               class="form-control"
               placeholder="ระบุคำนำหน้าชื่อ"
-              name="mrmsfirst"
+              name="name_title"
               required
             />
           </div> -->
@@ -55,14 +55,16 @@ function content_65dde41271b965_21340420 (Smarty_Internal_Template $_smarty_tpl)
 
                         <!-- ชื่อ -->
             <div class="form-group">
-              <label for="flname"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'คำนำหน้าชื่อ'),$_smarty_tpl ) );?>
+              <label for="name_title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'คำนำหน้าชื่อ'),$_smarty_tpl ) );?>
 </label>
               <input
                 type="text"
                 class="form-control"
                 placeholder="ระบุคำนำหน้าชื่อ"
-                id="flname"
-                name="flname"
+                id="name_title"
+                name="name_title"
+                value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['old_data']->value['name_title'], ENT_QUOTES, 'UTF-8');?>
+"
                 required
               />
             </div>
@@ -218,9 +220,10 @@ function content_65dde41271b965_21340420 (Smarty_Internal_Template $_smarty_tpl)
 
             <!-- date  -->
             <div class="form-group">
-              <label for="date_of_birth"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'เหตุผลการขอเงินสนับสนุน'),$_smarty_tpl ) );?>
+              <label for="reason_for_scholarship"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'เหตุผลการขอเงินสนับสนุน'),$_smarty_tpl ) );?>
 </label>
-              <textarea row="10"></textarea>
+              <textarea id="reason_for_scholarship" name="reason_for_scholarship" row="10" required><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['old_data']->value['reason_for_scholarship'], ENT_QUOTES, 'UTF-8');?>
+</textarea>
               
             </div>
 
@@ -251,7 +254,7 @@ function content_65dde41271b965_21340420 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="modal-body">
                     <h2 class="modal-title"> <label for="file_input_name"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'แนบหลักฐาน (ถ้ามี)'),$_smarty_tpl ) );?>
 </label></h2>
-                    <button class="upload-area">
+                    <div class="upload-area">
                         <span class="upload-area-icon">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340.531" height="419.116" viewBox="0 0 340.531 419.116">
               <g id="files-new" clip-path="url(#clip-files-new)">
@@ -261,7 +264,7 @@ function content_65dde41271b965_21340420 (Smarty_Internal_Template $_smarty_tpl)
                         </span>
                         <span class="upload-area-title">แนบหลักฐานที่นี่</span>
                         <input type="file" class="form-control" id="file_input_name" name="file_input_name">
-                    </button>
+                    </div>
                 </div>
             </div>
 

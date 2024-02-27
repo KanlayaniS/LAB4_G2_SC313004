@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 20:31:03
+/* Smarty version 4.3.1, created on 2024-02-27 21:43:07
   from 'module:applicationformviewstemplatesfrontstudentstudenthome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65dde417362e87_15010868',
+  'unifunc' => 'content_65ddf4fb062890_21992530',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a829f38b3cef8877b5da2eb9976b71a7b8a7fffc' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontstudentstudenthome.tpl',
-      1 => 1709039300,
+      1 => 1709041097,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65dde417362e87_15010868 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65ddf4fb062890_21992530 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Part Code  tpl -->
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org%22%3E/

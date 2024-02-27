@@ -28,7 +28,7 @@ class ApplicationFormApplicationFormModuleFrontController extends ModuleFrontCon
         if(Tools::isSubmit('submitapplicationform'))
         {
             $teacher_email = Tools::getValue('teacher_email');//รับข้อมูลจากเว็บไซต์
-            $teacher_email = Tools::getValue('teacher_email');
+            $name_title = Tools::getValue('name_title');
             $first_name = Tools::getValue('first_name');
             $last_name = Tools::getValue('last_name');
             $student_id = Tools::getValue('student_id');
@@ -61,6 +61,7 @@ class ApplicationFormApplicationFormModuleFrontController extends ModuleFrontCon
                     'teacher_email' => $teacher_email,
                     'teacher_status' => 'ยังไม่รับทราบ',
                     'status' => 'รอการตรวจสอบ',
+                    'name_title' => $name_title,
                     'first_name' => $first_name,
                     'last_name' => $last_name,
                     'student_id' => $student_id,
@@ -82,6 +83,7 @@ class ApplicationFormApplicationFormModuleFrontController extends ModuleFrontCon
                 $this->goToStudentHome();
             }
             $old_data = array(
+                'name_title' => $name_title,
                 'teacher_email' => $teacher_email,
                 'first_name' => $first_name,
                 'last_name' => $last_name,
