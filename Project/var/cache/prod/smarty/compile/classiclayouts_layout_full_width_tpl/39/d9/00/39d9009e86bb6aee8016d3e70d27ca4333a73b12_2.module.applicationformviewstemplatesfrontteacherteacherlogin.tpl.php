@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 21:33:58
+/* Smarty version 4.3.1, created on 2024-02-27 22:48:13
   from 'module:applicationformviewstemplatesfrontteacherteacherlogin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ddf2d6736458_22141251',
+  'unifunc' => 'content_65de043d0eabe4_95756475',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '39d9009e86bb6aee8016d3e70d27ca4333a73b12' => 
     array (
       0 => 'module:applicationformviewstemplatesfrontteacherteacherlogin.tpl',
-      1 => 1709041097,
+      1 => 1709046308,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ddf2d6736458_22141251 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65de043d0eabe4_95756475 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,7 +45,7 @@ function content_65ddf2d6736458_22141251 (Smarty_Internal_Template $_smarty_tpl)
 </label> -->
                     <label for="teacher_email"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"อีเมลของอาจารย์โดยใช้ kku.ac.th",'mod'=>"applicationform"),$_smarty_tpl ) );?>
 </label>
-                    <input type="text" name="teacher_email" id="teacher_email" class="form-control"/>
+                    <input type="text" name="teacher_email" id="teacher_email" class="form-control" required pattern=".+@kku\.ac\.th$" title="ต้องเข้าสู่ระบบด้วย @kku.ac.th เท่านั้น"/>
                 </div>
                 <!-- เข้าสู่ระบบ -->
                 <div class="panel-footer">

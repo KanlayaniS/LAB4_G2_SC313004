@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-02-27 21:39:32
+/* Smarty version 4.3.1, created on 2024-02-27 22:48:16
   from 'module:applicationformviewstemplatesfronthome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65ddf424309c51_67592673',
+  'unifunc' => 'content_65de04404adda8_66054249',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c76fc30cf061a7eb9f55ddfad5b6094bbd02974a' => 
     array (
       0 => 'module:applicationformviewstemplatesfronthome.tpl',
-      1 => 1709041097,
+      1 => 1709048263,
       2 => 'module',
     ),
   ),
@@ -20,8 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65ddf424309c51_67592673 (Smarty_Internal_Template $_smarty_tpl) {
-?><div class="main-container">
+function content_65de04404adda8_66054249 (Smarty_Internal_Template $_smarty_tpl) {
+?><title>หน้าหลัก</title>
+<div class="main-container">
   <body>
     <div class="detail-first">
         <img

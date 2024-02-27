@@ -19,7 +19,7 @@
                   <div class="login-container"> <!-- Added container div -->
                     <!-- <label for="student_email">{l s="อีเมลของอาจารย์โดยใช้ kku.ac.th " mod="applicationform"}</label> -->
                     <label for="teacher_email">{l s="อีเมลของอาจารย์โดยใช้ kku.ac.th" mod="applicationform"}</label>
-                    <input type="text" name="teacher_email" id="teacher_email" class="form-control"/>
+                    <input type="text" name="teacher_email" id="teacher_email" class="form-control" required pattern=".+@kku\.ac\.th$" title="ต้องเข้าสู่ระบบด้วย @kku.ac.th เท่านั้น"/>
                 </div>
                 <!-- เข้าสู่ระบบ -->
                 <div class="panel-footer">
