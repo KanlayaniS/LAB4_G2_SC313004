@@ -10,10 +10,10 @@ services:
     networks:
       - prestashop_network
     volumes:
-      - ./dbdata:/var/lib/mysql
+      - dbdata:/var/lib/mysql
   prestashop:
     container_name: prestashop
-    image: kanlayani/ks_ps:v2
+    image: kanlayani/sprint3:latest
     restart: unless-stopped
     depends_on:
       - db
@@ -39,8 +39,8 @@ services:
       ADMIN_PASSWD: ${ADMIN_PASSWD:-admin12345678}
     networks:
       - prestashop_network
-    volumes:
-      - ./Project:/var/www/html
+    #volumes:
+      #- ./Project:/var/www/html
       #- ./Project/classes:/var/www/html/classes
       #- ./Project/img:/var/www/html/img
       #- ./Project/themes:/var/www/html/thems
